@@ -12,3 +12,6 @@ coverage/
 
 # Generated dataset backups
 public/data/backups/
+
+# Confidential source workbooks (removed from repo)
+data-sources/

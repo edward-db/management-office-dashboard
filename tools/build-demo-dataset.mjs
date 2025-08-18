@@ -10,6 +10,7 @@ const DATA_DIR = path.join(ROOT, 'public', 'data');
 const SRC = path.join(DATA_DIR, 'tenants_master.json');
 const OUT_JSON = path.join(DATA_DIR, 'tenants_demo.json');
 const OUT_CSV = path.join(DATA_DIR, 'tenants_demo_for_tagging.csv');
+// Optional: if present locally, amenity mappings can enrich the demo. This file is not committed.
 const AMENITY_FILE = path.join(ROOT, 'data-sources', 'Amenity master copy (Aug 2025).xlsx');
 
 const COLORS = ['Office (Land Use)', 'Retail (Land Use)'];

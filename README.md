@@ -27,16 +27,14 @@ npm run dev
   - `build-demo-dataset.mjs`: Derive `tenants_demo.json` from master + amenity mapping
   - `sync-csv-to-demo.mjs`: Apply CSV edits back to `tenants_demo.json`
   - `build-synthetic-demo.mjs`: Generate a synthetic demo dataset
-- `data-sources/`: Your Excel inputs
-  - `Tenant list to upload to Cursor.xlsx`: Source workbook per building
-  - `Amenity master copy (Aug 2025).xlsx`: Amenity/tag mappings
+Note on confidential inputs:
+- The `data-sources/` directory (Excel workbooks) has been removed from the repo and is ignored. Use `npm run build:synthetic` for demo data, or place your own private workbooks locally (never commit) and run tooling manually if needed.
 
 ## Commands
 
 - `npm run dev`: Start the app
 - `npm run build`: Build for production
-- `npm run build:data`: Build master dataset from Excel into `public/data/tenants_master.json`
-- `npm run build:demo`: Build `tenants_demo.json` + CSV from master and amenity mapping
+- `npm run build:demo`: Build `tenants_demo.json` + CSV from `tenants_master.json` if available; otherwise relies on heuristics only
 - `npm run sync:csv`: Sync edits from `tenants_demo_for_tagging.csv` into `tenants_demo.json`
 - `npm run build:synthetic`: Generate a synthetic demo dataset
 

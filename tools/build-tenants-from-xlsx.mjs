@@ -9,6 +9,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const ROOT = path.resolve(__dirname, '..');
 
+// NOTE: Confidential sources are no longer committed. Place the Excel locally under data-sources/ if you
+// need to regenerate, but do not commit the files.
 const INPUT_FILE = path.join(ROOT, 'data-sources', 'Tenant list to upload to Cursor.xlsx');
 const OUT_DIR = path.join(ROOT, 'public', 'data');
 const AMENITY_FILE = path.join(ROOT, 'data-sources', 'Amenity master copy (Aug 2025).xlsx');

@@ -1,5 +1,5 @@
 import { useMemo, useState, useRef, useEffect } from 'react';
-import swireFlag from '../images-5.png';
+import swireFlag from './assets/swire-flag.png';
 import Fuse from 'fuse.js';
 import {
   ResponsiveContainer,
@@ -129,6 +129,60 @@ function tagPillClass(tag: string) {
   if (isSecondary(tag)) return 'bg-green-100 text-green-800';
   return 'bg-purple-100 text-purple-800';
 }
+
+// Normalize text for search: lowercase, strip accents/diacritics, remove most punctuation
+function normalizeForSearch(input: string): string {
+  return (input || '')
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '') // strip diacritics
+    .replace(/&/g, ' and ')
+    .replace(/→|->|\u2192/g, ' ') // arrows to space
+    .replace(/[^a-z0-9\s]/g, ' ') // drop punctuation
+    .replace(/\s+/g, ' ') // collapse whitespace
+    .trim();
+}
+
+// Canonicalize tags coming from data or UI to our standard taxonomy
+function canonicalizeTag(raw: string): string {
+  const s = (raw || '').trim();
+  const n = normalizeForSearch(s);
+  if (n === 'office' || n === 'office land use') return 'Office (Land Use)';
+  if (n === 'retail' || n === 'retail land use') return 'Retail (Land Use)';
+  // Normalize minor formatting variants
+  if (n === 'coworking spaces' || n === 'co working spaces' || n === 'co working') return 'Co-working spaces';
+  if (n === 'members club' || n === "member s club") return "Member's Club";
+  if (n === 'yoga') return 'Yoga Studio';
+  if (n === 'movement') return 'Movement Studio';
+  if (n === 'physio') return 'Physiotherapy';
+  if (n === 'cafe' || n === 'coffee') return 'Café';
+  return s;
+}
+
+// Common aliases to make tag search forgiving
+const TAG_SYNONYMS: Record<string, string[]> = {
+  'F&B': ['food', 'f and b', 'f b', 'fnb', 'f&b'],
+  'Café': ['cafe', 'coffee'],
+  'Co-working spaces': ['coworking', 'co working', 'co-working'],
+  "Member's Club": ['members club', 'club'],
+  'Smart Locker': ['locker'],
+  'Banking and Financial Services': ['banking', 'finance', 'financial services'],
+  'Technology Media and Telecoms (TMT)': ['tmt', 'technology', 'media', 'telecom', 'telecommunications'],
+  Insurance: ['insurer', 'assurance'],
+  'Real Estate and Construction': ['real estate', 'construction', 'property'],
+  'Fashion/Retail': ['fashion', 'retail'],
+  Healthcare: ['medical', 'health care'],
+  'Movement Studio': ['movement'],
+  'Yoga Studio': ['yoga'],
+  Gym: ['fitness gym'],
+  Physiotherapy: ['physio'],
+  'Event Space': ['event', 'events'],
+  Fitness: ['gym', 'yoga', 'physio'],
+  'Third Space': ['club', 'coworking', 'event'],
+  'Office (Land Use)': ['office'],
+  'Retail (Land Use)': ['retail'],
+  Amenity: ['amenities']
+};
 
 const formatNumber = (n: number) => new Intl.NumberFormat('en-HK').format(Math.round(n || 0));
 
@@ -687,26 +741,37 @@ export default function TenantPortfolioDashboard({ tenantData }: Props) {
     const dynamicSecondarySet = new Set<string>();
     const tertiaryToSecondaryDynamic: Record<string, string> = {};
     for (const t of baseData) {
-      const observedCSVSecondary = (t as any)._secondary as string | undefined;
-      if (observedCSVSecondary && !SECONDARY_TAGS.includes(observedCSVSecondary)) {
+      const observedCSVSecondaryRaw = (t as any)._secondary as string | undefined;
+      const observedCSVSecondary = observedCSVSecondaryRaw ? canonicalizeTag(observedCSVSecondaryRaw) : undefined;
+      // Only treat as dynamic secondary if it's not a known secondary and not a land-use alias
+      if (
+        observedCSVSecondary &&
+        !SECONDARY_TAGS.includes(observedCSVSecondary) &&
+        !isLandUse(observedCSVSecondary)
+      ) {
         dynamicSecondarySet.add(observedCSVSecondary);
       }
       const secInTenant = (t.tags || []).find((tag) => SECONDARY_TAGS.includes(tag));
       const secCandidate = secInTenant || observedCSVSecondary;
-      for (const tag of t.tags || []) {
+      for (const rawTag of t.tags || []) {
+        const tag = canonicalizeTag(rawTag);
         if (!tag || tag === 'Amenity' || isLandUse(tag)) continue;
         if (SECONDARY_TAGS.includes(tag)) continue; // secondary itself
         dynamicTertiarySet.add(tag);
         if (secCandidate && !tertiaryToSecondaryDynamic[tag]) tertiaryToSecondaryDynamic[tag] = secCandidate;
       }
     }
-    const availableTags = [
-      'Amenity',
-      ...LAND_USE_TAGS,
-      ...SECONDARY_TAGS,
-      ...Array.from(dynamicSecondarySet).sort(),
-      ...Array.from(dynamicTertiarySet).sort(),
-    ];
+    // Build unique, ordered list of available tags
+    const ordered: string[] = [];
+    const pushUnique = (v: string) => {
+      if (!ordered.includes(v)) ordered.push(v);
+    };
+    pushUnique('Amenity');
+    LAND_USE_TAGS.forEach((t) => pushUnique(t));
+    SECONDARY_TAGS.forEach((t) => pushUnique(t));
+    Array.from(dynamicSecondarySet).sort().forEach((t) => pushUnique(t));
+    Array.from(dynamicTertiarySet).sort().forEach((t) => pushUnique(t));
+    const availableTags = ordered;
     return { availableTags, dynamicTertiarySet, tertiaryToSecondaryDynamic, dynamicSecondarySet };
   }, [baseData]);
 
@@ -727,21 +792,31 @@ export default function TenantPortfolioDashboard({ tenantData }: Props) {
   const BUILDING_CODE_MAP: Record<string, string> = useMemo(() => ({ OTP: '1TP', TTP: '2TP' }), []);
   useEffect(() => {
     // Load once from public data
-    fetch('/data/building_stats.json')
-      .then((r) => r.json())
-      .then((rows: Array<{ location: string; totalArea: number; vacantArea: number }> | undefined) => {
-        if (!Array.isArray(rows)) return;
-        const map: Record<string, { totalArea: number; vacantArea: number }> = {};
-        for (const r of rows) {
-          if (!r || !r.location) continue;
-          map[r.location] = {
-            totalArea: Number(r.totalArea) || 0,
-            vacantArea: Number(r.vacantArea) || 0,
-          };
-        }
-        setBuildingStats(map);
-      })
-      .catch(() => {});
+    const base = (import.meta as any)?.env?.BASE_URL || '/';
+    const primaryUrl = `${base}${base.endsWith('/') ? '' : '/'}data/building_stats.json`;
+    const fallbackUrl = 'data/building_stats.json';
+
+    const loadStats = (url: string) =>
+      fetch(url)
+        .then((resp) => (resp.ok ? resp.json() : Promise.reject(new Error(`Failed ${resp.status}`))))
+        .then((rows: Array<{ location: string; totalArea: number; vacantArea: number }> | undefined) => {
+          if (!Array.isArray(rows)) return;
+          const map: Record<string, { totalArea: number; vacantArea: number }> = {};
+          for (const r of rows) {
+            if (!r || !r.location) continue;
+            map[r.location] = {
+              totalArea: Number(r.totalArea) || 0,
+              vacantArea: Number(r.vacantArea) || 0,
+            };
+          }
+          setBuildingStats(map);
+        });
+
+    loadStats(primaryUrl).catch(() => {
+      loadStats(fallbackUrl).catch(() => {
+        // swallow; KPI will remain 0 if stats cannot be loaded
+      });
+    });
   }, []);
   // Floor selection: multi-select. Empty = All
   const [selectedFloors, setSelectedFloors] = useState<string[]>([]);
@@ -824,7 +899,6 @@ export default function TenantPortfolioDashboard({ tenantData }: Props) {
   const [chartMode, setChartMode] = useState<'individual' | 'grouped' | 'country' | 'building' | 'floor'>('individual');
   const [metric, setMetric] = useState<'rent' | 'space' | 'count'>('rent');
   const [valueMode, setValueMode] = useState<'absolute' | 'percent'>('absolute');
-  const [allocation, setAllocation] = useState<'split' | 'overlap'>('split');
   const [salesMode, setSalesMode] = useState<'level' | 'mom' | 'yoy'>('level');
   const [mainView, setMainView] = useState<'charts' | 'table'>('charts');
   // Engagement view controls (for Fitness / Third Space)
@@ -900,12 +974,7 @@ export default function TenantPortfolioDashboard({ tenantData }: Props) {
     if (!isEngagementContext && chart === 'engagement') setChart('sales');
   }, [isEngagementContext, chart]);
 
-  // Count doesn't support percent share; coerce to absolute
-  useEffect(() => {
-    if (metric === 'count' && valueMode !== 'absolute') {
-      setValueMode('absolute');
-    }
-  }, [metric, valueMode]);
+  // (moved/coerced later based on availability)
 
   // Rent-to-Sales helpers
   function computeTenantAnnualSalesLast12Months(tenant: Tenant): number | null {
@@ -980,17 +1049,40 @@ export default function TenantPortfolioDashboard({ tenantData }: Props) {
 
   // Country pills don't use a dropdown right now
 
-  const filteredTagOptions = useMemo(() => {
-    const q = tagQuery.trim().toLowerCase();
-    const options = dynamicTags.availableTags.filter((t) => !selectedTags.includes(t));
-    if (!q) return options.slice(0, 50);
-    return options.filter((t) => tagPath(t, dynamicTags).toLowerCase().includes(q)).slice(0, 50);
-  }, [tagQuery, selectedTags, dynamicTags]);
+  // Build normalized tag search index including synonyms and hierarchical context
+  const tagSearchIndex = useMemo(() => {
+    return dynamicTags.availableTags.map((t) => {
+      const fields: string[] = [t, tagPath(t, dynamicTags)];
+      const syns = TAG_SYNONYMS[t];
+      if (syns && syns.length) fields.push(...syns);
+      if (isTertiary(t)) {
+        fields.push(TERTIARY_TO_SECONDARY[t]);
+      }
+      // Include dynamic secondary mapping if any
+      if ((dynamicTags as any).tertiaryToSecondaryDynamic && (dynamicTags as any).tertiaryToSecondaryDynamic[t]) {
+        fields.push((dynamicTags as any).tertiaryToSecondaryDynamic[t]);
+      }
+      const normalized = normalizeForSearch(fields.join(' '));
+      return { tag: t, normalized };
+    });
+  }, [dynamicTags]);
 
-  function toggleTag(tag: string) {
-    setSelectedTags((prev) =>
-      prev.includes(tag) ? prev.filter((t) => t !== tag) : [...prev, tag]
+  const filteredTagOptions = useMemo(() => {
+    const q = normalizeForSearch(tagQuery);
+    // Only offer real taxonomy tags: primary, secondary, tertiary
+    const options = dynamicTags.availableTags.filter(
+      (t) => !selectedTags.includes(t) && (isPrimary(t) || isSecondary(t) || isTertiary(t))
     );
+    if (!q) return options.slice(0, 50);
+    return tagSearchIndex
+      .filter((entry) => !selectedTags.includes(entry.tag) && entry.normalized.includes(q))
+      .map((e) => e.tag)
+      .slice(0, 50);
+  }, [tagQuery, selectedTags, dynamicTags, tagSearchIndex]);
+
+  function toggleTag(tagRaw: string) {
+    const tag = canonicalizeTag(tagRaw);
+    setSelectedTags((prev) => (prev.includes(tag) ? prev.filter((t) => t !== tag) : [...prev, tag]));
   }
 
   // Expandable secondary sections
@@ -1004,14 +1096,14 @@ export default function TenantPortfolioDashboard({ tenantData }: Props) {
     setOpenSections((prev) => ({ ...prev, [sec]: !prev[sec] }));
   }
 
-  // Helper: build grouped aggregates for an arbitrary list of tags, honoring allocation and rentPeriod
+  // Helper: build grouped aggregates for an arbitrary list of tags, honoring rentPeriod
   function buildGroupsForTags(tagsForGroups: string[]) {
     const groupsInit: Record<string, { space: number; rent: number; count: number }> = {};
     tagsForGroups.forEach((t) => (groupsInit[t] = { space: 0, rent: 0, count: 0 }));
     for (const tenant of nonTagFiltered) {
       const matched = tagsForGroups.filter((tg) => tenant.tags.includes(tg));
       if (matched.length === 0) continue;
-      const weight = allocation === 'split' ? 1 / matched.length : 1;
+      const weight = 1 / matched.length;
       const rentVal = rentPeriod === 'monthly' ? tenant.monthlyRent : tenant.annualRent;
       for (const tg of matched) {
         const g = groupsInit[tg];
@@ -1057,6 +1149,7 @@ export default function TenantPortfolioDashboard({ tenantData }: Props) {
     return new Fuse(baseData, {
       keys: [
         { name: 'name', weight: 0.7 },
+        { name: 'canonicalName', weight: 0.6 },
         { name: 'location', weight: 0.2 },
         { name: 'tags', weight: 0.1 },
       ],
@@ -1093,8 +1186,25 @@ export default function TenantPortfolioDashboard({ tenantData }: Props) {
   }
 
   const nonTagFiltered = useMemo(() => {
+    // If specific tenants are selected, include all leases that share the same canonicalName
+    // so company-level selection shows all floors/buildings for that company.
+    const selectedCanonicalSet = new Set<string>();
+    if (selectedTenantIds.length > 0) {
+      const byId = new Map(baseData.map((x) => [x.id, x]));
+      for (const id of selectedTenantIds) {
+        const it = byId.get(id);
+        const cn = (it?.canonicalName || '').trim();
+        if (cn) selectedCanonicalSet.add(cn);
+      }
+    }
+
     return baseData.filter((t) => {
-      if (selectedTenantIds.length > 0 && !selectedTenantIds.includes(t.id)) return false;
+      if (selectedTenantIds.length > 0) {
+        const cn = (t.canonicalName || '').trim();
+        const idSelected = selectedTenantIds.includes(t.id);
+        const cnSelected = cn && selectedCanonicalSet.has(cn);
+        if (!idSelected && !cnSelected) return false;
+      }
       if (tenantSearch.trim()) {
         // If we have fuzzy matches, restrict to those; if no matches, fall back to substring to allow discovery
         if (tenantSearchMatches.length) {
@@ -1189,11 +1299,11 @@ export default function TenantPortfolioDashboard({ tenantData }: Props) {
     for (const tenant of nonTagFiltered) {
       const matched = selectedTags.filter((tag) => tenant.tags.includes(tag));
       if (matched.length === 0) continue;
-      const w = allocation === 'split' ? 1 / matched.length : 1;
+      const w = 1 / matched.length;
       const rentVal = rentPeriod === 'monthly' ? tenant.monthlyRent : tenant.annualRent;
       matched.forEach((tag) => {
         const b = buckets[tag];
-        b.count += allocation === 'split' ? w : 1;
+        b.count += w;
         b.space += tenant.floorspace * w;
         b.rent += rentVal * w;
         b.rpsfSum += tenant.rentPerSqFt * w;
@@ -1211,7 +1321,7 @@ export default function TenantPortfolioDashboard({ tenantData }: Props) {
         avgRpsf: b.weight ? b.rpsfSum / b.weight : 0,
       };
     });
-  }, [selectedTags, nonTagFiltered, rentPeriod, allocation]);
+  }, [selectedTags, nonTagFiltered, rentPeriod]);
 
   // Chart datasets
   const individualBarData = useMemo(() => {
@@ -1246,6 +1356,15 @@ export default function TenantPortfolioDashboard({ tenantData }: Props) {
     list.sort((a, b) => b.value - a.value);
     return list.slice(0, 30);
   }, [filteredTenants, metric, rentPeriod, selectedLocations]);
+
+  // Format long tenant labels dynamically to reduce clutter
+  const formatTenantAxisLabel = (value: string) => {
+    const count = individualBarData.length || 0;
+    const maxLen = count > 24 ? 10 : count > 16 ? 12 : 16;
+    const s = String(value || '');
+    if (s.length <= maxLen) return s;
+    return s.slice(0, Math.max(1, maxLen - 1)) + '…';
+  };
 
   const groupedBarData = useMemo(() => {
     // Group by selected tags if any; else by Land Use
@@ -1389,7 +1508,7 @@ export default function TenantPortfolioDashboard({ tenantData }: Props) {
     if (selectedTags.length) {
       const tagsForGroups = computeGroupedDisplayTags();
       const agg = buildGroupsForTags(tagsForGroups);
-      const arr = agg.map((g) => ({ name: g.name, raw: metric === 'space' ? g.space : g.rent }));
+      const arr = agg.map((g) => ({ name: g.name, raw: metric === 'space' ? g.space : metric === 'rent' ? g.rent : g.count }));
       const total = arr.reduce((s, d) => s + d.raw, 0) || 1;
       return arr.map((d) =>
         valueMode === 'percent'
@@ -1400,7 +1519,7 @@ export default function TenantPortfolioDashboard({ tenantData }: Props) {
     // Default: by Land Use (rent only)
     const buckets: Record<string, number> = { Office: 0, Retail: 0 };
     filteredTenants.forEach((t) => {
-      const add = metric === 'space' ? t.floorspace : (rentPeriod === 'monthly' ? t.monthlyRent : t.annualRent);
+      const add = metric === 'space' ? t.floorspace : metric === 'rent' ? (rentPeriod === 'monthly' ? t.monthlyRent : t.annualRent) : 1;
       if (t.landUse === 'Office (Land Use)') buckets.Office += add;
       else buckets.Retail += add;
     });
@@ -1415,6 +1534,56 @@ export default function TenantPortfolioDashboard({ tenantData }: Props) {
         : { name: d.name, value: d.raw }
     );
   }, [chartMode, selectedTags, filteredTenants, metric, rentPeriod, valueMode, selectedLocations]);
+
+  // Decide when % Share is meaningful/available
+  const percentAvailability = useMemo(() => {
+    // Scatter never supports % share
+    if (chart === 'scatter') return { canUse: false, reason: 'Not available for Scatter chart' };
+    // Only show toggle on charts that can be ratioed
+    if (chart === 'bar') {
+      if (chartMode === 'individual') {
+        return { canUse: false, reason: 'Not available for Individual Bar view' };
+      }
+      // Use the active grouped dataset length to decide usefulness
+      const lengthByMode =
+        chartMode === 'grouped'
+          ? groupedBarData.length
+          : chartMode === 'country'
+          ? countryGroupedData.length
+          : chartMode === 'building'
+          ? buildingGroupedData.length
+          : chartMode === 'floor'
+          ? floorGroupedData.length
+          : 0;
+      if (lengthByMode <= 1) {
+        return { canUse: false, reason: 'Requires 2+ categories for % Share' };
+      }
+      return { canUse: true, reason: '' };
+    }
+    if (chart === 'pie') {
+      const activePie =
+        chartMode === 'country'
+          ? countryGroupedData
+          : chartMode === 'building'
+          ? buildingGroupedData
+          : chartMode === 'floor'
+          ? floorGroupedData
+          : pieData;
+      if (activePie.length <= 1) {
+        return { canUse: false, reason: 'Requires 2+ slices for % Share' };
+      }
+      return { canUse: true, reason: '' };
+    }
+    // Sales/Engagement paths do not render the toggle
+    return { canUse: false, reason: 'Not available for this view' };
+  }, [chart, chartMode, groupedBarData.length, countryGroupedData.length, buildingGroupedData.length, floorGroupedData.length, pieData.length]);
+
+  // If % Share becomes unavailable, force Absolute
+  useEffect(() => {
+    if (!percentAvailability.canUse && valueMode !== 'absolute') {
+      setValueMode('absolute');
+    }
+  }, [percentAvailability.canUse, valueMode]);
 
   const scatterData = useMemo(() => {
     return filteredTenants.map((t) => {
@@ -1919,6 +2088,12 @@ export default function TenantPortfolioDashboard({ tenantData }: Props) {
       <div className="max-w-7xl mx-auto">
         {/* Header removed; content consolidated into top bar */}
 
+        {/* Disclaimer below banner */}
+        <div className="mb-6 rounded-lg border border-amber-200 bg-amber-50 text-amber-900 px-4 py-3 text-sm text-left">
+          <span className="font-semibold">Disclaimer: </span>
+          This website is for demonstration purposes only. The data included about tenants, area, and categories should be mostly accurate. However, data about rent, sales, and engagement is synthetically generated and not accurate.
+        </div>
+
         {/* Rent period toggle moved to visualization toolbar below */}
         {/* KPIs */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-6">
@@ -2391,16 +2566,15 @@ export default function TenantPortfolioDashboard({ tenantData }: Props) {
                         <div className="h-6 w-px bg-gray-300 mx-2" />
                         <div className="flex gap-2">
                           <button onClick={() => setValueMode('absolute')} className={`px-3 py-1 rounded ${valueMode === 'absolute' ? 'bg-slate-800 text-white' : 'bg-gray-200'}`}>Absolute</button>
-                          <button onClick={() => setValueMode('percent')} className={`px-3 py-1 rounded ${valueMode === 'percent' ? 'bg-slate-800 text-white' : 'bg-gray-200'}`} disabled={chartMode === 'individual' || metric === 'count'}>
+                          <button
+                            onClick={() => setValueMode('percent')}
+                            className={`px-3 py-1 rounded ${valueMode === 'percent' ? 'bg-slate-800 text-white' : 'bg-gray-200'} ${!percentAvailability.canUse ? 'opacity-50 cursor-not-allowed' : ''}`}
+                            disabled={!percentAvailability.canUse}
+                            title={!percentAvailability.canUse && percentAvailability.reason ? percentAvailability.reason : ''}
+                          >
                             % Share
                           </button>
-                          {selectedTags.length > 0 && (
-                            <div className="flex items-center gap-2 ml-2">
-                              <span className="text-xs text-gray-600">Duplicates</span>
-                              <button onClick={() => setAllocation('split')} className={`px-2 py-1 rounded text-xs ${allocation === 'split' ? 'bg-amber-600 text-white' : 'bg-gray-200'}`} title="Split shared tenants across selected tags equally">Split</button>
-                              <button onClick={() => setAllocation('overlap')} className={`px-2 py-1 rounded text-xs ${allocation === 'overlap' ? 'bg-amber-600 text-white' : 'bg-gray-200'}`} title="Count shared tenants fully in each selected tag">Overlap</button>
-                            </div>
-                          )}
+                          {/* Duplicate allocation controls removed as feature is no longer needed */}
                         </div>
                       </>
                     ) : chart === 'sales' ? (
@@ -2428,12 +2602,12 @@ export default function TenantPortfolioDashboard({ tenantData }: Props) {
                 {chart === 'bar' && chartMode === 'individual' && (
                   <div className="h-[480px]">
                     <ResponsiveContainer width="100%" height="100%">
-                      <BarChart data={individualBarData} margin={{ top: 10, right: 20, left: 60, bottom: 100 }}>
+                      <BarChart data={individualBarData} margin={{ top: 10, right: 20, left: 60, bottom: 90 }}>
                         <CartesianGrid strokeDasharray="3 3" />
-                        <XAxis dataKey="name" angle={-35} textAnchor="end" height={100} />
-                        <YAxis tickFormatter={(v) => v.toLocaleString()} />
+                        <XAxis dataKey="name" angle={-35} textAnchor="end" height={90} interval={0} tickMargin={6} tickLine={false} tickFormatter={formatTenantAxisLabel} tick={{ fontSize: 13 }} />
+                        <YAxis tickFormatter={(v) => v.toLocaleString()} tick={{ fontSize: 13 }} />
                         <Tooltip />
-                        <Legend verticalAlign="top" height={36} />
+                        <Legend verticalAlign="top" height={36} wrapperStyle={{ fontSize: 12 }} />
                         <Bar
                           dataKey="value"
                           name={metric === 'space' ? 'Space (ft²)' : rentPeriod === 'monthly' ? 'Rent (Monthly, HKD)' : 'Rent (Annual, HKD)'}
@@ -2468,12 +2642,16 @@ export default function TenantPortfolioDashboard({ tenantData }: Props) {
                             valueMode === 'percent'
                               ? metric === 'space'
                                 ? '% Space'
-                                : '% Rent'
+                                : metric === 'rent'
+                                ? '% Rent'
+                                : '% Count'
                               : metric === 'space'
                               ? 'Space (ft²)'
-                              : rentPeriod === 'monthly'
+                              : metric === 'rent' && rentPeriod === 'monthly'
                               ? 'Rent (Monthly, HKD)'
-                              : 'Rent (Annual, HKD)'
+                              : metric === 'rent'
+                              ? 'Rent (Annual, HKD)'
+                              : 'Tenants'
                           }
                           fill="#0088FE"
                         />
@@ -2530,12 +2708,16 @@ export default function TenantPortfolioDashboard({ tenantData }: Props) {
                             valueMode === 'percent'
                               ? metric === 'space'
                                 ? '% Space'
-                                : '% Rent'
+                                : metric === 'rent'
+                                ? '% Rent'
+                                : '% Count'
                               : metric === 'space'
                               ? 'Space (ft²)'
-                              : rentPeriod === 'monthly'
+                              : metric === 'rent' && rentPeriod === 'monthly'
                               ? 'Rent (Monthly, HKD)'
-                              : 'Rent (Annual, HKD)'
+                              : metric === 'rent'
+                              ? 'Rent (Annual, HKD)'
+                              : 'Tenants'
                           }
                           fill="#82ca9d"
                         />
@@ -2559,12 +2741,16 @@ export default function TenantPortfolioDashboard({ tenantData }: Props) {
                             valueMode === 'percent'
                               ? metric === 'space'
                                 ? '% Space'
-                                : '% Rent'
+                                : metric === 'rent'
+                                ? '% Rent'
+                                : '% Count'
                               : metric === 'space'
                               ? 'Space (ft²)'
-                              : rentPeriod === 'monthly'
+                              : metric === 'rent' && rentPeriod === 'monthly'
                               ? 'Rent (Monthly, HKD)'
-                              : 'Rent (Annual, HKD)'
+                              : metric === 'rent'
+                              ? 'Rent (Annual, HKD)'
+                              : 'Tenants'
                           }
                           fill="#ffc658"
                         />

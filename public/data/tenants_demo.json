@@ -2285,100 +2285,52 @@
     "country": "",
     "membershipsMonthly": [
       {
-        "month": "2023-09",
-        "members": 691
-      },
-      {
-        "month": "2023-10",
-        "members": 642
-      },
-      {
-        "month": "2023-11",
-        "members": 680
-      },
-      {
-        "month": "2023-12",
-        "members": 647
-      },
-      {
         "month": "2024-01",
-        "members": 701
+        "members": 1200
       },
       {
         "month": "2024-02",
-        "members": 644
+        "members": 1180
       },
       {
         "month": "2024-03",
-        "members": 677
+        "members": 1225
       },
       {
         "month": "2024-04",
-        "members": 657
+        "members": 1250
       },
       {
         "month": "2024-05",
-        "members": 640
+        "members": 1300
       },
       {
         "month": "2024-06",
-        "members": 640
+        "members": 1325
       },
       {
         "month": "2024-07",
-        "members": 619
+        "members": 1350
       },
       {
         "month": "2024-08",
-        "members": 671
+        "members": 1375
       },
       {
         "month": "2024-09",
-        "members": 681
+        "members": 1390
       },
       {
         "month": "2024-10",
-        "members": 637
+        "members": 1410
       },
       {
         "month": "2024-11",
-        "members": 688
+        "members": 1430
       },
       {
         "month": "2024-12",
-        "members": 682
-      },
-      {
-        "month": "2025-01",
-        "members": 722
-      },
-      {
-        "month": "2025-02",
-        "members": 646
-      },
-      {
-        "month": "2025-03",
-        "members": 655
-      },
-      {
-        "month": "2025-04",
-        "members": 662
-      },
-      {
-        "month": "2025-05",
-        "members": 667
-      },
-      {
-        "month": "2025-06",
-        "members": 665
-      },
-      {
-        "month": "2025-07",
-        "members": 624
-      },
-      {
-        "month": "2025-08",
-        "members": 670
+        "members": 1450
       }
     ],
     "visitsDaily": [
@@ -5444,114 +5396,34 @@
     "country": "",
     "salesMonthly": [
       {
-        "month": "2023-09",
-        "sales": 360765
-      },
-      {
-        "month": "2023-10",
-        "sales": 373986
-      },
-      {
-        "month": "2023-11",
-        "sales": 389426
-      },
-      {
-        "month": "2023-12",
-        "sales": 440759
-      },
-      {
         "month": "2024-01",
-        "sales": 422237
+        "sales": 280000
       },
       {
         "month": "2024-02",
-        "sales": 367198
+        "sales": 260000
       },
       {
         "month": "2024-03",
-        "sales": 399361
+        "sales": 300000
       },
       {
         "month": "2024-04",
-        "sales": 377971
+        "sales": 310000
       },
       {
         "month": "2024-05",
-        "sales": 389529
+        "sales": 325000
       },
       {
         "month": "2024-06",
-        "sales": 369814
-      },
-      {
-        "month": "2024-07",
-        "sales": 360806
-      },
-      {
-        "month": "2024-08",
-        "sales": 366485
-      },
-      {
-        "month": "2024-09",
-        "sales": 370588
-      },
-      {
-        "month": "2024-10",
-        "sales": 370475
-      },
-      {
-        "month": "2024-11",
-        "sales": 389180
-      },
-      {
-        "month": "2024-12",
-        "sales": 462838
-      },
-      {
-        "month": "2025-01",
-        "sales": 410767
-      },
-      {
-        "month": "2025-02",
-        "sales": 395046
-      },
-      {
-        "month": "2025-03",
-        "sales": 389116
-      },
-      {
-        "month": "2025-04",
-        "sales": 382745
-      },
-      {
-        "month": "2025-05",
-        "sales": 409380
-      },
-      {
-        "month": "2025-06",
-        "sales": 370748
-      },
-      {
-        "month": "2025-07",
-        "sales": 371509
-      },
-      {
-        "month": "2025-08",
-        "sales": 373512
+        "sales": 340000
       }
     ],
     "salesByYear": [
       {
-        "year": "2023",
-        "sales": 1564936
-      },
-      {
         "year": "2024",
-        "sales": 4646482
-      },
-      {
-        "year": "2025",
-        "sales": 3102823
+        "sales": 1815000
       }
     ],
     "visitsDaily": [
@@ -6214,100 +6086,52 @@
     "country": "",
     "membershipsMonthly": [
       {
-        "month": "2023-09",
-        "members": 868
-      },
-      {
-        "month": "2023-10",
-        "members": 802
-      },
-      {
-        "month": "2023-11",
-        "members": 817
-      },
-      {
-        "month": "2023-12",
-        "members": 843
-      },
-      {
         "month": "2024-01",
-        "members": 891
+        "members": 1200
       },
       {
         "month": "2024-02",
-        "members": 801
+        "members": 1180
       },
       {
         "month": "2024-03",
-        "members": 797
+        "members": 1225
       },
       {
         "month": "2024-04",
-        "members": 831
+        "members": 1250
       },
       {
         "month": "2024-05",
-        "members": 858
+        "members": 1300
       },
       {
         "month": "2024-06",
-        "members": 829
+        "members": 1325
       },
       {
         "month": "2024-07",
-        "members": 783
+        "members": 1350
       },
       {
         "month": "2024-08",
-        "members": 806
+        "members": 1375
       },
       {
         "month": "2024-09",
-        "members": 921
+        "members": 1390
       },
       {
         "month": "2024-10",
-        "members": 869
+        "members": 1410
       },
       {
         "month": "2024-11",
-        "members": 853
+        "members": 1430
       },
       {
         "month": "2024-12",
-        "members": 825
-      },
-      {
-        "month": "2025-01",
-        "members": 909
-      },
-      {
-        "month": "2025-02",
-        "members": 829
-      },
-      {
-        "month": "2025-03",
-        "members": 830
-      },
-      {
-        "month": "2025-04",
-        "members": 847
-      },
-      {
-        "month": "2025-05",
-        "members": 894
-      },
-      {
-        "month": "2025-06",
-        "members": 893
-      },
-      {
-        "month": "2025-07",
-        "members": 820
-      },
-      {
-        "month": "2025-08",
-        "members": 862
+        "members": 1450
       }
     ],
     "visitsDaily": [
@@ -6701,11 +6525,11 @@
     "id": 132,
     "name": "AUSTRALIA AND NEW ZEALAND BANKING GROUP LTD",
     "location": "LIH",
-    "landUse": "Retail (Land Use)",
+    "landUse": "Office (Land Use)",
     "tags": [
-      "Retail (Land Use)",
-      "Retail and Convenience",
-      "Banking",
+      "Office (Land Use)",
+      "Trade Categories",
+      "Banking and Financial Services",
       "Amenity"
     ],
     "floorspace": 4989,
@@ -6720,8 +6544,8 @@
     "floor": "3/F",
     "canonicalName": "AUSTRALIAANDNEWZEALANDBANKINGGROUP",
     "_amenity": false,
-    "_secondary": "Retail and Convenience",
-    "_tertiary": "Banking",
+    "_secondary": "Trade Categories",
+    "_tertiary": "Banking and Financial Services",
     "country": "",
     "salesMonthly": [
       {
@@ -9321,100 +9145,52 @@
     "country": "",
     "membershipsMonthly": [
       {
-        "month": "2023-09",
-        "members": 1335
-      },
-      {
-        "month": "2023-10",
-        "members": 1299
-      },
-      {
-        "month": "2023-11",
-        "members": 1230
-      },
-      {
-        "month": "2023-12",
-        "members": 1307
-      },
-      {
         "month": "2024-01",
-        "members": 1364
+        "members": 1200
       },
       {
         "month": "2024-02",
-        "members": 1237
+        "members": 1180
       },
       {
         "month": "2024-03",
-        "members": 1279
+        "members": 1225
       },
       {
         "month": "2024-04",
-        "members": 1286
+        "members": 1250
       },
       {
         "month": "2024-05",
-        "members": 1304
+        "members": 1300
       },
       {
         "month": "2024-06",
-        "members": 1320
+        "members": 1325
       },
       {
         "month": "2024-07",
-        "members": 1203
+        "members": 1350
       },
       {
         "month": "2024-08",
-        "members": 1329
+        "members": 1375
       },
       {
         "month": "2024-09",
-        "members": 1378
+        "members": 1390
       },
       {
         "month": "2024-10",
-        "members": 1357
+        "members": 1410
       },
       {
         "month": "2024-11",
-        "members": 1280
+        "members": 1430
       },
       {
         "month": "2024-12",
-        "members": 1362
-      },
-      {
-        "month": "2025-01",
-        "members": 1433
-      },
-      {
-        "month": "2025-02",
-        "members": 1316
-      },
-      {
-        "month": "2025-03",
-        "members": 1308
-      },
-      {
-        "month": "2025-04",
-        "members": 1385
-      },
-      {
-        "month": "2025-05",
-        "members": 1308
-      },
-      {
-        "month": "2025-06",
-        "members": 1317
-      },
-      {
-        "month": "2025-07",
-        "members": 1240
-      },
-      {
-        "month": "2025-08",
-        "members": 1376
+        "members": 1450
       }
     ],
     "visitsDaily": [
@@ -10117,7 +9893,7 @@
     "leaseEnd": "",
     "occupancyRate": 0,
     "floor": "65/F",
-    "canonicalName": "SWIREPROPERTIES",
+    "canonicalName": "SWIRE PROPERTIES",
     "_amenity": false,
     "_secondary": "Trade Categories",
     "_tertiary": "Real Estate and Construction",
@@ -10698,11 +10474,11 @@
     "id": 210,
     "name": "DBS BANK (HONG KONG) LIMITED",
     "location": "OIE",
-    "landUse": "Retail (Land Use)",
+    "landUse": "Office (Land Use)",
     "tags": [
-      "Retail (Land Use)",
-      "Retail and Convenience",
-      "Banking",
+      "Office (Land Use)",
+      "Trade Categories",
+      "Banking and Financial Services",
       "Amenity"
     ],
     "floorspace": 163473,
@@ -10717,8 +10493,8 @@
     "floor": "16/F",
     "canonicalName": "DBSBANKHONGKONG",
     "_amenity": false,
-    "_secondary": "Retail and Convenience",
-    "_tertiary": "Banking",
+    "_secondary": "Trade Categories",
+    "_tertiary": "Banking and Financial Services",
     "country": "",
     "salesMonthly": [
       {
@@ -11152,11 +10928,11 @@
     "id": 219,
     "name": "ROYAL BANK OF CANADA",
     "location": "1TP",
-    "landUse": "Retail (Land Use)",
+    "landUse": "Office (Land Use)",
     "tags": [
-      "Retail (Land Use)",
-      "Retail and Convenience",
-      "Banking",
+      "Office (Land Use)",
+      "Trade Categories",
+      "Banking and Financial Services",
       "Amenity"
     ],
     "floorspace": 43706,
@@ -11171,8 +10947,8 @@
     "floor": "42/F",
     "canonicalName": "ROYALBANKOFCANADA",
     "_amenity": false,
-    "_secondary": "Retail and Convenience",
-    "_tertiary": "Banking",
+    "_secondary": "Trade Categories",
+    "_tertiary": "Banking and Financial Services",
     "country": "",
     "salesMonthly": [
       {
@@ -11773,7 +11549,7 @@
     "leaseEnd": "",
     "occupancyRate": 0,
     "floor": "18/F",
-    "canonicalName": "SWIREPROPERTIESMANAGEMENT",
+    "canonicalName": "SWIRE PROPERTIES",
     "_amenity": false,
     "_secondary": "Trade Categories",
     "_tertiary": "Real Estate and Construction",
@@ -11885,100 +11661,52 @@
     "country": "",
     "membershipsMonthly": [
       {
-        "month": "2023-09",
-        "members": 1610
-      },
-      {
-        "month": "2023-10",
-        "members": 1601
-      },
-      {
-        "month": "2023-11",
-        "members": 1624
-      },
-      {
-        "month": "2023-12",
-        "members": 1610
-      },
-      {
         "month": "2024-01",
-        "members": 1689
+        "members": 1200
       },
       {
         "month": "2024-02",
-        "members": 1621
+        "members": 1180
       },
       {
         "month": "2024-03",
-        "members": 1599
+        "members": 1225
       },
       {
         "month": "2024-04",
-        "members": 1511
+        "members": 1250
       },
       {
         "month": "2024-05",
-        "members": 1555
+        "members": 1300
       },
       {
         "month": "2024-06",
-        "members": 1569
+        "members": 1325
       },
       {
         "month": "2024-07",
-        "members": 1480
+        "members": 1350
       },
       {
         "month": "2024-08",
-        "members": 1492
+        "members": 1375
       },
       {
         "month": "2024-09",
-        "members": 1637
+        "members": 1390
       },
       {
         "month": "2024-10",
-        "members": 1587
+        "members": 1410
       },
       {
         "month": "2024-11",
-        "members": 1575
+        "members": 1430
       },
       {
         "month": "2024-12",
-        "members": 1542
-      },
-      {
-        "month": "2025-01",
-        "members": 1657
-      },
-      {
-        "month": "2025-02",
-        "members": 1584
-      },
-      {
-        "month": "2025-03",
-        "members": 1553
-      },
-      {
-        "month": "2025-04",
-        "members": 1514
-      },
-      {
-        "month": "2025-05",
-        "members": 1531
-      },
-      {
-        "month": "2025-06",
-        "members": 1566
-      },
-      {
-        "month": "2025-07",
-        "members": 1428
-      },
-      {
-        "month": "2025-08",
-        "members": 1472
+        "members": 1450
       }
     ],
     "visitsDaily": [
@@ -12505,11 +12233,11 @@
     "id": 242,
     "name": "BANK JULIUS BAER",
     "location": "2TP",
-    "landUse": "Retail (Land Use)",
+    "landUse": "Office (Land Use)",
     "tags": [
-      "Retail (Land Use)",
-      "Retail and Convenience",
-      "Banking",
+      "Office (Land Use)",
+      "Trade Categories",
+      "Banking and Financial Services",
       "Amenity"
     ],
     "floorspace": 91833,
@@ -12524,8 +12252,8 @@
     "floor": "41/F",
     "canonicalName": "BANKJULIUSBAER",
     "_amenity": false,
-    "_secondary": "Retail and Convenience",
-    "_tertiary": "Banking",
+    "_secondary": "Trade Categories",
+    "_tertiary": "Banking and Financial Services",
     "country": "",
     "salesMonthly": [
       {
@@ -12956,11 +12684,11 @@
     "id": 255,
     "name": "SUMITOMO MITSUI BANKING CORPORATION",
     "location": "2TP",
-    "landUse": "Retail (Land Use)",
+    "landUse": "Office (Land Use)",
     "tags": [
-      "Retail (Land Use)",
-      "Retail and Convenience",
-      "Banking",
+      "Office (Land Use)",
+      "Trade Categories",
+      "Banking and Financial Services",
       "Amenity"
     ],
     "floorspace": 45770,
@@ -12975,8 +12703,8 @@
     "floor": "9/F",
     "canonicalName": "SUMITOMOMITSUIBANKINGCORPORATION",
     "_amenity": false,
-    "_secondary": "Retail and Convenience",
-    "_tertiary": "Banking",
+    "_secondary": "Trade Categories",
+    "_tertiary": "Banking and Financial Services",
     "country": "",
     "salesMonthly": [
       {
@@ -13587,7 +13315,7 @@
     "leaseStart": "",
     "leaseEnd": "",
     "floor": "9/F",
-    "canonicalName": "SWIREPROPERTIESREALESTATEAGENCY",
+    "canonicalName": "SWIRE PROPERTIES",
     "_secondary": "Trade Categories",
     "_tertiary": "Real Estate and Construction"
   },
@@ -13610,7 +13338,7 @@
     "leaseStart": "",
     "leaseEnd": "",
     "floor": "8/F",
-    "canonicalName": "SWIREPROPERTIESREALESTATEAGENCY",
+    "canonicalName": "SWIRE PROPERTIES",
     "_secondary": "Trade Categories",
     "_tertiary": "Real Estate and Construction"
   },
@@ -13886,7 +13614,7 @@
     "leaseStart": "",
     "leaseEnd": "",
     "floor": "19/F",
-    "canonicalName": "SWIREPROPERTIESMANAGEMENT",
+    "canonicalName": "SWIRE PROPERTIES",
     "_secondary": "Trade Categories",
     "_tertiary": "Real Estate and Construction"
   },
@@ -13937,5 +13665,28 @@
     "canonicalName": "MAYABAKERYBAR",
     "_secondary": "F&B",
     "_tertiary": "Bakery"
+  },
+  {
+    "id": 293,
+    "name": "ALLIED WORLD ASSURANCE COMPANY",
+    "location": "OIE",
+    "country": "",
+    "landUse": "Office (Land Use)",
+    "tags": [
+      "Office (Land Use)",
+      "Trade Categories",
+      "Insurance"
+    ],
+    "floorspace": 15195,
+    "rentPerSqFt": 58,
+    "monthlyRent": 881310,
+    "annualRent": 10575720,
+    "leaseYears": 0,
+    "leaseStart": "",
+    "leaseEnd": "",
+    "floor": "",
+    "canonicalName": "ALLIEDWORLDASSURANCE",
+    "_secondary": "Trade Categories",
+    "_tertiary": "Insurance"
   }
 ]

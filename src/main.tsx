@@ -4,7 +4,7 @@ import './index.css'
 import App from './App.tsx'
 
 // If tenants were imported via file input, persist them to localStorage before app mounts
-const imported = (window as any).__TENANTS__
+const imported = (window as unknown as { __TENANTS__?: unknown }).__TENANTS__
 const isDev = location.hostname === 'localhost' || location.hostname === '127.0.0.1'
 if (!isDev && Array.isArray(imported) && imported.length) {
   try {

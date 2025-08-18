@@ -21,8 +21,19 @@ function canonicalize(name) {
     .toUpperCase();
 }
 
+// Allow grouping related legal entities under a single canonical tenant
+function canonicalGroupOverride(name, providedCanonical) {
+  const fallback = canonicalize(name);
+  const given = String(providedCanonical || '').trim();
+  const base = (given || fallback).toUpperCase();
+  // Swire Properties group (covers management and real estate agency variants)
+  const SWIRE_SET = new Set(['SWIREPROPERTIES', 'SWIREPROPERTIESMANAGEMENT', 'SWIREPROPERTIESREALESTATEAGENCY']);
+  if (SWIRE_SET.has(base)) return 'SWIRE PROPERTIES';
+  return given || fallback;
+}
+
 function makeCompositeKey(name, location, floor, canonicalName) {
-  const cn = (canonicalName && String(canonicalName).trim()) || canonicalize(name);
+  const cn = canonicalGroupOverride(name, canonicalName);
   const loc = String(location || '').trim().toUpperCase();
   const fl = String(floor || '').trim().toUpperCase();
   return `${cn}|${loc}|${fl}`;
@@ -463,7 +474,7 @@ function syncCSVToJSON() {
     const leaseYears = row.leaseYears !== undefined && row.leaseYears !== '' ? Number(row.leaseYears) : baseTenant?.leaseYears;
     const leaseStart = (row.leaseStart !== undefined ? row.leaseStart : baseTenant?.leaseStart) || '';
     const leaseEnd = (row.leaseEnd !== undefined ? row.leaseEnd : baseTenant?.leaseEnd) || '';
-    const canonical = (row.canonicalName || baseTenant?.canonicalName || canonicalize(name));
+    const canonical = canonicalGroupOverride(name, row.canonicalName || baseTenant?.canonicalName);
 
     // Tags: STRICTLY from CSV
     const tags = [primary];
@@ -646,19 +657,17 @@ function syncCSVToJSON() {
   if (argv.includes('--watch')) {
     console.log('Watching CSV for changes...');
     let debounce;
-    const restart = () => {
+    const rerun = () => {
       clearTimeout(debounce);
       debounce = setTimeout(() => {
         try {
-          const { spawn } = require('node:child_process');
-          const child = spawn(process.execPath, [__filename], { stdio: 'inherit' });
-          child.on('exit', (code) => process.exit(code));
+          syncCSVToJSON();
         } catch (e) {
-          console.error('Failed to restart sync after CSV change:', e);
+          console.error('Failed to re-sync after CSV change:', e);
         }
       }, 200);
     };
-    fs.watch(CSV_FILE, { persistent: true }, restart);
+    fs.watch(CSV_FILE, { persistent: true }, rerun);
   }
 }
 

@@ -23,6 +23,16 @@ function canonicalize(name) {
     .toUpperCase();
 }
 
+// Group related legal entities under a single canonical tenant where desired
+function canonicalGroupOverride(name, providedCanonical) {
+  const fallback = canonicalize(name);
+  const given = String(providedCanonical || '').trim();
+  const base = (given || fallback).toUpperCase();
+  const SWIRE_SET = new Set(['SWIREPROPERTIES', 'SWIREPROPERTIESMANAGEMENT', 'SWIREPROPERTIESREALESTATEAGENCY']);
+  if (SWIRE_SET.has(base)) return 'SWIRE PROPERTIES';
+  return given || fallback;
+}
+
 function parseCSVLine(line) {
   const result = [];
   let current = '';
@@ -147,7 +157,7 @@ function run() {
     const row = parseCSVLine(lines[i]);
     if (row.length < 11) continue;
     const [name, building, floor, amenity, primary, secondary, tertiary, floorspace, rentPerSqFt, monthlyRent, annualRent] = row;
-    const cn = canonicalize(name);
+    const cn = canonicalGroupOverride(name, canonicalize(name));
     const samples = getSampleTimeSeries(name);
     const outRow = [
       '', // id

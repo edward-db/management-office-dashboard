@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+/* Hide native disclosure marker on <summary> so only our custom chevron shows */
+details > summary::-webkit-details-marker {
+  display: none;
+}
+details > summary::marker {
+  content: '';
+}

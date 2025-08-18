@@ -5,7 +5,8 @@ import App from './App.tsx'
 
 // If tenants were imported via file input, persist them to localStorage before app mounts
 const imported = (window as any).__TENANTS__
-if (Array.isArray(imported) && imported.length) {
+const isDev = location.hostname === 'localhost' || location.hostname === '127.0.0.1'
+if (!isDev && Array.isArray(imported) && imported.length) {
   try {
     localStorage.setItem('tenantData', JSON.stringify(imported))
     localStorage.setItem('tenantDataSource', 'uploaded')

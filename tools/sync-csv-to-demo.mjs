@@ -3,6 +3,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { argv } from 'node:process';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -641,6 +642,24 @@ function syncCSVToJSON() {
   
   console.log(`Upserted/updated ${updatedCount} tenants in ${JSON_FILE}`);
   console.log('CSV changes have been synced to the demo dataset!');
+  
+  if (argv.includes('--watch')) {
+    console.log('Watching CSV for changes...');
+    let debounce;
+    const restart = () => {
+      clearTimeout(debounce);
+      debounce = setTimeout(() => {
+        try {
+          const { spawn } = require('node:child_process');
+          const child = spawn(process.execPath, [__filename], { stdio: 'inherit' });
+          child.on('exit', (code) => process.exit(code));
+        } catch (e) {
+          console.error('Failed to restart sync after CSV change:', e);
+        }
+      }, 200);
+    };
+    fs.watch(CSV_FILE, { persistent: true }, restart);
+  }
 }
 
 try {

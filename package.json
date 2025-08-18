@@ -8,6 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "watch:csv": "node tools/sync-csv-to-demo.mjs --watch",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "build:data": "node tools/build-tenants-from-xlsx.mjs",

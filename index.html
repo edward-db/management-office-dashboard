@@ -13,7 +13,9 @@
       // Prefer demo dataset if present for quick demos
       async function start() {
         try {
-          const res = await fetch('data/tenants_demo.json');
+          const isDev = location.hostname === 'localhost' || location.hostname === '127.0.0.1';
+          const url = isDev ? `data/tenants_demo.json?t=${Date.now()}` : 'data/tenants_demo.json';
+          const res = await fetch(url, { cache: 'no-store' });
           if (res.ok) {
             const txt = await res.text();
             if (txt) {

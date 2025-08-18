@@ -59,7 +59,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Fashion/Retail"
+      "Banking and Financial Services"
     ],
     "floorspace": 10949,
     "rentPerSqFt": 65,
@@ -74,7 +74,7 @@
     "canonicalName": "YUNGS",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Fashion/Retail",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -85,7 +85,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Media"
+      "Banking and Financial Services"
     ],
     "floorspace": 7505,
     "rentPerSqFt": 41,
@@ -100,7 +100,7 @@
     "canonicalName": "ASSETPUBLISHING",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Media",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -163,7 +163,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Insurance"
+      "Banking and Financial Services"
     ],
     "floorspace": 32183,
     "rentPerSqFt": 55,
@@ -178,7 +178,7 @@
     "canonicalName": "PRUDENTIAL",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Insurance",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -189,7 +189,7 @@
     "tags": [
       "Retail (Land Use)",
       "Trade Categories",
-      "Fashion/Retail"
+      "Banking and Financial Services"
     ],
     "floorspace": 3239,
     "rentPerSqFt": 64,
@@ -204,7 +204,7 @@
     "canonicalName": "ONTHELIST",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Fashion/Retail",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -215,7 +215,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Professional and Business Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 3430,
     "rentPerSqFt": 68,
@@ -230,7 +230,7 @@
     "canonicalName": "GARTNER",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Professional and Business Services",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -241,7 +241,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Manufacturing"
+      "Banking and Financial Services"
     ],
     "floorspace": 5493,
     "rentPerSqFt": 49,
@@ -256,7 +256,7 @@
     "canonicalName": "SUMIDA",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Manufacturing",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -293,7 +293,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Marketing"
+      "Banking and Financial Services"
     ],
     "floorspace": 13083,
     "rentPerSqFt": 64,
@@ -308,7 +308,7 @@
     "canonicalName": "JCDECAUXPEARLDEAN",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Marketing",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -319,7 +319,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Media"
+      "Banking and Financial Services"
     ],
     "floorspace": 4455,
     "rentPerSqFt": 60,
@@ -334,7 +334,7 @@
     "canonicalName": "SHAWBROTHERSHOLDINGS",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Media",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -371,7 +371,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Insurance"
+      "Banking and Financial Services"
     ],
     "floorspace": 13800,
     "rentPerSqFt": 41,
@@ -386,7 +386,7 @@
     "canonicalName": "LOCKTONCOMPANIESHONGKONG",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Insurance",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -397,7 +397,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Biotech/Pharmaceutical/Healthcare Products"
+      "Banking and Financial Services"
     ],
     "floorspace": 6826,
     "rentPerSqFt": 50,
@@ -412,7 +412,7 @@
     "canonicalName": "GRIFOLS",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Biotech/Pharmaceutical/Healthcare Products",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -423,7 +423,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Holdings"
+      "Banking and Financial Services"
     ],
     "floorspace": 2237,
     "rentPerSqFt": 56,
@@ -438,7 +438,7 @@
     "canonicalName": "ZJLDGROUPINC",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Holdings",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -449,7 +449,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Marketing"
+      "Banking and Financial Services"
     ],
     "floorspace": 4632,
     "rentPerSqFt": 53,
@@ -464,7 +464,7 @@
     "canonicalName": "JCDECAUX",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Marketing",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -475,7 +475,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Technology Media and Telecoms (TMT)"
+      "Banking and Financial Services"
     ],
     "floorspace": 4487,
     "rentPerSqFt": 41,
@@ -490,7 +490,7 @@
     "canonicalName": "ZTE",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Technology Media and Telecoms (TMT)",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -501,7 +501,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Professional and Business Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 3053,
     "rentPerSqFt": 48,
@@ -516,7 +516,7 @@
     "canonicalName": "OMEMEEGROUP",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Professional and Business Services",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -527,7 +527,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Professional and Business Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 796,
     "rentPerSqFt": 64,
@@ -542,7 +542,7 @@
     "canonicalName": "LISTCOPROSERVICES",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Professional and Business Services",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -553,7 +553,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Real Estate and Construction"
+      "Banking and Financial Services"
     ],
     "floorspace": 720,
     "rentPerSqFt": 41,
@@ -568,7 +568,7 @@
     "canonicalName": "TAIKOOPLACEHOLDINGS",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Real Estate and Construction",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -606,7 +606,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Fashion/Retail"
+      "Banking and Financial Services"
     ],
     "floorspace": 9251,
     "rentPerSqFt": 47,
@@ -621,7 +621,7 @@
     "canonicalName": "EVISUGROUP",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Fashion/Retail",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -632,7 +632,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Government"
+      "Banking and Financial Services"
     ],
     "floorspace": 82662,
     "rentPerSqFt": 52.5,
@@ -647,7 +647,7 @@
     "canonicalName": "THECONSULATEGENERALOFCANADA",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Government",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -658,7 +658,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Biotech/Pharmaceutical/Healthcare Products"
+      "Banking and Financial Services"
     ],
     "floorspace": 13777,
     "rentPerSqFt": 49,
@@ -673,7 +673,7 @@
     "canonicalName": "ZUELLIGPHARMA",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Biotech/Pharmaceutical/Healthcare Products",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -844,7 +844,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Technology Media and Telecoms (TMT)"
+      "Banking and Financial Services"
     ],
     "floorspace": 3165,
     "rentPerSqFt": 58,
@@ -859,7 +859,7 @@
     "canonicalName": "WESTERNDIGITAL",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Technology Media and Telecoms (TMT)",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -870,7 +870,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Technology Media and Telecoms (TMT)"
+      "Banking and Financial Services"
     ],
     "floorspace": 10276,
     "rentPerSqFt": 51.260801868431294,
@@ -885,7 +885,7 @@
     "canonicalName": "AZEUSSYSTEMS",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Technology Media and Telecoms (TMT)",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -896,7 +896,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Professional and Business Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 7074,
     "rentPerSqFt": 48,
@@ -911,7 +911,7 @@
     "canonicalName": "YNBYHONGKONG",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Professional and Business Services",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -922,7 +922,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Manufacturing"
+      "Banking and Financial Services"
     ],
     "floorspace": 7074,
     "rentPerSqFt": 68,
@@ -937,7 +937,7 @@
     "canonicalName": "TOTALENERGIESLUBMARINE",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Manufacturing",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -974,7 +974,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Professional and Business Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 7074,
     "rentPerSqFt": 58,
@@ -989,7 +989,7 @@
     "canonicalName": "HORSPATH",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Professional and Business Services",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -1000,7 +1000,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Insurance"
+      "Banking and Financial Services"
     ],
     "floorspace": 7074,
     "rentPerSqFt": 60,
@@ -1015,7 +1015,7 @@
     "canonicalName": "AGEAS",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Insurance",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -1026,7 +1026,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Technology Media and Telecoms (TMT)"
+      "Banking and Financial Services"
     ],
     "floorspace": 7074,
     "rentPerSqFt": 57,
@@ -1041,7 +1041,7 @@
     "canonicalName": "NETAPPHONGKONG",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Technology Media and Telecoms (TMT)",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -1052,7 +1052,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Manufacturing"
+      "Banking and Financial Services"
     ],
     "floorspace": 7074,
     "rentPerSqFt": 61,
@@ -1067,7 +1067,7 @@
     "canonicalName": "COCACOLACHINA",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Manufacturing",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -1078,7 +1078,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Professional and Business Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 7074,
     "rentPerSqFt": 51,
@@ -1093,7 +1093,7 @@
     "canonicalName": "BSIPACIFIC",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Professional and Business Services",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -1104,7 +1104,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Sourcing and Trading"
+      "Banking and Financial Services"
     ],
     "floorspace": 10320,
     "rentPerSqFt": 52.2203488372093,
@@ -1119,7 +1119,7 @@
     "canonicalName": "RADIANCESEAHONGKONG",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Sourcing and Trading",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -1130,7 +1130,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Professional and Business Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 10311,
     "rentPerSqFt": 46,
@@ -1145,7 +1145,7 @@
     "canonicalName": "ALLEGISGROUPHONGKONG",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Professional and Business Services",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -1156,7 +1156,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Professional and Business Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 6767,
     "rentPerSqFt": 45,
@@ -1171,7 +1171,7 @@
     "canonicalName": "HKSI",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Professional and Business Services",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -1182,7 +1182,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Holdings"
+      "Banking and Financial Services"
     ],
     "floorspace": 6767,
     "rentPerSqFt": 67,
@@ -1197,7 +1197,7 @@
     "canonicalName": "ELEVATEHONGKONGHOLDINGS",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Holdings",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -1208,7 +1208,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Manufacturing"
+      "Banking and Financial Services"
     ],
     "floorspace": 6767,
     "rentPerSqFt": 63,
@@ -1223,7 +1223,7 @@
     "canonicalName": "SUNTORYBEVERAGEFOOD",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Manufacturing",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -1770,7 +1770,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Sourcing and Trading"
+      "Banking and Financial Services"
     ],
     "floorspace": 6767,
     "rentPerSqFt": 70,
@@ -1785,7 +1785,7 @@
     "canonicalName": "MIGHTYOCEAN",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Sourcing and Trading",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -1796,7 +1796,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Professional and Business Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 3221,
     "rentPerSqFt": 61,
@@ -1811,7 +1811,7 @@
     "canonicalName": "OREANA",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Professional and Business Services",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -1822,7 +1822,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Professional and Business Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 6767,
     "rentPerSqFt": 51,
@@ -1837,7 +1837,7 @@
     "canonicalName": "JSSHK",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Professional and Business Services",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -1848,7 +1848,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Professional and Business Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 3565,
     "rentPerSqFt": 59,
@@ -1863,7 +1863,7 @@
     "canonicalName": "EXCELLENTMANAGEMENT",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Professional and Business Services",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -1874,7 +1874,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Fashion/Retail"
+      "Banking and Financial Services"
     ],
     "floorspace": 6767,
     "rentPerSqFt": 68,
@@ -1889,7 +1889,7 @@
     "canonicalName": "SEPHORAHONGKONG",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Fashion/Retail",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -1900,7 +1900,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Fashion/Retail"
+      "Banking and Financial Services"
     ],
     "floorspace": 4238,
     "rentPerSqFt": 44,
@@ -1915,7 +1915,7 @@
     "canonicalName": "THEDAIRYFARM",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Fashion/Retail",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -1926,7 +1926,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Manufacturing"
+      "Banking and Financial Services"
     ],
     "floorspace": 25576,
     "rentPerSqFt": 45,
@@ -1941,7 +1941,7 @@
     "canonicalName": "SCHINDLERLIFTSHONGKONG",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Manufacturing",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -1952,7 +1952,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Insurance"
+      "Banking and Financial Services"
     ],
     "floorspace": 26329,
     "rentPerSqFt": 61,
@@ -1967,7 +1967,7 @@
     "canonicalName": "MARSHHONGKONG",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Insurance",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -1978,7 +1978,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Technology Media and Telecoms (TMT)"
+      "Banking and Financial Services"
     ],
     "floorspace": 8780,
     "rentPerSqFt": 47,
@@ -1993,7 +1993,7 @@
     "canonicalName": "YAHOO",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Technology Media and Telecoms (TMT)",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -2004,7 +2004,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Technology Media and Telecoms (TMT)"
+      "Banking and Financial Services"
     ],
     "floorspace": 2081,
     "rentPerSqFt": 62,
@@ -2019,7 +2019,7 @@
     "canonicalName": "BMCSOFTWAREHONGKONG",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Technology Media and Telecoms (TMT)",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -2030,7 +2030,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Logistics (Airlines/Shipping/Transportation/Couriers)"
+      "Banking and Financial Services"
     ],
     "floorspace": 11135,
     "rentPerSqFt": 64,
@@ -2045,7 +2045,7 @@
     "canonicalName": "CHINAAIRLINES",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Logistics (Airlines/Shipping/Transportation/Couriers)",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -2056,7 +2056,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Holdings"
+      "Banking and Financial Services"
     ],
     "floorspace": 27255,
     "rentPerSqFt": 57,
@@ -2071,7 +2071,7 @@
     "canonicalName": "JARDINEMATHESON",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Holdings",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -2082,7 +2082,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Biotech/Pharmaceutical/Healthcare Products"
+      "Banking and Financial Services"
     ],
     "floorspace": 3238,
     "rentPerSqFt": 69,
@@ -2097,16 +2097,16 @@
     "canonicalName": "EXTRAWELL",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Biotech/Pharmaceutical/Healthcare Products",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
     "id": 64,
     "name": "GALDERMA HONG KONG LIMITED",
     "location": "DEH",
-    "landUse": "Office (Land Use)",
+    "landUse": "Retail (Land Use)",
     "tags": [
-      "Office (Land Use)",
+      "Retail (Land Use)",
       "Healthcare",
       "Dental Clinic"
     ],
@@ -2134,7 +2134,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Fashion/Retail"
+      "Banking and Financial Services"
     ],
     "floorspace": 4182,
     "rentPerSqFt": 55,
@@ -2149,7 +2149,7 @@
     "canonicalName": "BERLUTIHONGKONG",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Fashion/Retail",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -2160,7 +2160,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Fashion/Retail"
+      "Banking and Financial Services"
     ],
     "floorspace": 14898,
     "rentPerSqFt": 44,
@@ -2175,7 +2175,7 @@
     "canonicalName": "BURBERRYASIA",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Fashion/Retail",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -2239,7 +2239,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Manufacturing"
+      "Banking and Financial Services"
     ],
     "floorspace": 12681,
     "rentPerSqFt": 50,
@@ -2254,7 +2254,7 @@
     "canonicalName": "MOETHENNESSYDIAGEOHONGKONG",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Manufacturing",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -2285,52 +2285,100 @@
     "country": "",
     "membershipsMonthly": [
       {
+        "month": "2023-09",
+        "members": 691
+      },
+      {
+        "month": "2023-10",
+        "members": 642
+      },
+      {
+        "month": "2023-11",
+        "members": 680
+      },
+      {
+        "month": "2023-12",
+        "members": 647
+      },
+      {
         "month": "2024-01",
-        "members": 1200
+        "members": 701
       },
       {
         "month": "2024-02",
-        "members": 1180
+        "members": 644
       },
       {
         "month": "2024-03",
-        "members": 1225
+        "members": 677
       },
       {
         "month": "2024-04",
-        "members": 1250
+        "members": 657
       },
       {
         "month": "2024-05",
-        "members": 1300
+        "members": 640
       },
       {
         "month": "2024-06",
-        "members": 1325
+        "members": 640
       },
       {
         "month": "2024-07",
-        "members": 1350
+        "members": 619
       },
       {
         "month": "2024-08",
-        "members": 1375
+        "members": 671
       },
       {
         "month": "2024-09",
-        "members": 1390
+        "members": 681
       },
       {
         "month": "2024-10",
-        "members": 1410
+        "members": 637
       },
       {
         "month": "2024-11",
-        "members": 1430
+        "members": 688
       },
       {
         "month": "2024-12",
-        "members": 1450
+        "members": 682
+      },
+      {
+        "month": "2025-01",
+        "members": 722
+      },
+      {
+        "month": "2025-02",
+        "members": 646
+      },
+      {
+        "month": "2025-03",
+        "members": 655
+      },
+      {
+        "month": "2025-04",
+        "members": 662
+      },
+      {
+        "month": "2025-05",
+        "members": 667
+      },
+      {
+        "month": "2025-06",
+        "members": 665
+      },
+      {
+        "month": "2025-07",
+        "members": 624
+      },
+      {
+        "month": "2025-08",
+        "members": 670
       }
     ],
     "visitsDaily": [
@@ -3293,7 +3341,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Fashion/Retail"
+      "Banking and Financial Services"
     ],
     "floorspace": 6452,
     "rentPerSqFt": 62,
@@ -3308,7 +3356,7 @@
     "canonicalName": "GODIVACHOCOLATIERASIA",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Fashion/Retail",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -4044,7 +4092,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Fashion/Retail"
+      "Banking and Financial Services"
     ],
     "floorspace": 14334,
     "rentPerSqFt": 63,
@@ -4059,7 +4107,7 @@
     "canonicalName": "TIFFANYOFNEWYORK",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Fashion/Retail",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -4070,7 +4118,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Real Estate and Construction"
+      "Banking and Financial Services"
     ],
     "floorspace": 29016,
     "rentPerSqFt": 55,
@@ -4085,7 +4133,7 @@
     "canonicalName": "CHINAROADANDBRIDGECORPORATION",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Real Estate and Construction",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -4096,7 +4144,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Fashion/Retail"
+      "Banking and Financial Services"
     ],
     "floorspace": 6231,
     "rentPerSqFt": 56,
@@ -4111,7 +4159,7 @@
     "canonicalName": "LOROPIANAHK",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Fashion/Retail",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -4122,7 +4170,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Media"
+      "Banking and Financial Services"
     ],
     "floorspace": 2911,
     "rentPerSqFt": 48,
@@ -4137,7 +4185,7 @@
     "canonicalName": "CJENMHONGKONG",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Media",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -4148,7 +4196,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Manufacturing"
+      "Banking and Financial Services"
     ],
     "floorspace": 20308,
     "rentPerSqFt": 69,
@@ -4163,7 +4211,7 @@
     "canonicalName": "BASELLASIAPACIFIC",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Manufacturing",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -4386,7 +4434,8 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Holdings"
+      "Holdings",
+      "Banking and Financial Services"
     ],
     "floorspace": 151464,
     "rentPerSqFt": 58.60124518037289,
@@ -4412,7 +4461,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Manufacturing"
+      "Banking and Financial Services"
     ],
     "floorspace": 14725,
     "rentPerSqFt": 67,
@@ -4427,7 +4476,7 @@
     "canonicalName": "SWIRECOCACOLA",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Manufacturing",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -4438,7 +4487,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Professional and Business Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 6441,
     "rentPerSqFt": 49,
@@ -4453,7 +4502,7 @@
     "canonicalName": "GRAVITASRECRUITMENTGROUPHONGKONG",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Professional and Business Services",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -4464,7 +4513,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Sourcing and Trading"
+      "Banking and Financial Services"
     ],
     "floorspace": 2081,
     "rentPerSqFt": 43,
@@ -4479,16 +4528,16 @@
     "canonicalName": "CHUNGSHEKENTERPRISES",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Sourcing and Trading",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
     "id": 93,
     "name": "Baroque HK Limited",
     "location": "DOH",
-    "landUse": "Office (Land Use)",
+    "landUse": "Retail (Land Use)",
     "tags": [
-      "Office (Land Use)",
+      "Retail (Land Use)",
       "F&B",
       "Bar"
     ],
@@ -4702,7 +4751,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Professional and Business Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 14425,
     "rentPerSqFt": 48,
@@ -4717,7 +4766,7 @@
     "canonicalName": "JSSHK",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Professional and Business Services",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -4754,7 +4803,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Real Estate and Construction"
+      "Banking and Financial Services"
     ],
     "floorspace": 14413,
     "rentPerSqFt": 62,
@@ -4769,7 +4818,7 @@
     "canonicalName": "WONGOUYANGHK",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Real Estate and Construction",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -4780,7 +4829,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Manufacturing"
+      "Banking and Financial Services"
     ],
     "floorspace": 8119,
     "rentPerSqFt": 50,
@@ -4795,7 +4844,7 @@
     "canonicalName": "MARSHONGKONG",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Manufacturing",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -4806,7 +4855,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Biotech/Pharmaceutical/Healthcare Products"
+      "Banking and Financial Services"
     ],
     "floorspace": 6294,
     "rentPerSqFt": 53,
@@ -4821,7 +4870,7 @@
     "canonicalName": "BOSTONSCIENTIFIC",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Biotech/Pharmaceutical/Healthcare Products",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -4832,7 +4881,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Legal Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 14413,
     "rentPerSqFt": 50,
@@ -4847,7 +4896,7 @@
     "canonicalName": "BRYANCAVELEIGHTONPAISNERLLP",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Legal Services",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -4858,7 +4907,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Technology Media and Telecoms (TMT)"
+      "Banking and Financial Services"
     ],
     "floorspace": 5922,
     "rentPerSqFt": 62,
@@ -4873,7 +4922,7 @@
     "canonicalName": "VODAFONEENTERPRISEHONGKONG",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Technology Media and Telecoms (TMT)",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -4910,7 +4959,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Fashion/Retail"
+      "Banking and Financial Services"
     ],
     "floorspace": 14413,
     "rentPerSqFt": 45,
@@ -4925,7 +4974,7 @@
     "canonicalName": "BLUEBELLASIA",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Fashion/Retail",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -4936,7 +4985,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Logistics (Airlines/Shipping/Transportation/Couriers)"
+      "Banking and Financial Services"
     ],
     "floorspace": 3257,
     "rentPerSqFt": 58,
@@ -4951,7 +5000,7 @@
     "canonicalName": "QANTASAIRWAYS",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Logistics (Airlines/Shipping/Transportation/Couriers)",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -4962,7 +5011,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Real Estate and Construction"
+      "Banking and Financial Services"
     ],
     "floorspace": 22797,
     "rentPerSqFt": 45,
@@ -4977,7 +5026,7 @@
     "canonicalName": "JONESLANGLASALLEMANAGEMENTSERVICES",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Real Estate and Construction",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -4988,7 +5037,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Fashion/Retail"
+      "Banking and Financial Services"
     ],
     "floorspace": 14472,
     "rentPerSqFt": 66,
@@ -5003,7 +5052,7 @@
     "canonicalName": "LVMHASIAPACIFIC",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Fashion/Retail",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -5014,7 +5063,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Holdings"
+      "Banking and Financial Services"
     ],
     "floorspace": 5066,
     "rentPerSqFt": 41,
@@ -5029,7 +5078,7 @@
     "canonicalName": "ELEVATEHONGKONGHOLDINGS",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Holdings",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -5040,7 +5089,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Professional and Business Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 2622,
     "rentPerSqFt": 69,
@@ -5055,7 +5104,7 @@
     "canonicalName": "RDM",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Professional and Business Services",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -5066,7 +5115,7 @@
     "tags": [
       "Retail (Land Use)",
       "Trade Categories",
-      "Professional and Business Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 5268,
     "rentPerSqFt": 70,
@@ -5081,7 +5130,7 @@
     "canonicalName": "JOINTDYNAMICS",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Professional and Business Services",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -5092,7 +5141,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Professional and Business Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 3525,
     "rentPerSqFt": 65,
@@ -5107,7 +5156,7 @@
     "canonicalName": "KOREHK",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Professional and Business Services",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -5118,7 +5167,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Sourcing and Trading"
+      "Banking and Financial Services"
     ],
     "floorspace": 28292,
     "rentPerSqFt": 60,
@@ -5133,7 +5182,7 @@
     "canonicalName": "INTERLUX",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Sourcing and Trading",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -5144,7 +5193,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Logistics (Airlines/Shipping/Transportation/Couriers)"
+      "Banking and Financial Services"
     ],
     "floorspace": 14146,
     "rentPerSqFt": 40,
@@ -5159,7 +5208,7 @@
     "canonicalName": "MARINECONTRACTINGSERVICES",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Logistics (Airlines/Shipping/Transportation/Couriers)",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -5170,7 +5219,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Fashion/Retail"
+      "Banking and Financial Services"
     ],
     "floorspace": 6402,
     "rentPerSqFt": 48,
@@ -5185,7 +5234,7 @@
     "canonicalName": "FENDIHONGKONG",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Fashion/Retail",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -5196,7 +5245,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Professional and Business Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 26818,
     "rentPerSqFt": 59,
@@ -5211,7 +5260,7 @@
     "canonicalName": "ISSFACILITYSERVICES",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Professional and Business Services",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -5396,34 +5445,114 @@
     "country": "",
     "salesMonthly": [
       {
+        "month": "2023-09",
+        "sales": 360765
+      },
+      {
+        "month": "2023-10",
+        "sales": 373986
+      },
+      {
+        "month": "2023-11",
+        "sales": 389426
+      },
+      {
+        "month": "2023-12",
+        "sales": 440759
+      },
+      {
         "month": "2024-01",
-        "sales": 280000
+        "sales": 422237
       },
       {
         "month": "2024-02",
-        "sales": 260000
+        "sales": 367198
       },
       {
         "month": "2024-03",
-        "sales": 300000
+        "sales": 399361
       },
       {
         "month": "2024-04",
-        "sales": 310000
+        "sales": 377971
       },
       {
         "month": "2024-05",
-        "sales": 325000
+        "sales": 389529
       },
       {
         "month": "2024-06",
-        "sales": 340000
+        "sales": 369814
+      },
+      {
+        "month": "2024-07",
+        "sales": 360806
+      },
+      {
+        "month": "2024-08",
+        "sales": 366485
+      },
+      {
+        "month": "2024-09",
+        "sales": 370588
+      },
+      {
+        "month": "2024-10",
+        "sales": 370475
+      },
+      {
+        "month": "2024-11",
+        "sales": 389180
+      },
+      {
+        "month": "2024-12",
+        "sales": 462838
+      },
+      {
+        "month": "2025-01",
+        "sales": 410767
+      },
+      {
+        "month": "2025-02",
+        "sales": 395046
+      },
+      {
+        "month": "2025-03",
+        "sales": 389116
+      },
+      {
+        "month": "2025-04",
+        "sales": 382745
+      },
+      {
+        "month": "2025-05",
+        "sales": 409380
+      },
+      {
+        "month": "2025-06",
+        "sales": 370748
+      },
+      {
+        "month": "2025-07",
+        "sales": 371509
+      },
+      {
+        "month": "2025-08",
+        "sales": 373512
       }
     ],
     "salesByYear": [
       {
+        "year": "2023",
+        "sales": 1564936
+      },
+      {
         "year": "2024",
-        "sales": 1815000
+        "sales": 4646482
+      },
+      {
+        "year": "2025",
+        "sales": 3102823
       }
     ],
     "visitsDaily": [
@@ -5535,8 +5664,8 @@
     "landUse": "Retail (Land Use)",
     "tags": [
       "Retail (Land Use)",
-      "F&B",
-      "Café"
+      "Trade Categories",
+      "Banking and Financial Services"
     ],
     "floorspace": 398,
     "rentPerSqFt": 63,
@@ -5550,8 +5679,8 @@
     "floor": "",
     "canonicalName": "MAISONKAYSER",
     "_amenity": false,
-    "_secondary": "F&B",
-    "_tertiary": "Café",
+    "_secondary": "Trade Categories",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -5562,7 +5691,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Sourcing and Trading"
+      "Banking and Financial Services"
     ],
     "floorspace": 260,
     "rentPerSqFt": 54,
@@ -5577,7 +5706,7 @@
     "canonicalName": "LIQUIDGOLDCORPORATION",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Sourcing and Trading",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -5587,8 +5716,8 @@
     "landUse": "Retail (Land Use)",
     "tags": [
       "Retail (Land Use)",
-      "Trade Categories",
-      "Fashion/Retail"
+      "F&B",
+      "Banking and Financial Services"
     ],
     "floorspace": 367,
     "rentPerSqFt": 45,
@@ -5602,8 +5731,8 @@
     "floor": "G/F",
     "canonicalName": "HEYBO",
     "_amenity": false,
-    "_secondary": "Trade Categories",
-    "_tertiary": "Fashion/Retail",
+    "_secondary": "F&B",
+    "_tertiary": "Banking and Financial Services",
     "country": "",
     "salesMonthly": [
       {
@@ -5719,8 +5848,9 @@
     "landUse": "Retail (Land Use)",
     "tags": [
       "Retail (Land Use)",
-      "Trade Categories",
-      "Fashion/Retail"
+      "F&B",
+      "Banking and Financial Services",
+      "Restaurant"
     ],
     "floorspace": 3207,
     "rentPerSqFt": 58,
@@ -5734,8 +5864,8 @@
     "floor": "",
     "canonicalName": "YUNGSBISTRO",
     "_amenity": false,
-    "_secondary": "Trade Categories",
-    "_tertiary": "Fashion/Retail",
+    "_secondary": "F&B",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -5746,7 +5876,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Technology Media and Telecoms (TMT)"
+      "Banking and Financial Services"
     ],
     "floorspace": 21524,
     "rentPerSqFt": 61,
@@ -5761,7 +5891,7 @@
     "canonicalName": "LENOVOGROUPCHINA",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Technology Media and Telecoms (TMT)",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -5798,7 +5928,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Fashion/Retail"
+      "Banking and Financial Services"
     ],
     "floorspace": 14269,
     "rentPerSqFt": 42,
@@ -5813,7 +5943,7 @@
     "canonicalName": "GUCCIGROUPHONGKONG",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Fashion/Retail",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -5824,7 +5954,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Manufacturing"
+      "Banking and Financial Services"
     ],
     "floorspace": 2721,
     "rentPerSqFt": 52,
@@ -5839,7 +5969,7 @@
     "canonicalName": "GROBEST",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Manufacturing",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -5988,7 +6118,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Insurance"
+      "Banking and Financial Services"
     ],
     "floorspace": 13962,
     "rentPerSqFt": 63,
@@ -6003,7 +6133,7 @@
     "canonicalName": "HENGANSTANDARDLIFE",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Insurance",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -6040,7 +6170,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Legal Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 13962,
     "rentPerSqFt": 46,
@@ -6055,7 +6185,7 @@
     "canonicalName": "INCE",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Legal Services",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -6086,52 +6216,100 @@
     "country": "",
     "membershipsMonthly": [
       {
+        "month": "2023-09",
+        "members": 868
+      },
+      {
+        "month": "2023-10",
+        "members": 802
+      },
+      {
+        "month": "2023-11",
+        "members": 817
+      },
+      {
+        "month": "2023-12",
+        "members": 843
+      },
+      {
         "month": "2024-01",
-        "members": 1200
+        "members": 891
       },
       {
         "month": "2024-02",
-        "members": 1180
+        "members": 801
       },
       {
         "month": "2024-03",
-        "members": 1225
+        "members": 797
       },
       {
         "month": "2024-04",
-        "members": 1250
+        "members": 831
       },
       {
         "month": "2024-05",
-        "members": 1300
+        "members": 858
       },
       {
         "month": "2024-06",
-        "members": 1325
+        "members": 829
       },
       {
         "month": "2024-07",
-        "members": 1350
+        "members": 783
       },
       {
         "month": "2024-08",
-        "members": 1375
+        "members": 806
       },
       {
         "month": "2024-09",
-        "members": 1390
+        "members": 921
       },
       {
         "month": "2024-10",
-        "members": 1410
+        "members": 869
       },
       {
         "month": "2024-11",
-        "members": 1430
+        "members": 853
       },
       {
         "month": "2024-12",
-        "members": 1450
+        "members": 825
+      },
+      {
+        "month": "2025-01",
+        "members": 909
+      },
+      {
+        "month": "2025-02",
+        "members": 829
+      },
+      {
+        "month": "2025-03",
+        "members": 830
+      },
+      {
+        "month": "2025-04",
+        "members": 847
+      },
+      {
+        "month": "2025-05",
+        "members": 894
+      },
+      {
+        "month": "2025-06",
+        "members": 893
+      },
+      {
+        "month": "2025-07",
+        "members": 820
+      },
+      {
+        "month": "2025-08",
+        "members": 862
       }
     ],
     "visitsDaily": [
@@ -6668,7 +6846,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Insurance"
+      "Banking and Financial Services"
     ],
     "floorspace": 8973,
     "rentPerSqFt": 62,
@@ -6683,7 +6861,7 @@
     "canonicalName": "CHUBB",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Insurance",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -7204,7 +7382,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Professional and Business Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 391,
     "rentPerSqFt": 51,
@@ -7219,7 +7397,7 @@
     "canonicalName": "ONEWITHNATURE",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Professional and Business Services",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -7230,7 +7408,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Fashion/Retail"
+      "Banking and Financial Services"
     ],
     "floorspace": 1808,
     "rentPerSqFt": 52,
@@ -7245,18 +7423,19 @@
     "canonicalName": "PASTABASTAOCPICI",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Fashion/Retail",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
     "id": 137,
     "name": "MOX",
     "location": "OXH",
-    "landUse": "Office (Land Use)",
+    "landUse": "Retail (Land Use)",
     "tags": [
-      "Office (Land Use)",
-      "Trade Categories",
-      "Banking and Financial Services"
+      "Retail (Land Use)",
+      "Retail and Convenience",
+      "Banking and Financial Services",
+      "Banking"
     ],
     "floorspace": 20734,
     "rentPerSqFt": 45,
@@ -7270,7 +7449,7 @@
     "floor": "40/F",
     "canonicalName": "MOX",
     "_amenity": false,
-    "_secondary": "Trade Categories",
+    "_secondary": "Retail and Convenience",
     "_tertiary": "Banking and Financial Services",
     "country": ""
   },
@@ -7282,7 +7461,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Media"
+      "Banking and Financial Services"
     ],
     "floorspace": 10367,
     "rentPerSqFt": 48,
@@ -7297,7 +7476,7 @@
     "canonicalName": "THEWALTDISNEYHONGKONG",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Media",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -7308,7 +7487,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Legal Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 11314,
     "rentPerSqFt": 55,
@@ -7323,7 +7502,7 @@
     "canonicalName": "KENNEDYS",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Legal Services",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -7334,7 +7513,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Professional and Business Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 18050,
     "rentPerSqFt": 58,
@@ -7349,7 +7528,7 @@
     "canonicalName": "FTI",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Professional and Business Services",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -7360,7 +7539,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Manufacturing"
+      "Banking and Financial Services"
     ],
     "floorspace": 4578,
     "rentPerSqFt": 48,
@@ -7375,7 +7554,7 @@
     "canonicalName": "SWIRECOCACOLA",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Manufacturing",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -7438,7 +7617,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Technology Media and Telecoms (TMT)"
+      "Banking and Financial Services"
     ],
     "floorspace": 6594,
     "rentPerSqFt": 48,
@@ -7453,7 +7632,7 @@
     "canonicalName": "CRESTRON",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Technology Media and Telecoms (TMT)",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -7464,7 +7643,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Professional and Business Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 5026,
     "rentPerSqFt": 52,
@@ -7479,7 +7658,7 @@
     "canonicalName": "ASSOCIATIONOFCHARTEREDCERTIFIEDACCOUNTANTS",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Professional and Business Services",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -7490,7 +7669,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Professional and Business Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 1728,
     "rentPerSqFt": 42,
@@ -7505,7 +7684,7 @@
     "canonicalName": "GOP",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Professional and Business Services",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -7516,7 +7695,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Biotech/Pharmaceutical/Healthcare Products"
+      "Banking and Financial Services"
     ],
     "floorspace": 4560,
     "rentPerSqFt": 49,
@@ -7531,7 +7710,7 @@
     "canonicalName": "ASPEN",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Biotech/Pharmaceutical/Healthcare Products",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -7542,7 +7721,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Manufacturing"
+      "Banking and Financial Services"
     ],
     "floorspace": 11314,
     "rentPerSqFt": 67,
@@ -7557,7 +7736,7 @@
     "canonicalName": "CTBAT",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Manufacturing",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -7594,7 +7773,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Manufacturing"
+      "Banking and Financial Services"
     ],
     "floorspace": 2425,
     "rentPerSqFt": 51,
@@ -7609,18 +7788,18 @@
     "canonicalName": "SINOENERGY",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Manufacturing",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
     "id": 151,
     "name": "VANTIVE HEALTHCARE LIMITED",
     "location": "OXH",
-    "landUse": "Office (Land Use)",
+    "landUse": "Retail (Land Use)",
     "tags": [
-      "Office (Land Use)",
-      "Trade Categories",
-      "Biotech/Pharmaceutical/Healthcare Products"
+      "Retail (Land Use)",
+      "Healthcare",
+      "Dental Clinic"
     ],
     "floorspace": 6283,
     "rentPerSqFt": 62,
@@ -7634,8 +7813,8 @@
     "floor": "",
     "canonicalName": "VANTIVEHEALTHCARE",
     "_amenity": false,
-    "_secondary": "Trade Categories",
-    "_tertiary": "Biotech/Pharmaceutical/Healthcare Products",
+    "_secondary": "Healthcare",
+    "_tertiary": "Dental Clinic",
     "country": ""
   },
   {
@@ -7646,7 +7825,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Fashion/Retail"
+      "Banking and Financial Services"
     ],
     "floorspace": 11314,
     "rentPerSqFt": 42,
@@ -7661,7 +7840,7 @@
     "canonicalName": "BULGARIASIAPACIFIC",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Fashion/Retail",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -7672,7 +7851,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Fashion/Retail"
+      "Banking and Financial Services"
     ],
     "floorspace": 11314,
     "rentPerSqFt": 52,
@@ -7687,7 +7866,7 @@
     "canonicalName": "LVMHWATCHJEWELLERYHONGKONG",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Fashion/Retail",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -7698,7 +7877,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Professional and Business Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 11314,
     "rentPerSqFt": 70,
@@ -7713,7 +7892,7 @@
     "canonicalName": "NIKOYOHK",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Professional and Business Services",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -7724,7 +7903,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Manufacturing"
+      "Banking and Financial Services"
     ],
     "floorspace": 5457,
     "rentPerSqFt": 55,
@@ -7739,7 +7918,7 @@
     "canonicalName": "WORMSSAFETY",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Manufacturing",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -7749,8 +7928,10 @@
     "landUse": "Office (Land Use)",
     "tags": [
       "Office (Land Use)",
-      "Trade Categories",
-      "Biotech/Pharmaceutical/Healthcare Products"
+      "Business",
+      "Community",
+      "and Social Spaces",
+      "Event Space"
     ],
     "floorspace": 11292,
     "rentPerSqFt": 64,
@@ -7764,8 +7945,8 @@
     "floor": "19/F",
     "canonicalName": "SEVENTHDAYADVENTISTCORPORATIONHK",
     "_amenity": false,
-    "_secondary": "Trade Categories",
-    "_tertiary": "Biotech/Pharmaceutical/Healthcare Products",
+    "_secondary": "Business",
+    "_tertiary": "Community",
     "country": "",
     "membershipsMonthly": [
       {
@@ -8260,7 +8441,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Technology Media and Telecoms (TMT)"
+      "Banking and Financial Services"
     ],
     "floorspace": 11292,
     "rentPerSqFt": 41,
@@ -8275,7 +8456,7 @@
     "canonicalName": "DELLHONGKONG",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Technology Media and Telecoms (TMT)",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -8286,7 +8467,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Fashion/Retail"
+      "Banking and Financial Services"
     ],
     "floorspace": 7983,
     "rentPerSqFt": 60,
@@ -8301,7 +8482,7 @@
     "canonicalName": "THEDAIRYFARM",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Fashion/Retail",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -8312,7 +8493,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Hotels/Travel Agency"
+      "Banking and Financial Services"
     ],
     "floorspace": 7153,
     "rentPerSqFt": 41,
@@ -8327,7 +8508,7 @@
     "canonicalName": "PRIORITYPASSAP",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Hotels/Travel Agency",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -8338,7 +8519,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Fashion/Retail"
+      "Banking and Financial Services"
     ],
     "floorspace": 10743,
     "rentPerSqFt": 66,
@@ -8353,7 +8534,7 @@
     "canonicalName": "AMWAYHONGKONG",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Fashion/Retail",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -8364,7 +8545,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Biotech/Pharmaceutical/Healthcare Products"
+      "Banking and Financial Services"
     ],
     "floorspace": 10916,
     "rentPerSqFt": 61,
@@ -8379,7 +8560,7 @@
     "canonicalName": "BAYER",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Biotech/Pharmaceutical/Healthcare Products",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -8390,7 +8571,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Technology Media and Telecoms (TMT)"
+      "Banking and Financial Services"
     ],
     "floorspace": 10916,
     "rentPerSqFt": 64,
@@ -8405,7 +8586,7 @@
     "canonicalName": "NCR",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Technology Media and Telecoms (TMT)",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -8416,7 +8597,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Media"
+      "Banking and Financial Services"
     ],
     "floorspace": 10916,
     "rentPerSqFt": 52,
@@ -8431,7 +8612,7 @@
     "canonicalName": "RELX",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Media",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -8442,7 +8623,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Legal Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 8054,
     "rentPerSqFt": 60,
@@ -8457,7 +8638,7 @@
     "canonicalName": "BRYANCAVELEIGHTONPAISNERLLP",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Legal Services",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -8468,7 +8649,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Professional and Business Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 43664,
     "rentPerSqFt": 68,
@@ -8483,7 +8664,7 @@
     "canonicalName": "EY",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Professional and Business Services",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -8494,7 +8675,7 @@
     "tags": [
       "Retail (Land Use)",
       "Trade Categories",
-      "Fashion/Retail"
+      "Banking and Financial Services"
     ],
     "floorspace": 10916,
     "rentPerSqFt": 68,
@@ -8509,16 +8690,16 @@
     "canonicalName": "ONTHELIST",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Fashion/Retail",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
     "id": 167,
     "name": "QUALITY HEALTHCARE MEDICAL CENTRE LIMITED",
     "location": "OXH",
-    "landUse": "Office (Land Use)",
+    "landUse": "Retail (Land Use)",
     "tags": [
-      "Office (Land Use)",
+      "Retail (Land Use)",
       "Healthcare",
       "Medical Clinic",
       "Amenity"
@@ -8839,7 +9020,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Fashion/Retail"
+      "Banking and Financial Services"
     ],
     "floorspace": 2067,
     "rentPerSqFt": 50,
@@ -8854,7 +9035,7 @@
     "canonicalName": "FRITESTAIKOOPLACE",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Fashion/Retail",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -8865,7 +9046,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Technology Media and Telecoms (TMT)"
+      "Banking and Financial Services"
     ],
     "floorspace": 244763,
     "rentPerSqFt": 54,
@@ -8880,7 +9061,7 @@
     "canonicalName": "HKT",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Technology Media and Telecoms (TMT)",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -8891,7 +9072,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Marketing"
+      "Banking and Financial Services"
     ],
     "floorspace": 20419,
     "rentPerSqFt": 65,
@@ -8906,7 +9087,7 @@
     "canonicalName": "IPG",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Marketing",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -8917,7 +9098,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Technology Media and Telecoms (TMT)"
+      "Banking and Financial Services"
     ],
     "floorspace": 14728,
     "rentPerSqFt": 68,
@@ -8932,7 +9113,7 @@
     "canonicalName": "JOBSDB",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Technology Media and Telecoms (TMT)",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -8969,7 +9150,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Professional and Business Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 3975,
     "rentPerSqFt": 45,
@@ -8984,7 +9165,7 @@
     "canonicalName": "TRITON",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Professional and Business Services",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -9021,7 +9202,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Fashion/Retail"
+      "Banking and Financial Services"
     ],
     "floorspace": 3126,
     "rentPerSqFt": 66,
@@ -9036,7 +9217,7 @@
     "canonicalName": "CANALIFAREAST",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Fashion/Retail",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -9099,7 +9280,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Technology Media and Telecoms (TMT)"
+      "Banking and Financial Services"
     ],
     "floorspace": 42675,
     "rentPerSqFt": 53,
@@ -9114,7 +9295,7 @@
     "canonicalName": "IBMCHINAHONGKONG",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Technology Media and Telecoms (TMT)",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -9145,52 +9326,100 @@
     "country": "",
     "membershipsMonthly": [
       {
+        "month": "2023-09",
+        "members": 1335
+      },
+      {
+        "month": "2023-10",
+        "members": 1299
+      },
+      {
+        "month": "2023-11",
+        "members": 1230
+      },
+      {
+        "month": "2023-12",
+        "members": 1307
+      },
+      {
         "month": "2024-01",
-        "members": 1200
+        "members": 1364
       },
       {
         "month": "2024-02",
-        "members": 1180
+        "members": 1237
       },
       {
         "month": "2024-03",
-        "members": 1225
+        "members": 1279
       },
       {
         "month": "2024-04",
-        "members": 1250
+        "members": 1286
       },
       {
         "month": "2024-05",
-        "members": 1300
+        "members": 1304
       },
       {
         "month": "2024-06",
-        "members": 1325
+        "members": 1320
       },
       {
         "month": "2024-07",
-        "members": 1350
+        "members": 1203
       },
       {
         "month": "2024-08",
-        "members": 1375
+        "members": 1329
       },
       {
         "month": "2024-09",
-        "members": 1390
+        "members": 1378
       },
       {
         "month": "2024-10",
-        "members": 1410
+        "members": 1357
       },
       {
         "month": "2024-11",
-        "members": 1430
+        "members": 1280
       },
       {
         "month": "2024-12",
-        "members": 1450
+        "members": 1362
+      },
+      {
+        "month": "2025-01",
+        "members": 1433
+      },
+      {
+        "month": "2025-02",
+        "members": 1316
+      },
+      {
+        "month": "2025-03",
+        "members": 1308
+      },
+      {
+        "month": "2025-04",
+        "members": 1385
+      },
+      {
+        "month": "2025-05",
+        "members": 1308
+      },
+      {
+        "month": "2025-06",
+        "members": 1317
+      },
+      {
+        "month": "2025-07",
+        "members": 1240
+      },
+      {
+        "month": "2025-08",
+        "members": 1376
       }
     ],
     "visitsDaily": [
@@ -9873,33 +10102,7 @@
     "_tertiary": "Restaurant",
     "country": ""
   },
-  {
-    "id": 207,
-    "name": "Maya | The Cakery",
-    "location": "PCT",
-    "landUse": "Retail (Land Use)",
-    "tags": [
-      "Retail (Land Use)",
-      "F&B",
-      "Café",
-      "Amenity"
-    ],
-    "floorspace": 463,
-    "rentPerSqFt": 41,
-    "monthlyRent": 18983,
-    "annualRent": 227796,
-    "premium": false,
-    "leaseYears": 0,
-    "leaseStart": "",
-    "leaseEnd": "",
-    "occupancyRate": 0,
-    "floor": "",
-    "canonicalName": "MAYATHECAKERY",
-    "_amenity": false,
-    "_secondary": "F&B",
-    "_tertiary": "Café",
-    "country": ""
-  },
+  
   {
     "id": 208,
     "name": "SWIRE PROPERTIES LIMITED",
@@ -9908,7 +10111,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Real Estate and Construction"
+      "Banking and Financial Services"
     ],
     "floorspace": 42732,
     "rentPerSqFt": 43,
@@ -9923,7 +10126,7 @@
     "canonicalName": "SWIREPROPERTIES",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Real Estate and Construction",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -9960,7 +10163,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Insurance"
+      "Banking and Financial Services"
     ],
     "floorspace": 43324,
     "rentPerSqFt": 43,
@@ -9975,7 +10178,7 @@
     "canonicalName": "PRUDENTIAL",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Insurance",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -9986,7 +10189,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Insurance"
+      "Banking and Financial Services"
     ],
     "floorspace": 17360,
     "rentPerSqFt": 68,
@@ -10001,7 +10204,7 @@
     "canonicalName": "TRANSAMERICALIFEBERMUDA",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Insurance",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -10012,7 +10215,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Manufacturing"
+      "Banking and Financial Services"
     ],
     "floorspace": 16990,
     "rentPerSqFt": 62.970276633313716,
@@ -10027,7 +10230,7 @@
     "canonicalName": "HUACHINMINING",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Manufacturing",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -10064,7 +10267,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Legal Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 43196,
     "rentPerSqFt": 59,
@@ -10079,7 +10282,7 @@
     "canonicalName": "FRESHFIELDSSERVICES",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Legal Services",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -10090,7 +10293,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Technology Media and Telecoms (TMT)"
+      "Banking and Financial Services"
     ],
     "floorspace": 5923,
     "rentPerSqFt": 55,
@@ -10105,7 +10308,7 @@
     "canonicalName": "SKHYNIX",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Technology Media and Telecoms (TMT)",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -10116,7 +10319,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Manufacturing"
+      "Banking and Financial Services"
     ],
     "floorspace": 21549,
     "rentPerSqFt": 43,
@@ -10131,7 +10334,7 @@
     "canonicalName": "COVESTROHONGKONG",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Manufacturing",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -10142,7 +10345,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Technology Media and Telecoms (TMT)"
+      "Banking and Financial Services"
     ],
     "floorspace": 6203,
     "rentPerSqFt": 46,
@@ -10157,7 +10360,7 @@
     "canonicalName": "CAPGEMINIHONGKONG",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Technology Media and Telecoms (TMT)",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -10168,7 +10371,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Manufacturing"
+      "Banking and Financial Services"
     ],
     "floorspace": 5365,
     "rentPerSqFt": 63,
@@ -10183,7 +10386,7 @@
     "canonicalName": "HH",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Manufacturing",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -10220,7 +10423,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Insurance"
+      "Banking and Financial Services"
     ],
     "floorspace": 42549,
     "rentPerSqFt": 63,
@@ -10235,7 +10438,7 @@
     "canonicalName": "AON",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Insurance",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -10272,7 +10475,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Legal Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 7618,
     "rentPerSqFt": 62,
@@ -10287,7 +10490,7 @@
     "canonicalName": "SQUIREPATTONBOGGS",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Legal Services",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -10298,7 +10501,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Real Estate and Construction"
+      "Banking and Financial Services"
     ],
     "floorspace": 42646,
     "rentPerSqFt": 55,
@@ -10313,7 +10516,7 @@
     "canonicalName": "AEDAS",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Real Estate and Construction",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -10324,7 +10527,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Real Estate and Construction"
+      "Banking and Financial Services"
     ],
     "floorspace": 21323,
     "rentPerSqFt": 68,
@@ -10339,7 +10542,7 @@
     "canonicalName": "CUSHMANWAKEFIELD",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Real Estate and Construction",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -10350,7 +10553,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Insurance"
+      "Banking and Financial Services"
     ],
     "floorspace": 42582,
     "rentPerSqFt": 60,
@@ -10365,18 +10568,19 @@
     "canonicalName": "ZURICHSERVICESHONGKONG",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Insurance",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
     "id": 205,
     "name": "VIATRIS HEALTHCARE HONG KONG LIMITED",
     "location": "OIE",
-    "landUse": "Office (Land Use)",
+    "landUse": "Retail (Land Use)",
     "tags": [
-      "Office (Land Use)",
-      "Trade Categories",
-      "Biotech/Pharmaceutical/Healthcare Products"
+      "Retail (Land Use)",
+      "Healthcare",
+      "Biotech/Pharmaceuticals/Healthcare Products",
+      "Dental Clinic"
     ],
     "floorspace": 12688,
     "rentPerSqFt": 58,
@@ -10390,8 +10594,8 @@
     "floor": "",
     "canonicalName": "VIATRISHEALTHCAREHONGKONG",
     "_amenity": false,
-    "_secondary": "Trade Categories",
-    "_tertiary": "Biotech/Pharmaceutical/Healthcare Products",
+    "_secondary": "Healthcare",
+    "_tertiary": "Biotech/Pharmaceuticals/Healthcare Products",
     "country": ""
   },
   {
@@ -10479,7 +10683,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Legal Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 20634,
     "rentPerSqFt": 47,
@@ -10494,7 +10698,7 @@
     "canonicalName": "REEDSMITH",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Legal Services",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -10644,7 +10848,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Hotels/Travel Agency"
+      "Banking and Financial Services"
     ],
     "floorspace": 20268,
     "rentPerSqFt": 56,
@@ -10659,7 +10863,7 @@
     "canonicalName": "MOHG",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Hotels/Travel Agency",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -10722,7 +10926,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Biotech/Pharmaceutical/Healthcare Products"
+      "Banking and Financial Services"
     ],
     "floorspace": 6537,
     "rentPerSqFt": 61,
@@ -10737,7 +10941,7 @@
     "canonicalName": "AMGEN",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Biotech/Pharmaceutical/Healthcare Products",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -10748,7 +10952,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Professional and Business Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 19773,
     "rentPerSqFt": 67,
@@ -10763,7 +10967,7 @@
     "canonicalName": "ACCENTURE",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Professional and Business Services",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -10907,7 +11111,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Technology Media and Telecoms (TMT)"
+      "Banking and Financial Services"
     ],
     "floorspace": 87325,
     "rentPerSqFt": 51,
@@ -10922,7 +11126,7 @@
     "canonicalName": "FACEBOOKHONGKONG",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Technology Media and Telecoms (TMT)",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -10933,7 +11137,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Legal Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 21853,
     "rentPerSqFt": 44,
@@ -10948,7 +11152,7 @@
     "canonicalName": "STEPHENSONHARWOOD",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Legal Services",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -11098,7 +11302,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Professional and Business Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 21853,
     "rentPerSqFt": 44,
@@ -11113,7 +11317,7 @@
     "canonicalName": "VEOLIA",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Professional and Business Services",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -11124,7 +11328,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Insurance"
+      "Banking and Financial Services"
     ],
     "floorspace": 21853,
     "rentPerSqFt": 52,
@@ -11139,7 +11343,7 @@
     "canonicalName": "CHUBB",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Insurance",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -11176,7 +11380,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Legal Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 21853,
     "rentPerSqFt": 42,
@@ -11191,7 +11395,7 @@
     "canonicalName": "EVERSHEDS",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Legal Services",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -11228,7 +11432,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Legal Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 10719,
     "rentPerSqFt": 53,
@@ -11243,7 +11447,7 @@
     "canonicalName": "RPC",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Legal Services",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -11254,7 +11458,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Insurance"
+      "Banking and Financial Services"
     ],
     "floorspace": 38166,
     "rentPerSqFt": 62,
@@ -11269,7 +11473,7 @@
     "canonicalName": "MMC",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Insurance",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -11280,7 +11484,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Manufacturing"
+      "Banking and Financial Services"
     ],
     "floorspace": 3831,
     "rentPerSqFt": 66,
@@ -11295,7 +11499,7 @@
     "canonicalName": "JTHONGKONGHOLDINGS",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Manufacturing",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -11332,7 +11536,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Legal Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 41812,
     "rentPerSqFt": 55.5,
@@ -11347,7 +11551,7 @@
     "canonicalName": "SIMMONSSIMMONS",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Legal Services",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -11358,7 +11562,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Fashion/Retail"
+      "Banking and Financial Services"
     ],
     "floorspace": 32715,
     "rentPerSqFt": 52,
@@ -11373,7 +11577,7 @@
     "canonicalName": "KERING",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Fashion/Retail",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -11383,8 +11587,9 @@
     "landUse": "Retail (Land Use)",
     "tags": [
       "Retail (Land Use)",
-      "Trade Categories",
-      "Professional and Business Services"
+      "Third Space",
+      "Banking and Financial Services",
+      "Co-working spaces"
     ],
     "floorspace": 20773,
     "rentPerSqFt": 44,
@@ -11398,8 +11603,8 @@
     "floor": "23/F",
     "canonicalName": "THEGREATROOM",
     "_amenity": false,
-    "_secondary": "Trade Categories",
-    "_tertiary": "Professional and Business Services",
+    "_secondary": "Third Space",
+    "_tertiary": "Banking and Financial Services",
     "country": "",
     "membershipsMonthly": [
       {
@@ -11460,7 +11665,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Insurance"
+      "Banking and Financial Services"
     ],
     "floorspace": 9813,
     "rentPerSqFt": 69,
@@ -11475,7 +11680,7 @@
     "canonicalName": "GUYCARPENTER",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Insurance",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -11486,7 +11691,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Legal Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 10960,
     "rentPerSqFt": 61,
@@ -11501,7 +11706,7 @@
     "canonicalName": "GUANTAOCHOW",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Legal Services",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -11512,7 +11717,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Fashion/Retail"
+      "Banking and Financial Services"
     ],
     "floorspace": 60936,
     "rentPerSqFt": 69,
@@ -11527,7 +11732,7 @@
     "canonicalName": "DFSGROUP",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Fashion/Retail",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -11538,7 +11743,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Professional and Business Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 81080,
     "rentPerSqFt": 60,
@@ -11553,7 +11758,7 @@
     "canonicalName": "BMCKSERVICES",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Professional and Business Services",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -11564,7 +11769,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Real Estate and Construction"
+      "Banking and Financial Services"
     ],
     "floorspace": 1177,
     "rentPerSqFt": 55.78174097664544,
@@ -11579,7 +11784,7 @@
     "canonicalName": "SWIREPROPERTIESMANAGEMENT",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Real Estate and Construction",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -11590,7 +11795,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Insurance"
+      "Banking and Financial Services"
     ],
     "floorspace": 20270,
     "rentPerSqFt": 57,
@@ -11605,7 +11810,7 @@
     "canonicalName": "METLIFE",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Insurance",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -11616,7 +11821,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Fashion/Retail"
+      "Banking and Financial Services"
     ],
     "floorspace": 20270,
     "rentPerSqFt": 48,
@@ -11631,7 +11836,7 @@
     "canonicalName": "PRADAASIAPACIFIC",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Fashion/Retail",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -11642,7 +11847,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Real Estate and Construction"
+      "Banking and Financial Services"
     ],
     "floorspace": 40540,
     "rentPerSqFt": 45,
@@ -11657,7 +11862,7 @@
     "canonicalName": "JONESLANGLASALLE",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Real Estate and Construction",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -11688,52 +11893,100 @@
     "country": "",
     "membershipsMonthly": [
       {
+        "month": "2023-09",
+        "members": 1610
+      },
+      {
+        "month": "2023-10",
+        "members": 1601
+      },
+      {
+        "month": "2023-11",
+        "members": 1624
+      },
+      {
+        "month": "2023-12",
+        "members": 1610
+      },
+      {
         "month": "2024-01",
-        "members": 1200
+        "members": 1689
       },
       {
         "month": "2024-02",
-        "members": 1180
+        "members": 1621
       },
       {
         "month": "2024-03",
-        "members": 1225
+        "members": 1599
       },
       {
         "month": "2024-04",
-        "members": 1250
+        "members": 1511
       },
       {
         "month": "2024-05",
-        "members": 1300
+        "members": 1555
       },
       {
         "month": "2024-06",
-        "members": 1325
+        "members": 1569
       },
       {
         "month": "2024-07",
-        "members": 1350
+        "members": 1480
       },
       {
         "month": "2024-08",
-        "members": 1375
+        "members": 1492
       },
       {
         "month": "2024-09",
-        "members": 1390
+        "members": 1637
       },
       {
         "month": "2024-10",
-        "members": 1410
+        "members": 1587
       },
       {
         "month": "2024-11",
-        "members": 1430
+        "members": 1575
       },
       {
         "month": "2024-12",
-        "members": 1450
+        "members": 1542
+      },
+      {
+        "month": "2025-01",
+        "members": 1657
+      },
+      {
+        "month": "2025-02",
+        "members": 1584
+      },
+      {
+        "month": "2025-03",
+        "members": 1553
+      },
+      {
+        "month": "2025-04",
+        "members": 1514
+      },
+      {
+        "month": "2025-05",
+        "members": 1531
+      },
+      {
+        "month": "2025-06",
+        "members": 1566
+      },
+      {
+        "month": "2025-07",
+        "members": 1428
+      },
+      {
+        "month": "2025-08",
+        "members": 1472
       }
     ],
     "visitsDaily": [
@@ -12403,7 +12656,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Professional and Business Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 24189,
     "rentPerSqFt": 63,
@@ -12418,7 +12671,7 @@
     "canonicalName": "BCG",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Professional and Business Services",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -12429,7 +12682,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Manufacturing"
+      "Banking and Financial Services"
     ],
     "floorspace": 36663,
     "rentPerSqFt": 40,
@@ -12444,7 +12697,7 @@
     "canonicalName": "BASF",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Manufacturing",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -12455,7 +12708,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Legal Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 7991,
     "rentPerSqFt": 55,
@@ -12470,7 +12723,7 @@
     "canonicalName": "APPLEBY",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Legal Services",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -12481,7 +12734,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Fashion/Retail"
+      "Banking and Financial Services"
     ],
     "floorspace": 14142,
     "rentPerSqFt": 63,
@@ -12496,7 +12749,7 @@
     "canonicalName": "LAPRAIRIEHONGKONG",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Fashion/Retail",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -12559,7 +12812,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Biotech/Pharmaceutical/Healthcare Products"
+      "Banking and Financial Services"
     ],
     "floorspace": 23556,
     "rentPerSqFt": 41,
@@ -12574,7 +12827,7 @@
     "canonicalName": "NEODERM",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Biotech/Pharmaceutical/Healthcare Products",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -12585,7 +12838,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Fashion/Retail"
+      "Banking and Financial Services"
     ],
     "floorspace": 47169,
     "rentPerSqFt": 66,
@@ -12600,7 +12853,7 @@
     "canonicalName": "LV",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Fashion/Retail",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -12611,7 +12864,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Manufacturing"
+      "Banking and Financial Services"
     ],
     "floorspace": 36475,
     "rentPerSqFt": 44,
@@ -12626,7 +12879,7 @@
     "canonicalName": "PHILIPMORRISASIA",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Manufacturing",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -12637,7 +12890,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Fashion/Retail"
+      "Banking and Financial Services"
     ],
     "floorspace": 9003,
     "rentPerSqFt": 57,
@@ -12652,7 +12905,7 @@
     "canonicalName": "DECKERS",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Fashion/Retail",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -12663,7 +12916,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Professional and Business Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 3603,
     "rentPerSqFt": 43,
@@ -12678,7 +12931,7 @@
     "canonicalName": "ANKURA",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Professional and Business Services",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -12689,7 +12942,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Government"
+      "Banking and Financial Services"
     ],
     "floorspace": 34580,
     "rentPerSqFt": 53,
@@ -12704,7 +12957,7 @@
     "canonicalName": "AFRC",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Government",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -12854,7 +13107,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Professional and Business Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 4099,
     "rentPerSqFt": 64,
@@ -12869,7 +13122,7 @@
     "canonicalName": "SPHML",
     "_amenity": false,
     "_secondary": "Trade Categories",
-    "_tertiary": "Professional and Business Services",
+    "_tertiary": "Banking and Financial Services",
     "country": ""
   },
   {
@@ -13147,7 +13400,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Professional and Business Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 52899,
     "rentPerSqFt": 42.27017694207794,
@@ -13159,7 +13412,7 @@
     "floor": "27/F",
     "canonicalName": "EY",
     "_secondary": "Trade Categories",
-    "_tertiary": "Professional and Business Services"
+    "_tertiary": "Banking and Financial Services"
   },
   {
     "id": 264,
@@ -13170,7 +13423,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Professional and Business Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 52898,
     "rentPerSqFt": 42.27017694207794,
@@ -13182,7 +13435,7 @@
     "floor": "22/F",
     "canonicalName": "EY",
     "_secondary": "Trade Categories",
-    "_tertiary": "Professional and Business Services"
+    "_tertiary": "Banking and Financial Services"
   },
   {
     "id": 269,
@@ -13193,7 +13446,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Professional and Business Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 20259,
     "rentPerSqFt": 48.50407226417888,
@@ -13205,7 +13458,7 @@
     "floor": "10/F",
     "canonicalName": "JSSHK",
     "_secondary": "Trade Categories",
-    "_tertiary": "Professional and Business Services"
+    "_tertiary": "Banking and Financial Services"
   },
   {
     "id": 273,
@@ -13216,7 +13469,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Professional and Business Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 20259,
     "rentPerSqFt": 48.50407226417888,
@@ -13228,7 +13481,7 @@
     "floor": "5/F",
     "canonicalName": "JSSHK",
     "_secondary": "Trade Categories",
-    "_tertiary": "Professional and Business Services"
+    "_tertiary": "Banking and Financial Services"
   },
   {
     "id": 68,
@@ -13239,7 +13492,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Insurance"
+      "Banking and Financial Services"
     ],
     "floorspace": 107607,
     "rentPerSqFt": 47.0658897655357,
@@ -13251,7 +13504,7 @@
     "floor": "26/F",
     "canonicalName": "FWD",
     "_secondary": "Trade Categories",
-    "_tertiary": "Insurance"
+    "_tertiary": "Banking and Financial Services"
   },
   {
     "id": 274,
@@ -13286,7 +13539,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Professional and Business Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 7074,
     "rentPerSqFt": 55.5,
@@ -13298,7 +13551,7 @@
     "floor": "36/F",
     "canonicalName": "ALPHASIGHTS",
     "_secondary": "Trade Categories",
-    "_tertiary": "Professional and Business Services"
+    "_tertiary": "Banking and Financial Services"
   },
   {
     "id": 276,
@@ -13309,7 +13562,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Professional and Business Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 7074,
     "rentPerSqFt": 55.5,
@@ -13321,7 +13574,7 @@
     "floor": "34/F",
     "canonicalName": "ALPHASIGHTS",
     "_secondary": "Trade Categories",
-    "_tertiary": "Professional and Business Services"
+    "_tertiary": "Banking and Financial Services"
   },
   {
     "id": 277,
@@ -13378,7 +13631,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Insurance"
+      "Banking and Financial Services"
     ],
     "floorspace": 107607,
     "rentPerSqFt": 47.0658897655357,
@@ -13390,7 +13643,7 @@
     "floor": "18/F",
     "canonicalName": "FWD",
     "_secondary": "Trade Categories",
-    "_tertiary": "Insurance"
+    "_tertiary": "Banking and Financial Services"
   },
   {
     "id": 280,
@@ -13401,7 +13654,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Insurance"
+      "Banking and Financial Services"
     ],
     "floorspace": 107607,
     "rentPerSqFt": 47.0658897655357,
@@ -13413,7 +13666,7 @@
     "floor": "16/F",
     "canonicalName": "FWD",
     "_secondary": "Trade Categories",
-    "_tertiary": "Insurance"
+    "_tertiary": "Banking and Financial Services"
   },
   {
     "id": 281,
@@ -13424,7 +13677,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Insurance"
+      "Banking and Financial Services"
     ],
     "floorspace": 107607,
     "rentPerSqFt": 47.0658897655357,
@@ -13436,7 +13689,7 @@
     "floor": "15/F",
     "canonicalName": "FWD",
     "_secondary": "Trade Categories",
-    "_tertiary": "Insurance"
+    "_tertiary": "Banking and Financial Services"
   },
   {
     "id": 282,
@@ -13447,7 +13700,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Insurance"
+      "Banking and Financial Services"
     ],
     "floorspace": 107607,
     "rentPerSqFt": 47.0658897655357,
@@ -13459,7 +13712,7 @@
     "floor": "14/F",
     "canonicalName": "FWD",
     "_secondary": "Trade Categories",
-    "_tertiary": "Insurance"
+    "_tertiary": "Banking and Financial Services"
   },
   {
     "id": 283,
@@ -13470,7 +13723,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Fashion/Retail"
+      "Banking and Financial Services"
     ],
     "floorspace": 21776,
     "rentPerSqFt": 59.985671970792865,
@@ -13482,7 +13735,7 @@
     "floor": "34/F",
     "canonicalName": "PARFUMSCHRISTIANDIORHONGKONG",
     "_secondary": "Trade Categories",
-    "_tertiary": "Fashion/Retail"
+    "_tertiary": "Banking and Financial Services"
   },
   {
     "id": 284,
@@ -13493,7 +13746,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Fashion/Retail"
+      "Banking and Financial Services"
     ],
     "floorspace": 21775,
     "rentPerSqFt": 59.985671970792865,
@@ -13505,7 +13758,7 @@
     "floor": "23/F",
     "canonicalName": "PARFUMSCHRISTIANDIORHONGKONG",
     "_secondary": "Trade Categories",
-    "_tertiary": "Fashion/Retail"
+    "_tertiary": "Banking and Financial Services"
   },
   {
     "id": 285,
@@ -13561,8 +13814,9 @@
     "landUse": "Office (Land Use)",
     "tags": [
       "Office (Land Use)",
-      "Trade Categories",
-      "Technology Media and Telecoms (TMT)"
+      "Third Space",
+      "Banking and Financial Services",
+      "Co-working spaces"
     ],
     "floorspace": 14728,
     "rentPerSqFt": 53.5,
@@ -13573,8 +13827,8 @@
     "leaseEnd": "",
     "floor": "36/F",
     "canonicalName": "TEC",
-    "_secondary": "Trade Categories",
-    "_tertiary": "Technology Media and Telecoms (TMT)"
+    "_secondary": "Third Space",
+    "_tertiary": "Banking and Financial Services"
   },
   {
     "id": 288,
@@ -13584,8 +13838,9 @@
     "landUse": "Office (Land Use)",
     "tags": [
       "Office (Land Use)",
-      "Trade Categories",
-      "Technology Media and Telecoms (TMT)"
+      "Third Space",
+      "Banking and Financial Services",
+      "Co-working spaces"
     ],
     "floorspace": 14728,
     "rentPerSqFt": 53.5,
@@ -13596,8 +13851,8 @@
     "leaseEnd": "",
     "floor": "35/F",
     "canonicalName": "TEC",
-    "_secondary": "Trade Categories",
-    "_tertiary": "Technology Media and Telecoms (TMT)"
+    "_secondary": "Third Space",
+    "_tertiary": "Banking and Financial Services"
   },
   {
     "id": 289,
@@ -13608,7 +13863,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Insurance"
+      "Banking and Financial Services"
     ],
     "floorspace": 15195,
     "rentPerSqFt": 58,
@@ -13620,7 +13875,7 @@
     "floor": "OIE,",
     "canonicalName": "ALLIEDWORLDASSURANCE",
     "_secondary": "Trade Categories",
-    "_tertiary": "Insurance"
+    "_tertiary": "Banking and Financial Services"
   },
   {
     "id": 290,
@@ -13631,7 +13886,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Real Estate and Construction"
+      "Banking and Financial Services"
     ],
     "floorspace": 1178,
     "rentPerSqFt": 55.78174097664544,
@@ -13643,7 +13898,7 @@
     "floor": "19/F",
     "canonicalName": "SWIREPROPERTIESMANAGEMENT",
     "_secondary": "Trade Categories",
-    "_tertiary": "Real Estate and Construction"
+    "_tertiary": "Banking and Financial Services"
   },
   {
     "id": 291,
@@ -13654,7 +13909,7 @@
     "tags": [
       "Office (Land Use)",
       "Trade Categories",
-      "Professional and Business Services"
+      "Banking and Financial Services"
     ],
     "floorspace": 52899,
     "rentPerSqFt": 42.27017694207794,
@@ -13666,54 +13921,6 @@
     "floor": "32/F",
     "canonicalName": "EY",
     "_secondary": "Trade Categories",
-    "_tertiary": "Professional and Business Services"
-  },
-  {
-    "id": 292,
-    "name": "ALLIED WORLD ASSURANCE COMPANY",
-    "location": "LTD",
-    "country": "",
-    "landUse": "N (Land Use)",
-    "tags": [
-      "N (Land Use)",
-      "Office",
-      "Trade Categories"
-    ],
-    "floorspace": 0,
-    "rentPerSqFt": 15195,
-    "monthlyRent": 58,
-    "annualRent": 881310,
-    "leaseYears": 0,
-    "leaseStart": "",
-    "leaseEnd": "",
-    "floor": "OIE",
-    "canonicalName": "ALLIEDWORLDASSURANCE",
-    "_secondary": "Office",
-    "_tertiary": "Trade Categories"
-  },
-  {
-    "id": 293,
-    "name": "Maya Bakery & Bar",
-    "location": "PCT",
-    "country": "",
-    "landUse": "Retail (Land Use)",
-    "tags": [
-      "Retail (Land Use)",
-      "F&B",
-      "Bakery",
-      "Bar",
-      "Amenity"
-    ],
-    "floorspace": 463,
-    "rentPerSqFt": 41,
-    "monthlyRent": 18983,
-    "annualRent": 227796,
-    "leaseYears": 0,
-    "leaseStart": "",
-    "leaseEnd": "",
-    "floor": "",
-    "canonicalName": "MAYABAKERYBAR",
-    "_secondary": "F&B",
-    "_tertiary": "Bakery"
+    "_tertiary": "Banking and Financial Services"
   }
 ]

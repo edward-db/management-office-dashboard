@@ -1,0 +1,52 @@
+[
+  {
+    "location": "BEH",
+    "totalArea": 404301,
+    "vacantArea": 120349
+  },
+  {
+    "location": "CAH",
+    "totalArea": 228938,
+    "vacantArea": 31898
+  },
+  {
+    "location": "DEH",
+    "totalArea": 953912,
+    "vacantArea": 42423
+  },
+  {
+    "location": "DOH",
+    "totalArea": 563668,
+    "vacantArea": 98760
+  },
+  {
+    "location": "LIH",
+    "totalArea": 288078,
+    "vacantArea": 39884
+  },
+  {
+    "location": "OXH",
+    "totalArea": 447441,
+    "vacantArea": 82829
+  },
+  {
+    "location": "PCT",
+    "totalArea": 789091,
+    "vacantArea": 310406
+  },
+  {
+    "location": "OIE",
+    "totalArea": 1110276,
+    "vacantArea": 250916
+  },
+  {
+    "location": "1TP",
+    "totalArea": 904960,
+    "vacantArea": 58112
+  },
+  {
+    "location": "2TP",
+    "totalArea": 839353,
+    "vacantArea": 292062
+  }
+]

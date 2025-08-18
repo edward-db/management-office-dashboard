@@ -13690,30 +13690,5 @@
     "canonicalName": "ALLIEDWORLDASSURANCE",
     "_secondary": "Office",
     "_tertiary": "Trade Categories"
-  },
-  {
-    "id": 293,
-    "name": "Maya Bakery & Bar",
-    "location": "PCT",
-    "country": "",
-    "landUse": "Retail (Land Use)",
-    "tags": [
-      "Retail (Land Use)",
-      "F&B",
-      "Bakery",
-      "Bar",
-      "Amenity"
-    ],
-    "floorspace": 463,
-    "rentPerSqFt": 41,
-    "monthlyRent": 18983,
-    "annualRent": 227796,
-    "leaseYears": 0,
-    "leaseStart": "",
-    "leaseEnd": "",
-    "floor": "",
-    "canonicalName": "MAYABAKERYBAR",
-    "_secondary": "F&B",
-    "_tertiary": "Bakery"
   }
 ]

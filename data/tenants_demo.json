@@ -596,7 +596,119 @@
     "_amenity": false,
     "_secondary": "Retail and Convenience",
     "_tertiary": "Fashion (Shopping)",
-    "country": "Mainland China"
+    "country": "Mainland China",
+    "salesMonthly": [
+      {
+        "month": "2023-09",
+        "sales": 10228442
+      },
+      {
+        "month": "2023-10",
+        "sales": 10061276
+      },
+      {
+        "month": "2023-11",
+        "sales": 10260966
+      },
+      {
+        "month": "2023-12",
+        "sales": 12795572
+      },
+      {
+        "month": "2024-01",
+        "sales": 11225658
+      },
+      {
+        "month": "2024-02",
+        "sales": 9951381
+      },
+      {
+        "month": "2024-03",
+        "sales": 9808224
+      },
+      {
+        "month": "2024-04",
+        "sales": 9786140
+      },
+      {
+        "month": "2024-05",
+        "sales": 10083764
+      },
+      {
+        "month": "2024-06",
+        "sales": 9317492
+      },
+      {
+        "month": "2024-07",
+        "sales": 9278265
+      },
+      {
+        "month": "2024-08",
+        "sales": 9325120
+      },
+      {
+        "month": "2024-09",
+        "sales": 10586292
+      },
+      {
+        "month": "2024-10",
+        "sales": 9997167
+      },
+      {
+        "month": "2024-11",
+        "sales": 10422424
+      },
+      {
+        "month": "2024-12",
+        "sales": 11954046
+      },
+      {
+        "month": "2025-01",
+        "sales": 10507801
+      },
+      {
+        "month": "2025-02",
+        "sales": 10617974
+      },
+      {
+        "month": "2025-03",
+        "sales": 9935042
+      },
+      {
+        "month": "2025-04",
+        "sales": 10392038
+      },
+      {
+        "month": "2025-05",
+        "sales": 9935932
+      },
+      {
+        "month": "2025-06",
+        "sales": 9842855
+      },
+      {
+        "month": "2025-07",
+        "sales": 10071381
+      },
+      {
+        "month": "2025-08",
+        "sales": 10002538
+      }
+    ],
+    "salesByYear": [
+      {
+        "year": "2023",
+        "sales": 43346256
+      },
+      {
+        "year": "2024",
+        "sales": 121735973
+      },
+      {
+        "year": "2025",
+        "sales": 81305561
+      }
+    ]
   },
   {
     "id": 24,
@@ -704,34 +816,114 @@
     "country": "Hong Kong",
     "salesMonthly": [
       {
+        "month": "2023-09",
+        "sales": 753477
+      },
+      {
+        "month": "2023-10",
+        "sales": 754276
+      },
+      {
+        "month": "2023-11",
+        "sales": 808972
+      },
+      {
+        "month": "2023-12",
+        "sales": 966513
+      },
+      {
         "month": "2024-01",
-        "sales": 280000
+        "sales": 841948
       },
       {
         "month": "2024-02",
-        "sales": 260000
+        "sales": 774470
       },
       {
         "month": "2024-03",
-        "sales": 300000
+        "sales": 804247
       },
       {
         "month": "2024-04",
-        "sales": 310000
+        "sales": 803434
       },
       {
         "month": "2024-05",
-        "sales": 325000
+        "sales": 837344
       },
       {
         "month": "2024-06",
-        "sales": 340000
+        "sales": 782504
+      },
+      {
+        "month": "2024-07",
+        "sales": 736937
+      },
+      {
+        "month": "2024-08",
+        "sales": 726856
+      },
+      {
+        "month": "2024-09",
+        "sales": 846485
+      },
+      {
+        "month": "2024-10",
+        "sales": 816177
+      },
+      {
+        "month": "2024-11",
+        "sales": 803255
+      },
+      {
+        "month": "2024-12",
+        "sales": 954173
+      },
+      {
+        "month": "2025-01",
+        "sales": 909872
+      },
+      {
+        "month": "2025-02",
+        "sales": 832336
+      },
+      {
+        "month": "2025-03",
+        "sales": 785469
+      },
+      {
+        "month": "2025-04",
+        "sales": 833560
+      },
+      {
+        "month": "2025-05",
+        "sales": 848886
+      },
+      {
+        "month": "2025-06",
+        "sales": 780911
+      },
+      {
+        "month": "2025-07",
+        "sales": 799985
+      },
+      {
+        "month": "2025-08",
+        "sales": 772354
       }
     ],
     "salesByYear": [
       {
+        "year": "2023",
+        "sales": 3283238
+      },
+      {
         "year": "2024",
-        "sales": 1815000
+        "sales": 9727830
+      },
+      {
+        "year": "2025",
+        "sales": 6563373
       }
     ],
     "visitsDaily": [
@@ -834,7 +1026,119 @@
     "_amenity": false,
     "_secondary": "F&B",
     "_tertiary": "Café",
-    "country": "Hong Kong"
+    "country": "Hong Kong",
+    "salesMonthly": [
+      {
+        "month": "2023-09",
+        "sales": 156204
+      },
+      {
+        "month": "2023-10",
+        "sales": 158933
+      },
+      {
+        "month": "2023-11",
+        "sales": 153662
+      },
+      {
+        "month": "2023-12",
+        "sales": 191241
+      },
+      {
+        "month": "2024-01",
+        "sales": 161082
+      },
+      {
+        "month": "2024-02",
+        "sales": 163468
+      },
+      {
+        "month": "2024-03",
+        "sales": 152765
+      },
+      {
+        "month": "2024-04",
+        "sales": 151086
+      },
+      {
+        "month": "2024-05",
+        "sales": 157474
+      },
+      {
+        "month": "2024-06",
+        "sales": 154103
+      },
+      {
+        "month": "2024-07",
+        "sales": 149404
+      },
+      {
+        "month": "2024-08",
+        "sales": 155057
+      },
+      {
+        "month": "2024-09",
+        "sales": 160281
+      },
+      {
+        "month": "2024-10",
+        "sales": 156784
+      },
+      {
+        "month": "2024-11",
+        "sales": 160534
+      },
+      {
+        "month": "2024-12",
+        "sales": 196726
+      },
+      {
+        "month": "2025-01",
+        "sales": 165161
+      },
+      {
+        "month": "2025-02",
+        "sales": 161441
+      },
+      {
+        "month": "2025-03",
+        "sales": 152085
+      },
+      {
+        "month": "2025-04",
+        "sales": 151666
+      },
+      {
+        "month": "2025-05",
+        "sales": 163973
+      },
+      {
+        "month": "2025-06",
+        "sales": 151580
+      },
+      {
+        "month": "2025-07",
+        "sales": 152127
+      },
+      {
+        "month": "2025-08",
+        "sales": 145828
+      }
+    ],
+    "salesByYear": [
+      {
+        "year": "2023",
+        "sales": 660040
+      },
+      {
+        "year": "2024",
+        "sales": 1918764
+      },
+      {
+        "year": "2025",
+        "sales": 1243861
+      }
+    ]
   },
   {
     "id": 31,
@@ -1254,99 +1558,99 @@
     "membershipsMonthly": [
       {
         "month": "2023-09",
-        "members": 1714
+        "members": 1686
       },
       {
         "month": "2023-10",
-        "members": 1507
+        "members": 1573
       },
       {
         "month": "2023-11",
-        "members": 1553
+        "members": 1529
       },
       {
         "month": "2023-12",
-        "members": 1533
+        "members": 1513
       },
       {
         "month": "2024-01",
-        "members": 1659
+        "members": 1647
       },
       {
         "month": "2024-02",
-        "members": 1507
+        "members": 1558
       },
       {
         "month": "2024-03",
-        "members": 1562
+        "members": 1535
       },
       {
         "month": "2024-04",
-        "members": 1527
+        "members": 1613
       },
       {
         "month": "2024-05",
-        "members": 1593
+        "members": 1513
       },
       {
         "month": "2024-06",
-        "members": 1531
+        "members": 1619
       },
       {
         "month": "2024-07",
-        "members": 1433
+        "members": 1446
       },
       {
         "month": "2024-08",
-        "members": 1583
+        "members": 1637
       },
       {
         "month": "2024-09",
-        "members": 1693
+        "members": 1733
       },
       {
         "month": "2024-10",
-        "members": 1534
+        "members": 1558
       },
       {
         "month": "2024-11",
-        "members": 1560
+        "members": 1615
       },
       {
         "month": "2024-12",
-        "members": 1503
+        "members": 1581
       },
       {
         "month": "2025-01",
-        "members": 1599
+        "members": 1732
       },
       {
         "month": "2025-02",
-        "members": 1537
+        "members": 1648
       },
       {
         "month": "2025-03",
-        "members": 1569
+        "members": 1605
       },
       {
         "month": "2025-04",
-        "members": 1598
+        "members": 1616
       },
       {
         "month": "2025-05",
-        "members": 1551
+        "members": 1665
       },
       {
         "month": "2025-06",
-        "members": 1585
+        "members": 1552
       },
       {
         "month": "2025-07",
-        "members": 1473
+        "members": 1527
       },
       {
         "month": "2025-08",
-        "members": 1583
+        "members": 1607
       }
     ],
     "visitsDaily": [
@@ -2285,52 +2589,100 @@
     "country": "Hong Kong",
     "membershipsMonthly": [
       {
+        "month": "2023-09",
+        "members": 500
+      },
+      {
+        "month": "2023-10",
+        "members": 477
+      },
+      {
+        "month": "2023-11",
+        "members": 466
+      },
+      {
+        "month": "2023-12",
+        "members": 466
+      },
+      {
         "month": "2024-01",
-        "members": 1200
+        "members": 495
       },
       {
         "month": "2024-02",
-        "members": 1180
+        "members": 485
       },
       {
         "month": "2024-03",
-        "members": 1225
+        "members": 482
       },
       {
         "month": "2024-04",
-        "members": 1250
+        "members": 452
       },
       {
         "month": "2024-05",
-        "members": 1300
+        "members": 477
       },
       {
         "month": "2024-06",
-        "members": 1325
+        "members": 453
       },
       {
         "month": "2024-07",
-        "members": 1350
+        "members": 445
       },
       {
         "month": "2024-08",
-        "members": 1375
+        "members": 486
       },
       {
         "month": "2024-09",
-        "members": 1390
+        "members": 482
       },
       {
         "month": "2024-10",
-        "members": 1410
+        "members": 463
       },
       {
         "month": "2024-11",
-        "members": 1430
+        "members": 492
       },
       {
         "month": "2024-12",
-        "members": 1450
+        "members": 480
+      },
+      {
+        "month": "2025-01",
+        "members": 513
+      },
+      {
+        "month": "2025-02",
+        "members": 467
+      },
+      {
+        "month": "2025-03",
+        "members": 472
+      },
+      {
+        "month": "2025-04",
+        "members": 466
+      },
+      {
+        "month": "2025-05",
+        "members": 491
+      },
+      {
+        "month": "2025-06",
+        "members": 486
+      },
+      {
+        "month": "2025-07",
+        "members": 444
+      },
+      {
+        "month": "2025-08",
+        "members": 499
       }
     ],
     "visitsDaily": [
@@ -3339,34 +3691,114 @@
     "country": "Mainland China",
     "salesMonthly": [
       {
+        "month": "2023-09",
+        "sales": 25456265
+      },
+      {
+        "month": "2023-10",
+        "sales": 25223055
+      },
+      {
+        "month": "2023-11",
+        "sales": 23884803
+      },
+      {
+        "month": "2023-12",
+        "sales": 29774937
+      },
+      {
         "month": "2024-01",
-        "sales": 280000
+        "sales": 27313620
       },
       {
         "month": "2024-02",
-        "sales": 260000
+        "sales": 24215738
       },
       {
         "month": "2024-03",
-        "sales": 300000
+        "sales": 23063932
       },
       {
         "month": "2024-04",
-        "sales": 310000
+        "sales": 25317160
       },
       {
         "month": "2024-05",
-        "sales": 325000
+        "sales": 24152695
       },
       {
         "month": "2024-06",
-        "sales": 340000
+        "sales": 22250384
+      },
+      {
+        "month": "2024-07",
+        "sales": 21451050
+      },
+      {
+        "month": "2024-08",
+        "sales": 22429719
+      },
+      {
+        "month": "2024-09",
+        "sales": 24884266
+      },
+      {
+        "month": "2024-10",
+        "sales": 23732931
+      },
+      {
+        "month": "2024-11",
+        "sales": 23545481
+      },
+      {
+        "month": "2024-12",
+        "sales": 28372160
+      },
+      {
+        "month": "2025-01",
+        "sales": 24494454
+      },
+      {
+        "month": "2025-02",
+        "sales": 24014232
+      },
+      {
+        "month": "2025-03",
+        "sales": 23598169
+      },
+      {
+        "month": "2025-04",
+        "sales": 23563557
+      },
+      {
+        "month": "2025-05",
+        "sales": 23250056
+      },
+      {
+        "month": "2025-06",
+        "sales": 21869465
+      },
+      {
+        "month": "2025-07",
+        "sales": 22110411
+      },
+      {
+        "month": "2025-08",
+        "sales": 21957550
       }
     ],
     "salesByYear": [
       {
+        "year": "2023",
+        "sales": 104339060
+      },
+      {
         "year": "2024",
-        "sales": 1815000
+        "sales": 290729136
+      },
+      {
+        "year": "2025",
+        "sales": 184857894
       }
     ],
     "visitsDaily": [
@@ -3472,34 +3904,114 @@
     "country": "Hong Kong",
     "salesMonthly": [
       {
+        "month": "2023-09",
+        "sales": 306140
+      },
+      {
+        "month": "2023-10",
+        "sales": 307619
+      },
+      {
+        "month": "2023-11",
+        "sales": 308327
+      },
+      {
+        "month": "2023-12",
+        "sales": 373757
+      },
+      {
         "month": "2024-01",
-        "sales": 280000
+        "sales": 339615
       },
       {
         "month": "2024-02",
-        "sales": 260000
+        "sales": 307327
       },
       {
         "month": "2024-03",
-        "sales": 300000
+        "sales": 292108
       },
       {
         "month": "2024-04",
-        "sales": 310000
+        "sales": 318207
       },
       {
         "month": "2024-05",
-        "sales": 325000
+        "sales": 296433
       },
       {
         "month": "2024-06",
-        "sales": 340000
+        "sales": 292973
+      },
+      {
+        "month": "2024-07",
+        "sales": 284848
+      },
+      {
+        "month": "2024-08",
+        "sales": 292065
+      },
+      {
+        "month": "2024-09",
+        "sales": 314304
+      },
+      {
+        "month": "2024-10",
+        "sales": 301351
+      },
+      {
+        "month": "2024-11",
+        "sales": 295723
+      },
+      {
+        "month": "2024-12",
+        "sales": 377279
+      },
+      {
+        "month": "2025-01",
+        "sales": 332347
+      },
+      {
+        "month": "2025-02",
+        "sales": 313259
+      },
+      {
+        "month": "2025-03",
+        "sales": 303403
+      },
+      {
+        "month": "2025-04",
+        "sales": 310203
+      },
+      {
+        "month": "2025-05",
+        "sales": 320998
+      },
+      {
+        "month": "2025-06",
+        "sales": 288022
+      },
+      {
+        "month": "2025-07",
+        "sales": 283925
+      },
+      {
+        "month": "2025-08",
+        "sales": 282384
       }
     ],
     "salesByYear": [
       {
+        "year": "2023",
+        "sales": 1295843
+      },
+      {
         "year": "2024",
-        "sales": 1815000
+        "sales": 3712233
+      },
+      {
+        "year": "2025",
+        "sales": 2434541
       }
     ],
     "visitsDaily": [
@@ -3605,34 +4117,114 @@
     "country": "Hong Kong",
     "salesMonthly": [
       {
+        "month": "2023-09",
+        "sales": 554479
+      },
+      {
+        "month": "2023-10",
+        "sales": 552450
+      },
+      {
+        "month": "2023-11",
+        "sales": 575179
+      },
+      {
+        "month": "2023-12",
+        "sales": 662482
+      },
+      {
         "month": "2024-01",
-        "sales": 280000
+        "sales": 640922
       },
       {
         "month": "2024-02",
-        "sales": 260000
+        "sales": 589696
       },
       {
         "month": "2024-03",
-        "sales": 300000
+        "sales": 590525
       },
       {
         "month": "2024-04",
-        "sales": 310000
+        "sales": 561809
       },
       {
         "month": "2024-05",
-        "sales": 325000
+        "sales": 551454
       },
       {
         "month": "2024-06",
-        "sales": 340000
+        "sales": 515984
+      },
+      {
+        "month": "2024-07",
+        "sales": 534025
+      },
+      {
+        "month": "2024-08",
+        "sales": 564244
+      },
+      {
+        "month": "2024-09",
+        "sales": 563643
+      },
+      {
+        "month": "2024-10",
+        "sales": 601155
+      },
+      {
+        "month": "2024-11",
+        "sales": 561894
+      },
+      {
+        "month": "2024-12",
+        "sales": 655092
+      },
+      {
+        "month": "2025-01",
+        "sales": 648882
+      },
+      {
+        "month": "2025-02",
+        "sales": 580861
+      },
+      {
+        "month": "2025-03",
+        "sales": 565783
+      },
+      {
+        "month": "2025-04",
+        "sales": 554996
+      },
+      {
+        "month": "2025-05",
+        "sales": 563753
+      },
+      {
+        "month": "2025-06",
+        "sales": 534024
+      },
+      {
+        "month": "2025-07",
+        "sales": 562534
+      },
+      {
+        "month": "2025-08",
+        "sales": 541662
       }
     ],
     "salesByYear": [
       {
+        "year": "2023",
+        "sales": 2344590
+      },
+      {
         "year": "2024",
-        "sales": 1815000
+        "sales": 6930443
+      },
+      {
+        "year": "2025",
+        "sales": 4552495
       }
     ],
     "visitsDaily": [
@@ -3738,34 +4330,114 @@
     "country": "Japan",
     "salesMonthly": [
       {
+        "month": "2023-09",
+        "sales": 4142324
+      },
+      {
+        "month": "2023-10",
+        "sales": 4061554
+      },
+      {
+        "month": "2023-11",
+        "sales": 4298268
+      },
+      {
+        "month": "2023-12",
+        "sales": 5020944
+      },
+      {
         "month": "2024-01",
-        "sales": 280000
+        "sales": 4540140
       },
       {
         "month": "2024-02",
-        "sales": 260000
+        "sales": 4308316
       },
       {
         "month": "2024-03",
-        "sales": 300000
+        "sales": 4000219
       },
       {
         "month": "2024-04",
-        "sales": 310000
+        "sales": 4119318
       },
       {
         "month": "2024-05",
-        "sales": 325000
+        "sales": 4021131
       },
       {
         "month": "2024-06",
-        "sales": 340000
+        "sales": 4126523
+      },
+      {
+        "month": "2024-07",
+        "sales": 3928834
+      },
+      {
+        "month": "2024-08",
+        "sales": 4032194
+      },
+      {
+        "month": "2024-09",
+        "sales": 4096525
+      },
+      {
+        "month": "2024-10",
+        "sales": 4139065
+      },
+      {
+        "month": "2024-11",
+        "sales": 4198967
+      },
+      {
+        "month": "2024-12",
+        "sales": 4968747
+      },
+      {
+        "month": "2025-01",
+        "sales": 4340224
+      },
+      {
+        "month": "2025-02",
+        "sales": 4107636
+      },
+      {
+        "month": "2025-03",
+        "sales": 4161658
+      },
+      {
+        "month": "2025-04",
+        "sales": 4202952
+      },
+      {
+        "month": "2025-05",
+        "sales": 4176015
+      },
+      {
+        "month": "2025-06",
+        "sales": 4174489
+      },
+      {
+        "month": "2025-07",
+        "sales": 3989198
+      },
+      {
+        "month": "2025-08",
+        "sales": 3798128
       }
     ],
     "salesByYear": [
       {
+        "year": "2023",
+        "sales": 17523090
+      },
+      {
         "year": "2024",
-        "sales": 1815000
+        "sales": 50479979
+      },
+      {
+        "year": "2025",
+        "sales": 32950300
       }
     ],
     "visitsDaily": [
@@ -3872,113 +4544,113 @@
     "salesMonthly": [
       {
         "month": "2023-09",
-        "sales": 128814
+        "sales": 87922
       },
       {
         "month": "2023-10",
-        "sales": 125212
+        "sales": 89174
       },
       {
         "month": "2023-11",
-        "sales": 125671
+        "sales": 92983
       },
       {
         "month": "2023-12",
-        "sales": 150304
+        "sales": 106463
       },
       {
         "month": "2024-01",
-        "sales": 130011
+        "sales": 96144
       },
       {
         "month": "2024-02",
-        "sales": 127097
+        "sales": 85791
       },
       {
         "month": "2024-03",
-        "sales": 127698
+        "sales": 91929
       },
       {
         "month": "2024-04",
-        "sales": 123580
+        "sales": 94356
       },
       {
         "month": "2024-05",
-        "sales": 117666
+        "sales": 92220
       },
       {
         "month": "2024-06",
-        "sales": 113417
+        "sales": 86164
       },
       {
         "month": "2024-07",
-        "sales": 119138
+        "sales": 88892
       },
       {
         "month": "2024-08",
-        "sales": 112462
+        "sales": 82043
       },
       {
         "month": "2024-09",
-        "sales": 118081
+        "sales": 92987
       },
       {
         "month": "2024-10",
-        "sales": 126284
+        "sales": 89235
       },
       {
         "month": "2024-11",
-        "sales": 114735
+        "sales": 87621
       },
       {
         "month": "2024-12",
-        "sales": 141603
+        "sales": 104272
       },
       {
         "month": "2025-01",
-        "sales": 129121
+        "sales": 95127
       },
       {
         "month": "2025-02",
-        "sales": 123570
+        "sales": 89440
       },
       {
         "month": "2025-03",
-        "sales": 121360
+        "sales": 92798
       },
       {
         "month": "2025-04",
-        "sales": 125492
+        "sales": 91991
       },
       {
         "month": "2025-05",
-        "sales": 122439
+        "sales": 87821
       },
       {
         "month": "2025-06",
-        "sales": 113601
+        "sales": 87953
       },
       {
         "month": "2025-07",
-        "sales": 113113
+        "sales": 82833
       },
       {
         "month": "2025-08",
-        "sales": 114278
+        "sales": 82408
       }
     ],
     "salesByYear": [
       {
         "year": "2023",
-        "sales": 530001
+        "sales": 376542
       },
       {
         "year": "2024",
-        "sales": 1471772
+        "sales": 1091654
       },
       {
         "year": "2025",
-        "sales": 962974
+        "sales": 710371
       }
     ]
   },
@@ -4007,7 +4679,119 @@
     "_amenity": false,
     "_secondary": "Retail and Convenience",
     "_tertiary": "Beauty",
-    "country": "Japan"
+    "country": "Japan",
+    "salesMonthly": [
+      {
+        "month": "2023-09",
+        "sales": 371406
+      },
+      {
+        "month": "2023-10",
+        "sales": 400611
+      },
+      {
+        "month": "2023-11",
+        "sales": 405449
+      },
+      {
+        "month": "2023-12",
+        "sales": 489309
+      },
+      {
+        "month": "2024-01",
+        "sales": 428979
+      },
+      {
+        "month": "2024-02",
+        "sales": 382607
+      },
+      {
+        "month": "2024-03",
+        "sales": 388407
+      },
+      {
+        "month": "2024-04",
+        "sales": 398020
+      },
+      {
+        "month": "2024-05",
+        "sales": 409203
+      },
+      {
+        "month": "2024-06",
+        "sales": 367205
+      },
+      {
+        "month": "2024-07",
+        "sales": 365265
+      },
+      {
+        "month": "2024-08",
+        "sales": 356228
+      },
+      {
+        "month": "2024-09",
+        "sales": 394524
+      },
+      {
+        "month": "2024-10",
+        "sales": 411181
+      },
+      {
+        "month": "2024-11",
+        "sales": 405958
+      },
+      {
+        "month": "2024-12",
+        "sales": 485838
+      },
+      {
+        "month": "2025-01",
+        "sales": 418348
+      },
+      {
+        "month": "2025-02",
+        "sales": 414815
+      },
+      {
+        "month": "2025-03",
+        "sales": 391269
+      },
+      {
+        "month": "2025-04",
+        "sales": 403521
+      },
+      {
+        "month": "2025-05",
+        "sales": 419405
+      },
+      {
+        "month": "2025-06",
+        "sales": 388401
+      },
+      {
+        "month": "2025-07",
+        "sales": 396690
+      },
+      {
+        "month": "2025-08",
+        "sales": 365541
+      }
+    ],
+    "salesByYear": [
+      {
+        "year": "2023",
+        "sales": 1666775
+      },
+      {
+        "year": "2024",
+        "sales": 4793415
+      },
+      {
+        "year": "2025",
+        "sales": 3197990
+      }
+    ]
   },
   {
     "id": 82,
@@ -4034,7 +4818,119 @@
     "_amenity": false,
     "_secondary": "F&B",
     "_tertiary": "Grab and Go",
-    "country": "Hong Kong"
+    "country": "Hong Kong",
+    "salesMonthly": [
+      {
+        "month": "2023-09",
+        "sales": 322687
+      },
+      {
+        "month": "2023-10",
+        "sales": 335080
+      },
+      {
+        "month": "2023-11",
+        "sales": 316915
+      },
+      {
+        "month": "2023-12",
+        "sales": 407653
+      },
+      {
+        "month": "2024-01",
+        "sales": 346145
+      },
+      {
+        "month": "2024-02",
+        "sales": 314899
+      },
+      {
+        "month": "2024-03",
+        "sales": 316413
+      },
+      {
+        "month": "2024-04",
+        "sales": 332145
+      },
+      {
+        "month": "2024-05",
+        "sales": 332913
+      },
+      {
+        "month": "2024-06",
+        "sales": 323341
+      },
+      {
+        "month": "2024-07",
+        "sales": 304147
+      },
+      {
+        "month": "2024-08",
+        "sales": 316698
+      },
+      {
+        "month": "2024-09",
+        "sales": 337856
+      },
+      {
+        "month": "2024-10",
+        "sales": 327804
+      },
+      {
+        "month": "2024-11",
+        "sales": 345258
+      },
+      {
+        "month": "2024-12",
+        "sales": 404263
+      },
+      {
+        "month": "2025-01",
+        "sales": 352942
+      },
+      {
+        "month": "2025-02",
+        "sales": 348420
+      },
+      {
+        "month": "2025-03",
+        "sales": 331712
+      },
+      {
+        "month": "2025-04",
+        "sales": 320682
+      },
+      {
+        "month": "2025-05",
+        "sales": 340348
+      },
+      {
+        "month": "2025-06",
+        "sales": 299856
+      },
+      {
+        "month": "2025-07",
+        "sales": 304730
+      },
+      {
+        "month": "2025-08",
+        "sales": 310299
+      }
+    ],
+    "salesByYear": [
+      {
+        "year": "2023",
+        "sales": 1382335
+      },
+      {
+        "year": "2024",
+        "sales": 4001882
+      },
+      {
+        "year": "2025",
+        "sales": 2608989
+      }
+    ]
   },
   {
     "id": 83,
@@ -4510,113 +5406,113 @@
     "salesMonthly": [
       {
         "month": "2023-09",
-        "sales": 3752433
+        "sales": 3565274
       },
       {
         "month": "2023-10",
-        "sales": 3532060
+        "sales": 3888900
       },
       {
         "month": "2023-11",
-        "sales": 3476632
+        "sales": 3578352
       },
       {
         "month": "2023-12",
-        "sales": 4363586
+        "sales": 4529079
       },
       {
         "month": "2024-01",
-        "sales": 3942480
+        "sales": 3894166
       },
       {
         "month": "2024-02",
-        "sales": 3783832
+        "sales": 3596359
       },
       {
         "month": "2024-03",
-        "sales": 3761598
+        "sales": 3694568
       },
       {
         "month": "2024-04",
-        "sales": 3709974
+        "sales": 3682332
       },
       {
         "month": "2024-05",
-        "sales": 3742685
+        "sales": 3850410
       },
       {
         "month": "2024-06",
-        "sales": 3392745
+        "sales": 3426384
       },
       {
         "month": "2024-07",
-        "sales": 3274412
+        "sales": 3739658
       },
       {
         "month": "2024-08",
-        "sales": 3375978
+        "sales": 3619467
       },
       {
         "month": "2024-09",
-        "sales": 3657289
+        "sales": 3676122
       },
       {
         "month": "2024-10",
-        "sales": 3546285
+        "sales": 4020611
       },
       {
         "month": "2024-11",
-        "sales": 3560848
+        "sales": 3982524
       },
       {
         "month": "2024-12",
-        "sales": 4500307
+        "sales": 4423264
       },
       {
         "month": "2025-01",
-        "sales": 3922430
+        "sales": 4004416
       },
       {
         "month": "2025-02",
-        "sales": 3518860
+        "sales": 3754882
       },
       {
         "month": "2025-03",
-        "sales": 3761955
+        "sales": 3679638
       },
       {
         "month": "2025-04",
-        "sales": 3584505
+        "sales": 3691760
       },
       {
         "month": "2025-05",
-        "sales": 3498847
+        "sales": 3812507
       },
       {
         "month": "2025-06",
-        "sales": 3276541
+        "sales": 3693636
       },
       {
         "month": "2025-07",
-        "sales": 3518074
+        "sales": 3656282
       },
       {
         "month": "2025-08",
-        "sales": 3530613
+        "sales": 3652546
       }
     ],
     "salesByYear": [
       {
         "year": "2023",
-        "sales": 15124711
+        "sales": 15561605
       },
       {
         "year": "2024",
-        "sales": 44248433
+        "sales": 45605865
       },
       {
         "year": "2025",
-        "sales": 28611825
+        "sales": 29945667
       }
     ],
     "visitsDaily": [
@@ -5242,52 +6138,100 @@
     "country": "Singapore",
     "membershipsMonthly": [
       {
+        "month": "2023-09",
+        "members": 1454
+      },
+      {
+        "month": "2023-10",
+        "members": 1343
+      },
+      {
+        "month": "2023-11",
+        "members": 1367
+      },
+      {
+        "month": "2023-12",
+        "members": 1394
+      },
+      {
         "month": "2024-01",
-        "members": 220
+        "members": 1404
       },
       {
         "month": "2024-02",
-        "members": 215
+        "members": 1360
       },
       {
         "month": "2024-03",
-        "members": 225
+        "members": 1367
       },
       {
         "month": "2024-04",
-        "members": 230
+        "members": 1370
       },
       {
         "month": "2024-05",
-        "members": 240
+        "members": 1406
       },
       {
         "month": "2024-06",
-        "members": 245
+        "members": 1423
       },
       {
         "month": "2024-07",
-        "members": 255
+        "members": 1353
       },
       {
         "month": "2024-08",
-        "members": 260
+        "members": 1357
       },
       {
         "month": "2024-09",
-        "members": 265
+        "members": 1409
       },
       {
         "month": "2024-10",
-        "members": 270
+        "members": 1414
       },
       {
         "month": "2024-11",
-        "members": 275
+        "members": 1387
       },
       {
         "month": "2024-12",
-        "members": 280
+        "members": 1382
+      },
+      {
+        "month": "2025-01",
+        "members": 1497
+      },
+      {
+        "month": "2025-02",
+        "members": 1350
+      },
+      {
+        "month": "2025-03",
+        "members": 1349
+      },
+      {
+        "month": "2025-04",
+        "members": 1397
+      },
+      {
+        "month": "2025-05",
+        "members": 1371
+      },
+      {
+        "month": "2025-06",
+        "members": 1335
+      },
+      {
+        "month": "2025-07",
+        "members": 1290
+      },
+      {
+        "month": "2025-08",
+        "members": 1354
       }
     ]
   },
@@ -5319,52 +6263,100 @@
     "country": "Mainland China",
     "membershipsMonthly": [
       {
+        "month": "2023-09",
+        "members": 1271
+      },
+      {
+        "month": "2023-10",
+        "members": 1206
+      },
+      {
+        "month": "2023-11",
+        "members": 1196
+      },
+      {
+        "month": "2023-12",
+        "members": 1231
+      },
+      {
         "month": "2024-01",
-        "members": 220
+        "members": 1304
       },
       {
         "month": "2024-02",
-        "members": 215
+        "members": 1240
       },
       {
         "month": "2024-03",
-        "members": 225
+        "members": 1269
       },
       {
         "month": "2024-04",
-        "members": 230
+        "members": 1225
       },
       {
         "month": "2024-05",
-        "members": 240
+        "members": 1181
       },
       {
         "month": "2024-06",
-        "members": 245
+        "members": 1207
       },
       {
         "month": "2024-07",
-        "members": 255
+        "members": 1148
       },
       {
         "month": "2024-08",
-        "members": 260
+        "members": 1172
       },
       {
         "month": "2024-09",
-        "members": 265
+        "members": 1300
       },
       {
         "month": "2024-10",
-        "members": 270
+        "members": 1168
       },
       {
         "month": "2024-11",
-        "members": 275
+        "members": 1204
       },
       {
         "month": "2024-12",
-        "members": 280
+        "members": 1145
+      },
+      {
+        "month": "2025-01",
+        "members": 1268
+      },
+      {
+        "month": "2025-02",
+        "members": 1193
+      },
+      {
+        "month": "2025-03",
+        "members": 1165
+      },
+      {
+        "month": "2025-04",
+        "members": 1190
+      },
+      {
+        "month": "2025-05",
+        "members": 1142
+      },
+      {
+        "month": "2025-06",
+        "members": 1133
+      },
+      {
+        "month": "2025-07",
+        "members": 1148
+      },
+      {
+        "month": "2025-08",
+        "members": 1168
       }
     ]
   },
@@ -5396,34 +6388,114 @@
     "country": "USA",
     "salesMonthly": [
       {
+        "month": "2023-09",
+        "sales": 523088
+      },
+      {
+        "month": "2023-10",
+        "sales": 510532
+      },
+      {
+        "month": "2023-11",
+        "sales": 549927
+      },
+      {
+        "month": "2023-12",
+        "sales": 632225
+      },
+      {
         "month": "2024-01",
-        "sales": 280000
+        "sales": 592718
       },
       {
         "month": "2024-02",
-        "sales": 260000
+        "sales": 551859
       },
       {
         "month": "2024-03",
-        "sales": 300000
+        "sales": 522077
       },
       {
         "month": "2024-04",
-        "sales": 310000
+        "sales": 509754
       },
       {
         "month": "2024-05",
-        "sales": 325000
+        "sales": 544899
       },
       {
         "month": "2024-06",
-        "sales": 340000
+        "sales": 512643
+      },
+      {
+        "month": "2024-07",
+        "sales": 516556
+      },
+      {
+        "month": "2024-08",
+        "sales": 505372
+      },
+      {
+        "month": "2024-09",
+        "sales": 523249
+      },
+      {
+        "month": "2024-10",
+        "sales": 523628
+      },
+      {
+        "month": "2024-11",
+        "sales": 558730
+      },
+      {
+        "month": "2024-12",
+        "sales": 650975
+      },
+      {
+        "month": "2025-01",
+        "sales": 602103
+      },
+      {
+        "month": "2025-02",
+        "sales": 524016
+      },
+      {
+        "month": "2025-03",
+        "sales": 541352
+      },
+      {
+        "month": "2025-04",
+        "sales": 563757
+      },
+      {
+        "month": "2025-05",
+        "sales": 544876
+      },
+      {
+        "month": "2025-06",
+        "sales": 488012
+      },
+      {
+        "month": "2025-07",
+        "sales": 504591
+      },
+      {
+        "month": "2025-08",
+        "sales": 526496
       }
     ],
     "salesByYear": [
       {
+        "year": "2023",
+        "sales": 2215772
+      },
+      {
         "year": "2024",
-        "sales": 1815000
+        "sales": 6512460
+      },
+      {
+        "year": "2025",
+        "sales": 4295203
       }
     ],
     "visitsDaily": [
@@ -5526,7 +6598,119 @@
     "_amenity": false,
     "_secondary": "Retail and Convenience",
     "_tertiary": "Smart Locker",
-    "country": "UK"
+    "country": "UK",
+    "salesMonthly": [
+      {
+        "month": "2023-09",
+        "sales": 33109
+      },
+      {
+        "month": "2023-10",
+        "sales": 33137
+      },
+      {
+        "month": "2023-11",
+        "sales": 35371
+      },
+      {
+        "month": "2023-12",
+        "sales": 39982
+      },
+      {
+        "month": "2024-01",
+        "sales": 35084
+      },
+      {
+        "month": "2024-02",
+        "sales": 34326
+      },
+      {
+        "month": "2024-03",
+        "sales": 32871
+      },
+      {
+        "month": "2024-04",
+        "sales": 33626
+      },
+      {
+        "month": "2024-05",
+        "sales": 34879
+      },
+      {
+        "month": "2024-06",
+        "sales": 31847
+      },
+      {
+        "month": "2024-07",
+        "sales": 32068
+      },
+      {
+        "month": "2024-08",
+        "sales": 30380
+      },
+      {
+        "month": "2024-09",
+        "sales": 35204
+      },
+      {
+        "month": "2024-10",
+        "sales": 33734
+      },
+      {
+        "month": "2024-11",
+        "sales": 34409
+      },
+      {
+        "month": "2024-12",
+        "sales": 42325
+      },
+      {
+        "month": "2025-01",
+        "sales": 35849
+      },
+      {
+        "month": "2025-02",
+        "sales": 34533
+      },
+      {
+        "month": "2025-03",
+        "sales": 32397
+      },
+      {
+        "month": "2025-04",
+        "sales": 33083
+      },
+      {
+        "month": "2025-05",
+        "sales": 32852
+      },
+      {
+        "month": "2025-06",
+        "sales": 30609
+      },
+      {
+        "month": "2025-07",
+        "sales": 30902
+      },
+      {
+        "month": "2025-08",
+        "sales": 31163
+      }
+    ],
+    "salesByYear": [
+      {
+        "year": "2023",
+        "sales": 141599
+      },
+      {
+        "year": "2024",
+        "sales": 410753
+      },
+      {
+        "year": "2025",
+        "sales": 261388
+      }
+    ]
   },
   {
     "id": 118,
@@ -5552,7 +6736,119 @@
     "_amenity": false,
     "_secondary": "F&B",
     "_tertiary": "Café",
-    "country": "Mainland China"
+    "country": "Mainland China",
+    "salesMonthly": [
+      {
+        "month": "2023-09",
+        "sales": 569389
+      },
+      {
+        "month": "2023-10",
+        "sales": 573013
+      },
+      {
+        "month": "2023-11",
+        "sales": 573985
+      },
+      {
+        "month": "2023-12",
+        "sales": 735620
+      },
+      {
+        "month": "2024-01",
+        "sales": 641964
+      },
+      {
+        "month": "2024-02",
+        "sales": 566251
+      },
+      {
+        "month": "2024-03",
+        "sales": 573785
+      },
+      {
+        "month": "2024-04",
+        "sales": 613918
+      },
+      {
+        "month": "2024-05",
+        "sales": 565396
+      },
+      {
+        "month": "2024-06",
+        "sales": 558427
+      },
+      {
+        "month": "2024-07",
+        "sales": 558750
+      },
+      {
+        "month": "2024-08",
+        "sales": 563083
+      },
+      {
+        "month": "2024-09",
+        "sales": 616693
+      },
+      {
+        "month": "2024-10",
+        "sales": 589978
+      },
+      {
+        "month": "2024-11",
+        "sales": 581588
+      },
+      {
+        "month": "2024-12",
+        "sales": 681918
+      },
+      {
+        "month": "2025-01",
+        "sales": 655258
+      },
+      {
+        "month": "2025-02",
+        "sales": 586139
+      },
+      {
+        "month": "2025-03",
+        "sales": 586356
+      },
+      {
+        "month": "2025-04",
+        "sales": 596791
+      },
+      {
+        "month": "2025-05",
+        "sales": 574658
+      },
+      {
+        "month": "2025-06",
+        "sales": 547270
+      },
+      {
+        "month": "2025-07",
+        "sales": 540565
+      },
+      {
+        "month": "2025-08",
+        "sales": 537912
+      }
+    ],
+    "salesByYear": [
+      {
+        "year": "2023",
+        "sales": 2452007
+      },
+      {
+        "year": "2024",
+        "sales": 7111751
+      },
+      {
+        "year": "2025",
+        "sales": 4624949
+      }
+    ]
   },
   {
     "id": 119,
@@ -5607,34 +6903,114 @@
     "country": "Hong Kong",
     "salesMonthly": [
       {
+        "month": "2023-09",
+        "sales": 411493
+      },
+      {
+        "month": "2023-10",
+        "sales": 380557
+      },
+      {
+        "month": "2023-11",
+        "sales": 410820
+      },
+      {
+        "month": "2023-12",
+        "sales": 501323
+      },
+      {
         "month": "2024-01",
-        "sales": 280000
+        "sales": 421836
       },
       {
         "month": "2024-02",
-        "sales": 260000
+        "sales": 397125
       },
       {
         "month": "2024-03",
-        "sales": 300000
+        "sales": 395077
       },
       {
         "month": "2024-04",
-        "sales": 310000
+        "sales": 410046
       },
       {
         "month": "2024-05",
-        "sales": 325000
+        "sales": 389664
       },
       {
         "month": "2024-06",
-        "sales": 340000
+        "sales": 378169
+      },
+      {
+        "month": "2024-07",
+        "sales": 377854
+      },
+      {
+        "month": "2024-08",
+        "sales": 377188
+      },
+      {
+        "month": "2024-09",
+        "sales": 384268
+      },
+      {
+        "month": "2024-10",
+        "sales": 396465
+      },
+      {
+        "month": "2024-11",
+        "sales": 415032
+      },
+      {
+        "month": "2024-12",
+        "sales": 480692
+      },
+      {
+        "month": "2025-01",
+        "sales": 416912
+      },
+      {
+        "month": "2025-02",
+        "sales": 415763
+      },
+      {
+        "month": "2025-03",
+        "sales": 417352
+      },
+      {
+        "month": "2025-04",
+        "sales": 388612
+      },
+      {
+        "month": "2025-05",
+        "sales": 410443
+      },
+      {
+        "month": "2025-06",
+        "sales": 376996
+      },
+      {
+        "month": "2025-07",
+        "sales": 378708
+      },
+      {
+        "month": "2025-08",
+        "sales": 368128
       }
     ],
     "salesByYear": [
       {
+        "year": "2023",
+        "sales": 1704193
+      },
+      {
         "year": "2024",
-        "sales": 1815000
+        "sales": 4823416
+      },
+      {
+        "year": "2025",
+        "sales": 3172914
       }
     ],
     "visitsDaily": [
@@ -5870,113 +7246,113 @@
     "salesMonthly": [
       {
         "month": "2023-09",
-        "sales": 10530715
+        "sales": 11982637
       },
       {
         "month": "2023-10",
-        "sales": 10615456
+        "sales": 11873039
       },
       {
         "month": "2023-11",
-        "sales": 10780347
+        "sales": 12297781
       },
       {
         "month": "2023-12",
-        "sales": 12047559
+        "sales": 15199584
       },
       {
         "month": "2024-01",
-        "sales": 11433318
+        "sales": 13219618
       },
       {
         "month": "2024-02",
-        "sales": 10605419
+        "sales": 12355975
       },
       {
         "month": "2024-03",
-        "sales": 10759628
+        "sales": 12614234
       },
       {
         "month": "2024-04",
-        "sales": 9833869
+        "sales": 11991213
       },
       {
         "month": "2024-05",
-        "sales": 10039770
+        "sales": 12401728
       },
       {
         "month": "2024-06",
-        "sales": 9851991
+        "sales": 11247857
       },
       {
         "month": "2024-07",
-        "sales": 9867523
+        "sales": 11175325
       },
       {
         "month": "2024-08",
-        "sales": 9319167
+        "sales": 11171102
       },
       {
         "month": "2024-09",
-        "sales": 10686966
+        "sales": 12747711
       },
       {
         "month": "2024-10",
-        "sales": 10847357
+        "sales": 12924488
       },
       {
         "month": "2024-11",
-        "sales": 10196648
+        "sales": 12919589
       },
       {
         "month": "2024-12",
-        "sales": 12734293
+        "sales": 15321995
       },
       {
         "month": "2025-01",
-        "sales": 10973451
+        "sales": 14199894
       },
       {
         "month": "2025-02",
-        "sales": 10157368
+        "sales": 12031648
       },
       {
         "month": "2025-03",
-        "sales": 10390202
+        "sales": 12747615
       },
       {
         "month": "2025-04",
-        "sales": 10650864
+        "sales": 12282739
       },
       {
         "month": "2025-05",
-        "sales": 10007690
+        "sales": 13039972
       },
       {
         "month": "2025-06",
-        "sales": 9507031
+        "sales": 12088050
       },
       {
         "month": "2025-07",
-        "sales": 9274131
+        "sales": 12129234
       },
       {
         "month": "2025-08",
-        "sales": 9970321
+        "sales": 11930661
       }
     ],
     "salesByYear": [
       {
         "year": "2023",
-        "sales": 43974077
+        "sales": 51353041
       },
       {
         "year": "2024",
-        "sales": 126175949
+        "sales": 150090835
       },
       {
         "year": "2025",
-        "sales": 80931058
+        "sales": 100449813
       }
     ]
   },
@@ -6086,52 +7462,100 @@
     "country": "Hong Kong",
     "membershipsMonthly": [
       {
+        "month": "2023-09",
+        "members": 1162
+      },
+      {
+        "month": "2023-10",
+        "members": 1095
+      },
+      {
+        "month": "2023-11",
+        "members": 1117
+      },
+      {
+        "month": "2023-12",
+        "members": 1087
+      },
+      {
         "month": "2024-01",
-        "members": 1200
+        "members": 1149
       },
       {
         "month": "2024-02",
-        "members": 1180
+        "members": 1124
       },
       {
         "month": "2024-03",
-        "members": 1225
+        "members": 1123
       },
       {
         "month": "2024-04",
-        "members": 1250
+        "members": 1137
       },
       {
         "month": "2024-05",
-        "members": 1300
+        "members": 1086
       },
       {
         "month": "2024-06",
-        "members": 1325
+        "members": 1135
       },
       {
         "month": "2024-07",
-        "members": 1350
+        "members": 1050
       },
       {
         "month": "2024-08",
-        "members": 1375
+        "members": 1122
       },
       {
         "month": "2024-09",
-        "members": 1390
+        "members": 1118
       },
       {
         "month": "2024-10",
-        "members": 1410
+        "members": 1077
       },
       {
         "month": "2024-11",
-        "members": 1430
+        "members": 1123
       },
       {
         "month": "2024-12",
-        "members": 1450
+        "members": 1078
+      },
+      {
+        "month": "2025-01",
+        "members": 1102
+      },
+      {
+        "month": "2025-02",
+        "members": 1106
+      },
+      {
+        "month": "2025-03",
+        "members": 1052
+      },
+      {
+        "month": "2025-04",
+        "members": 1065
+      },
+      {
+        "month": "2025-05",
+        "members": 1112
+      },
+      {
+        "month": "2025-06",
+        "members": 1065
+      },
+      {
+        "month": "2025-07",
+        "members": 1025
+      },
+      {
+        "month": "2025-08",
+        "members": 1045
       }
     ],
     "visitsDaily": [
@@ -6714,99 +8138,99 @@
     "membershipsMonthly": [
       {
         "month": "2023-09",
-        "members": 2118
+        "members": 1290
       },
       {
         "month": "2023-10",
-        "members": 1955
+        "members": 1268
       },
       {
         "month": "2023-11",
-        "members": 1992
+        "members": 1264
       },
       {
         "month": "2023-12",
-        "members": 1981
+        "members": 1221
       },
       {
         "month": "2024-01",
-        "members": 2116
+        "members": 1288
       },
       {
         "month": "2024-02",
-        "members": 1993
+        "members": 1222
       },
       {
         "month": "2024-03",
-        "members": 2091
+        "members": 1286
       },
       {
         "month": "2024-04",
-        "members": 1959
+        "members": 1294
       },
       {
         "month": "2024-05",
-        "members": 2102
+        "members": 1227
       },
       {
         "month": "2024-06",
-        "members": 2001
+        "members": 1271
       },
       {
         "month": "2024-07",
-        "members": 1897
+        "members": 1176
       },
       {
         "month": "2024-08",
-        "members": 2019
+        "members": 1214
       },
       {
         "month": "2024-09",
-        "members": 2232
+        "members": 1289
       },
       {
         "month": "2024-10",
-        "members": 2117
+        "members": 1311
       },
       {
         "month": "2024-11",
-        "members": 2079
+        "members": 1303
       },
       {
         "month": "2024-12",
-        "members": 1989
+        "members": 1299
       },
       {
         "month": "2025-01",
-        "members": 2187
+        "members": 1348
       },
       {
         "month": "2025-02",
-        "members": 2070
+        "members": 1310
       },
       {
         "month": "2025-03",
-        "members": 2113
+        "members": 1294
       },
       {
         "month": "2025-04",
-        "members": 2162
+        "members": 1276
       },
       {
         "month": "2025-05",
-        "members": 2106
+        "members": 1301
       },
       {
         "month": "2025-06",
-        "members": 2164
+        "members": 1247
       },
       {
         "month": "2025-07",
-        "members": 2052
+        "members": 1255
       },
       {
         "month": "2025-08",
-        "members": 2136
+        "members": 1283
       }
     ],
     "visitsDaily": [
@@ -8593,34 +10017,114 @@
     "country": "USA",
     "salesMonthly": [
       {
+        "month": "2023-09",
+        "sales": 11096375
+      },
+      {
+        "month": "2023-10",
+        "sales": 10586053
+      },
+      {
+        "month": "2023-11",
+        "sales": 11245694
+      },
+      {
+        "month": "2023-12",
+        "sales": 12432147
+      },
+      {
         "month": "2024-01",
-        "sales": 280000
+        "sales": 12024654
       },
       {
         "month": "2024-02",
-        "sales": 260000
+        "sales": 10958027
       },
       {
         "month": "2024-03",
-        "sales": 300000
+        "sales": 10935076
       },
       {
         "month": "2024-04",
-        "sales": 310000
+        "sales": 10796050
       },
       {
         "month": "2024-05",
-        "sales": 325000
+        "sales": 10371521
       },
       {
         "month": "2024-06",
-        "sales": 340000
+        "sales": 10136192
+      },
+      {
+        "month": "2024-07",
+        "sales": 9950635
+      },
+      {
+        "month": "2024-08",
+        "sales": 10166952
+      },
+      {
+        "month": "2024-09",
+        "sales": 10661202
+      },
+      {
+        "month": "2024-10",
+        "sales": 10502564
+      },
+      {
+        "month": "2024-11",
+        "sales": 10674026
+      },
+      {
+        "month": "2024-12",
+        "sales": 12688493
+      },
+      {
+        "month": "2025-01",
+        "sales": 11273221
+      },
+      {
+        "month": "2025-02",
+        "sales": 10719415
+      },
+      {
+        "month": "2025-03",
+        "sales": 11018736
+      },
+      {
+        "month": "2025-04",
+        "sales": 10640959
+      },
+      {
+        "month": "2025-05",
+        "sales": 11035213
+      },
+      {
+        "month": "2025-06",
+        "sales": 10651201
+      },
+      {
+        "month": "2025-07",
+        "sales": 10232015
+      },
+      {
+        "month": "2025-08",
+        "sales": 10163110
       }
     ],
     "salesByYear": [
       {
+        "year": "2023",
+        "sales": 45360269
+      },
+      {
         "year": "2024",
-        "sales": 1815000
+        "sales": 129865392
+      },
+      {
+        "year": "2025",
+        "sales": 85733870
       }
     ],
     "visitsDaily": [
@@ -8726,34 +10230,114 @@
     "country": "Hong Kong",
     "salesMonthly": [
       {
+        "month": "2023-09",
+        "sales": 626463
+      },
+      {
+        "month": "2023-10",
+        "sales": 594782
+      },
+      {
+        "month": "2023-11",
+        "sales": 612901
+      },
+      {
+        "month": "2023-12",
+        "sales": 769343
+      },
+      {
         "month": "2024-01",
-        "sales": 280000
+        "sales": 676107
       },
       {
         "month": "2024-02",
-        "sales": 260000
+        "sales": 591337
       },
       {
         "month": "2024-03",
-        "sales": 300000
+        "sales": 626660
       },
       {
         "month": "2024-04",
-        "sales": 310000
+        "sales": 602594
       },
       {
         "month": "2024-05",
-        "sales": 325000
+        "sales": 604256
       },
       {
         "month": "2024-06",
-        "sales": 340000
+        "sales": 589096
+      },
+      {
+        "month": "2024-07",
+        "sales": 599936
+      },
+      {
+        "month": "2024-08",
+        "sales": 562296
+      },
+      {
+        "month": "2024-09",
+        "sales": 647841
+      },
+      {
+        "month": "2024-10",
+        "sales": 611220
+      },
+      {
+        "month": "2024-11",
+        "sales": 652851
+      },
+      {
+        "month": "2024-12",
+        "sales": 737182
+      },
+      {
+        "month": "2025-01",
+        "sales": 672894
+      },
+      {
+        "month": "2025-02",
+        "sales": 648093
+      },
+      {
+        "month": "2025-03",
+        "sales": 640171
+      },
+      {
+        "month": "2025-04",
+        "sales": 627361
+      },
+      {
+        "month": "2025-05",
+        "sales": 604017
+      },
+      {
+        "month": "2025-06",
+        "sales": 598102
+      },
+      {
+        "month": "2025-07",
+        "sales": 572425
+      },
+      {
+        "month": "2025-08",
+        "sales": 615690
       }
     ],
     "salesByYear": [
       {
+        "year": "2023",
+        "sales": 2603489
+      },
+      {
         "year": "2024",
-        "sales": 1815000
+        "sales": 7501376
+      },
+      {
+        "year": "2025",
+        "sales": 4978753
       }
     ],
     "visitsDaily": [
@@ -9145,52 +10729,100 @@
     "country": "Germany",
     "membershipsMonthly": [
       {
+        "month": "2023-09",
+        "members": 586
+      },
+      {
+        "month": "2023-10",
+        "members": 552
+      },
+      {
+        "month": "2023-11",
+        "members": 564
+      },
+      {
+        "month": "2023-12",
+        "members": 560
+      },
+      {
         "month": "2024-01",
-        "members": 1200
+        "members": 572
       },
       {
         "month": "2024-02",
-        "members": 1180
+        "members": 542
       },
       {
         "month": "2024-03",
-        "members": 1225
+        "members": 549
       },
       {
         "month": "2024-04",
-        "members": 1250
+        "members": 545
       },
       {
         "month": "2024-05",
-        "members": 1300
+        "members": 539
       },
       {
         "month": "2024-06",
-        "members": 1325
+        "members": 563
       },
       {
         "month": "2024-07",
-        "members": 1350
+        "members": 519
       },
       {
         "month": "2024-08",
-        "members": 1375
+        "members": 550
       },
       {
         "month": "2024-09",
-        "members": 1390
+        "members": 596
       },
       {
         "month": "2024-10",
-        "members": 1410
+        "members": 580
       },
       {
         "month": "2024-11",
-        "members": 1430
+        "members": 564
       },
       {
         "month": "2024-12",
-        "members": 1450
+        "members": 542
+      },
+      {
+        "month": "2025-01",
+        "members": 593
+      },
+      {
+        "month": "2025-02",
+        "members": 546
+      },
+      {
+        "month": "2025-03",
+        "members": 585
+      },
+      {
+        "month": "2025-04",
+        "members": 574
+      },
+      {
+        "month": "2025-05",
+        "members": 565
+      },
+      {
+        "month": "2025-06",
+        "members": 577
+      },
+      {
+        "month": "2025-07",
+        "members": 542
+      },
+      {
+        "month": "2025-08",
+        "members": 581
       }
     ],
     "visitsDaily": [
@@ -9608,34 +11240,114 @@
     "country": "Mainland China",
     "salesMonthly": [
       {
+        "month": "2023-09",
+        "sales": 1483356
+      },
+      {
+        "month": "2023-10",
+        "sales": 1462255
+      },
+      {
+        "month": "2023-11",
+        "sales": 1532543
+      },
+      {
+        "month": "2023-12",
+        "sales": 1831723
+      },
+      {
         "month": "2024-01",
-        "sales": 280000
+        "sales": 1686292
       },
       {
         "month": "2024-02",
-        "sales": 260000
+        "sales": 1448648
       },
       {
         "month": "2024-03",
-        "sales": 300000
+        "sales": 1467247
       },
       {
         "month": "2024-04",
-        "sales": 310000
+        "sales": 1541568
       },
       {
         "month": "2024-05",
-        "sales": 325000
+        "sales": 1544417
       },
       {
         "month": "2024-06",
-        "sales": 340000
+        "sales": 1375041
+      },
+      {
+        "month": "2024-07",
+        "sales": 1433614
+      },
+      {
+        "month": "2024-08",
+        "sales": 1416561
+      },
+      {
+        "month": "2024-09",
+        "sales": 1521273
+      },
+      {
+        "month": "2024-10",
+        "sales": 1506242
+      },
+      {
+        "month": "2024-11",
+        "sales": 1592054
+      },
+      {
+        "month": "2024-12",
+        "sales": 1872175
+      },
+      {
+        "month": "2025-01",
+        "sales": 1684698
+      },
+      {
+        "month": "2025-02",
+        "sales": 1475092
+      },
+      {
+        "month": "2025-03",
+        "sales": 1474363
+      },
+      {
+        "month": "2025-04",
+        "sales": 1578227
+      },
+      {
+        "month": "2025-05",
+        "sales": 1574260
+      },
+      {
+        "month": "2025-06",
+        "sales": 1399353
+      },
+      {
+        "month": "2025-07",
+        "sales": 1378418
+      },
+      {
+        "month": "2025-08",
+        "sales": 1421519
       }
     ],
     "salesByYear": [
       {
+        "year": "2023",
+        "sales": 6309877
+      },
+      {
         "year": "2024",
-        "sales": 1815000
+        "sales": 18405132
+      },
+      {
+        "year": "2025",
+        "sales": 11985930
       }
     ],
     "visitsDaily": [
@@ -9741,34 +11453,114 @@
     "country": "Hong Kong",
     "salesMonthly": [
       {
+        "month": "2023-09",
+        "sales": 1200006
+      },
+      {
+        "month": "2023-10",
+        "sales": 1222630
+      },
+      {
+        "month": "2023-11",
+        "sales": 1277771
+      },
+      {
+        "month": "2023-12",
+        "sales": 1558104
+      },
+      {
         "month": "2024-01",
-        "sales": 280000
+        "sales": 1414373
       },
       {
         "month": "2024-02",
-        "sales": 260000
+        "sales": 1214815
       },
       {
         "month": "2024-03",
-        "sales": 300000
+        "sales": 1305026
       },
       {
         "month": "2024-04",
-        "sales": 310000
+        "sales": 1216344
       },
       {
         "month": "2024-05",
-        "sales": 325000
+        "sales": 1228408
       },
       {
         "month": "2024-06",
-        "sales": 340000
+        "sales": 1107520
+      },
+      {
+        "month": "2024-07",
+        "sales": 1183799
+      },
+      {
+        "month": "2024-08",
+        "sales": 1132790
+      },
+      {
+        "month": "2024-09",
+        "sales": 1218103
+      },
+      {
+        "month": "2024-10",
+        "sales": 1246484
+      },
+      {
+        "month": "2024-11",
+        "sales": 1225256
+      },
+      {
+        "month": "2024-12",
+        "sales": 1490657
+      },
+      {
+        "month": "2025-01",
+        "sales": 1267956
+      },
+      {
+        "month": "2025-02",
+        "sales": 1205604
+      },
+      {
+        "month": "2025-03",
+        "sales": 1154259
+      },
+      {
+        "month": "2025-04",
+        "sales": 1199627
+      },
+      {
+        "month": "2025-05",
+        "sales": 1197682
+      },
+      {
+        "month": "2025-06",
+        "sales": 1158320
+      },
+      {
+        "month": "2025-07",
+        "sales": 1121970
+      },
+      {
+        "month": "2025-08",
+        "sales": 1138744
       }
     ],
     "salesByYear": [
       {
+        "year": "2023",
+        "sales": 5258511
+      },
+      {
         "year": "2024",
-        "sales": 1815000
+        "sales": 14983575
+      },
+      {
+        "year": "2025",
+        "sales": 9444162
       }
     ],
     "visitsDaily": [
@@ -9871,7 +11663,119 @@
     "_amenity": false,
     "_secondary": "F&B",
     "_tertiary": "Restaurant",
-    "country": "Hong Kong"
+    "country": "Hong Kong",
+    "salesMonthly": [
+      {
+        "month": "2023-09",
+        "sales": 1934483
+      },
+      {
+        "month": "2023-10",
+        "sales": 1814498
+      },
+      {
+        "month": "2023-11",
+        "sales": 1806352
+      },
+      {
+        "month": "2023-12",
+        "sales": 2135763
+      },
+      {
+        "month": "2024-01",
+        "sales": 1989556
+      },
+      {
+        "month": "2024-02",
+        "sales": 1835325
+      },
+      {
+        "month": "2024-03",
+        "sales": 1819008
+      },
+      {
+        "month": "2024-04",
+        "sales": 1879555
+      },
+      {
+        "month": "2024-05",
+        "sales": 1889311
+      },
+      {
+        "month": "2024-06",
+        "sales": 1678041
+      },
+      {
+        "month": "2024-07",
+        "sales": 1764386
+      },
+      {
+        "month": "2024-08",
+        "sales": 1656780
+      },
+      {
+        "month": "2024-09",
+        "sales": 1937353
+      },
+      {
+        "month": "2024-10",
+        "sales": 1910986
+      },
+      {
+        "month": "2024-11",
+        "sales": 1820297
+      },
+      {
+        "month": "2024-12",
+        "sales": 2161537
+      },
+      {
+        "month": "2025-01",
+        "sales": 1936554
+      },
+      {
+        "month": "2025-02",
+        "sales": 1812804
+      },
+      {
+        "month": "2025-03",
+        "sales": 1941253
+      },
+      {
+        "month": "2025-04",
+        "sales": 1910730
+      },
+      {
+        "month": "2025-05",
+        "sales": 1838046
+      },
+      {
+        "month": "2025-06",
+        "sales": 1714427
+      },
+      {
+        "month": "2025-07",
+        "sales": 1688568
+      },
+      {
+        "month": "2025-08",
+        "sales": 1755739
+      }
+    ],
+    "salesByYear": [
+      {
+        "year": "2023",
+        "sales": 7691096
+      },
+      {
+        "year": "2024",
+        "sales": 22342135
+      },
+      {
+        "year": "2025",
+        "sales": 14598121
+      }
+    ]
   },
   {
     "id": 208,
@@ -10395,52 +12299,100 @@
     "country": "USA",
     "membershipsMonthly": [
       {
+        "month": "2023-09",
+        "members": 1356
+      },
+      {
+        "month": "2023-10",
+        "members": 1319
+      },
+      {
+        "month": "2023-11",
+        "members": 1283
+      },
+      {
+        "month": "2023-12",
+        "members": 1246
+      },
+      {
         "month": "2024-01",
-        "members": 220
+        "members": 1320
       },
       {
         "month": "2024-02",
-        "members": 215
+        "members": 1302
       },
       {
         "month": "2024-03",
-        "members": 225
+        "members": 1325
       },
       {
         "month": "2024-04",
-        "members": 230
+        "members": 1321
       },
       {
         "month": "2024-05",
-        "members": 240
+        "members": 1299
       },
       {
         "month": "2024-06",
-        "members": 245
+        "members": 1248
       },
       {
         "month": "2024-07",
-        "members": 255
+        "members": 1224
       },
       {
         "month": "2024-08",
-        "members": 260
+        "members": 1308
       },
       {
         "month": "2024-09",
-        "members": 265
+        "members": 1410
       },
       {
         "month": "2024-10",
-        "members": 270
+        "members": 1276
       },
       {
         "month": "2024-11",
-        "members": 275
+        "members": 1299
       },
       {
         "month": "2024-12",
-        "members": 280
+        "members": 1304
+      },
+      {
+        "month": "2025-01",
+        "members": 1379
+      },
+      {
+        "month": "2025-02",
+        "members": 1348
+      },
+      {
+        "month": "2025-03",
+        "members": 1257
+      },
+      {
+        "month": "2025-04",
+        "members": 1305
+      },
+      {
+        "month": "2025-05",
+        "members": 1309
+      },
+      {
+        "month": "2025-06",
+        "members": 1305
+      },
+      {
+        "month": "2025-07",
+        "members": 1290
+      },
+      {
+        "month": "2025-08",
+        "members": 1312
       }
     ]
   },
@@ -10767,34 +12719,114 @@
     "country": "USA",
     "salesMonthly": [
       {
+        "month": "2023-09",
+        "sales": 398081
+      },
+      {
+        "month": "2023-10",
+        "sales": 405993
+      },
+      {
+        "month": "2023-11",
+        "sales": 383291
+      },
+      {
+        "month": "2023-12",
+        "sales": 446866
+      },
+      {
         "month": "2024-01",
-        "sales": 280000
+        "sales": 414739
       },
       {
         "month": "2024-02",
-        "sales": 260000
+        "sales": 393027
       },
       {
         "month": "2024-03",
-        "sales": 300000
+        "sales": 374489
       },
       {
         "month": "2024-04",
-        "sales": 310000
+        "sales": 409010
       },
       {
         "month": "2024-05",
-        "sales": 325000
+        "sales": 409795
       },
       {
         "month": "2024-06",
-        "sales": 340000
+        "sales": 350766
+      },
+      {
+        "month": "2024-07",
+        "sales": 379595
+      },
+      {
+        "month": "2024-08",
+        "sales": 366976
+      },
+      {
+        "month": "2024-09",
+        "sales": 386452
+      },
+      {
+        "month": "2024-10",
+        "sales": 398114
+      },
+      {
+        "month": "2024-11",
+        "sales": 409591
+      },
+      {
+        "month": "2024-12",
+        "sales": 452878
+      },
+      {
+        "month": "2025-01",
+        "sales": 407015
+      },
+      {
+        "month": "2025-02",
+        "sales": 380352
+      },
+      {
+        "month": "2025-03",
+        "sales": 392264
+      },
+      {
+        "month": "2025-04",
+        "sales": 378850
+      },
+      {
+        "month": "2025-05",
+        "sales": 380929
+      },
+      {
+        "month": "2025-06",
+        "sales": 349323
+      },
+      {
+        "month": "2025-07",
+        "sales": 373520
+      },
+      {
+        "month": "2025-08",
+        "sales": 380781
       }
     ],
     "salesByYear": [
       {
+        "year": "2023",
+        "sales": 1634231
+      },
+      {
         "year": "2024",
-        "sales": 1815000
+        "sales": 4745432
+      },
+      {
+        "year": "2025",
+        "sales": 3043034
       }
     ],
     "visitsDaily": [
@@ -11376,52 +13408,100 @@
     "country": "Singapore",
     "membershipsMonthly": [
       {
+        "month": "2023-09",
+        "members": 1337
+      },
+      {
+        "month": "2023-10",
+        "members": 1292
+      },
+      {
+        "month": "2023-11",
+        "members": 1311
+      },
+      {
+        "month": "2023-12",
+        "members": 1298
+      },
+      {
         "month": "2024-01",
-        "members": 220
+        "members": 1398
       },
       {
         "month": "2024-02",
-        "members": 215
+        "members": 1285
       },
       {
         "month": "2024-03",
-        "members": 225
+        "members": 1249
       },
       {
         "month": "2024-04",
-        "members": 230
+        "members": 1271
       },
       {
         "month": "2024-05",
-        "members": 240
+        "members": 1304
       },
       {
         "month": "2024-06",
-        "members": 245
+        "members": 1309
       },
       {
         "month": "2024-07",
-        "members": 255
+        "members": 1261
       },
       {
         "month": "2024-08",
-        "members": 260
+        "members": 1300
       },
       {
         "month": "2024-09",
-        "members": 265
+        "members": 1317
       },
       {
         "month": "2024-10",
-        "members": 270
+        "members": 1281
       },
       {
         "month": "2024-11",
-        "members": 275
+        "members": 1337
       },
       {
         "month": "2024-12",
-        "members": 280
+        "members": 1251
+      },
+      {
+        "month": "2025-01",
+        "members": 1327
+      },
+      {
+        "month": "2025-02",
+        "members": 1272
+      },
+      {
+        "month": "2025-03",
+        "members": 1268
+      },
+      {
+        "month": "2025-04",
+        "members": 1299
+      },
+      {
+        "month": "2025-05",
+        "members": 1261
+      },
+      {
+        "month": "2025-06",
+        "members": 1333
+      },
+      {
+        "month": "2025-07",
+        "members": 1199
+      },
+      {
+        "month": "2025-08",
+        "members": 1312
       }
     ]
   },
@@ -11661,52 +13741,100 @@
     "country": "Mainland China",
     "membershipsMonthly": [
       {
+        "month": "2023-09",
+        "members": 1477
+      },
+      {
+        "month": "2023-10",
+        "members": 1434
+      },
+      {
+        "month": "2023-11",
+        "members": 1421
+      },
+      {
+        "month": "2023-12",
+        "members": 1435
+      },
+      {
         "month": "2024-01",
-        "members": 1200
+        "members": 1447
       },
       {
         "month": "2024-02",
-        "members": 1180
+        "members": 1424
       },
       {
         "month": "2024-03",
-        "members": 1225
+        "members": 1408
       },
       {
         "month": "2024-04",
-        "members": 1250
+        "members": 1468
       },
       {
         "month": "2024-05",
-        "members": 1300
+        "members": 1459
       },
       {
         "month": "2024-06",
-        "members": 1325
+        "members": 1445
       },
       {
         "month": "2024-07",
-        "members": 1350
+        "members": 1309
       },
       {
         "month": "2024-08",
-        "members": 1375
+        "members": 1455
       },
       {
         "month": "2024-09",
-        "members": 1390
+        "members": 1452
       },
       {
         "month": "2024-10",
-        "members": 1410
+        "members": 1369
       },
       {
         "month": "2024-11",
-        "members": 1430
+        "members": 1389
       },
       {
         "month": "2024-12",
-        "members": 1450
+        "members": 1452
+      },
+      {
+        "month": "2025-01",
+        "members": 1476
+      },
+      {
+        "month": "2025-02",
+        "members": 1461
+      },
+      {
+        "month": "2025-03",
+        "members": 1367
+      },
+      {
+        "month": "2025-04",
+        "members": 1437
+      },
+      {
+        "month": "2025-05",
+        "members": 1377
+      },
+      {
+        "month": "2025-06",
+        "members": 1401
+      },
+      {
+        "month": "2025-07",
+        "members": 1404
+      },
+      {
+        "month": "2025-08",
+        "members": 1478
       }
     ],
     "visitsDaily": [
@@ -12124,34 +14252,114 @@
     "country": "Hong Kong",
     "salesMonthly": [
       {
+        "month": "2023-09",
+        "sales": 269834
+      },
+      {
+        "month": "2023-10",
+        "sales": 260231
+      },
+      {
+        "month": "2023-11",
+        "sales": 276315
+      },
+      {
+        "month": "2023-12",
+        "sales": 324640
+      },
+      {
         "month": "2024-01",
-        "sales": 280000
+        "sales": 286479
       },
       {
         "month": "2024-02",
-        "sales": 260000
+        "sales": 273543
       },
       {
         "month": "2024-03",
-        "sales": 300000
+        "sales": 270496
       },
       {
         "month": "2024-04",
-        "sales": 310000
+        "sales": 269738
       },
       {
         "month": "2024-05",
-        "sales": 325000
+        "sales": 266597
       },
       {
         "month": "2024-06",
-        "sales": 340000
+        "sales": 254506
+      },
+      {
+        "month": "2024-07",
+        "sales": 251910
+      },
+      {
+        "month": "2024-08",
+        "sales": 251540
+      },
+      {
+        "month": "2024-09",
+        "sales": 280964
+      },
+      {
+        "month": "2024-10",
+        "sales": 263855
+      },
+      {
+        "month": "2024-11",
+        "sales": 276059
+      },
+      {
+        "month": "2024-12",
+        "sales": 323073
+      },
+      {
+        "month": "2025-01",
+        "sales": 280203
+      },
+      {
+        "month": "2025-02",
+        "sales": 274057
+      },
+      {
+        "month": "2025-03",
+        "sales": 269274
+      },
+      {
+        "month": "2025-04",
+        "sales": 260322
+      },
+      {
+        "month": "2025-05",
+        "sales": 253835
+      },
+      {
+        "month": "2025-06",
+        "sales": 237210
+      },
+      {
+        "month": "2025-07",
+        "sales": 242764
+      },
+      {
+        "month": "2025-08",
+        "sales": 259898
       }
     ],
     "salesByYear": [
       {
+        "year": "2023",
+        "sales": 1131020
+      },
+      {
         "year": "2024",
-        "sales": 1815000
+        "sales": 3268760
+      },
+      {
+        "year": "2025",
+        "sales": 2077563
       }
     ],
     "visitsDaily": [
@@ -12873,34 +15081,114 @@
     "country": "Hong Kong",
     "salesMonthly": [
       {
+        "month": "2023-09",
+        "sales": 3230303
+      },
+      {
+        "month": "2023-10",
+        "sales": 3397192
+      },
+      {
+        "month": "2023-11",
+        "sales": 3248569
+      },
+      {
+        "month": "2023-12",
+        "sales": 4029640
+      },
+      {
         "month": "2024-01",
-        "sales": 280000
+        "sales": 3528446
       },
       {
         "month": "2024-02",
-        "sales": 260000
+        "sales": 3484401
       },
       {
         "month": "2024-03",
-        "sales": 300000
+        "sales": 3492735
       },
       {
         "month": "2024-04",
-        "sales": 310000
+        "sales": 3444728
       },
       {
         "month": "2024-05",
-        "sales": 325000
+        "sales": 3357101
       },
       {
         "month": "2024-06",
-        "sales": 340000
+        "sales": 3195724
+      },
+      {
+        "month": "2024-07",
+        "sales": 3064279
+      },
+      {
+        "month": "2024-08",
+        "sales": 3283678
+      },
+      {
+        "month": "2024-09",
+        "sales": 3342529
+      },
+      {
+        "month": "2024-10",
+        "sales": 3300491
+      },
+      {
+        "month": "2024-11",
+        "sales": 3578340
+      },
+      {
+        "month": "2024-12",
+        "sales": 4150349
+      },
+      {
+        "month": "2025-01",
+        "sales": 3793293
+      },
+      {
+        "month": "2025-02",
+        "sales": 3387058
+      },
+      {
+        "month": "2025-03",
+        "sales": 3404725
+      },
+      {
+        "month": "2025-04",
+        "sales": 3356784
+      },
+      {
+        "month": "2025-05",
+        "sales": 3281608
+      },
+      {
+        "month": "2025-06",
+        "sales": 3389159
+      },
+      {
+        "month": "2025-07",
+        "sales": 3388498
+      },
+      {
+        "month": "2025-08",
+        "sales": 3260652
       }
     ],
     "salesByYear": [
       {
+        "year": "2023",
+        "sales": 13905704
+      },
+      {
         "year": "2024",
-        "sales": 1815000
+        "sales": 41222801
+      },
+      {
+        "year": "2025",
+        "sales": 27261777
       }
     ],
     "visitsDaily": [
@@ -13006,34 +15294,114 @@
     "country": "Germany",
     "salesMonthly": [
       {
+        "month": "2023-09",
+        "sales": 2056232
+      },
+      {
+        "month": "2023-10",
+        "sales": 2051164
+      },
+      {
+        "month": "2023-11",
+        "sales": 2197709
+      },
+      {
+        "month": "2023-12",
+        "sales": 2599193
+      },
+      {
         "month": "2024-01",
-        "sales": 280000
+        "sales": 2205297
       },
       {
         "month": "2024-02",
-        "sales": 260000
+        "sales": 2039494
       },
       {
         "month": "2024-03",
-        "sales": 300000
+        "sales": 2157688
       },
       {
         "month": "2024-04",
-        "sales": 310000
+        "sales": 2117139
       },
       {
         "month": "2024-05",
-        "sales": 325000
+        "sales": 2019231
       },
       {
         "month": "2024-06",
-        "sales": 340000
+        "sales": 2020635
+      },
+      {
+        "month": "2024-07",
+        "sales": 1952700
+      },
+      {
+        "month": "2024-08",
+        "sales": 2054877
+      },
+      {
+        "month": "2024-09",
+        "sales": 2127584
+      },
+      {
+        "month": "2024-10",
+        "sales": 2191136
+      },
+      {
+        "month": "2024-11",
+        "sales": 2196622
+      },
+      {
+        "month": "2024-12",
+        "sales": 2477626
+      },
+      {
+        "month": "2025-01",
+        "sales": 2156083
+      },
+      {
+        "month": "2025-02",
+        "sales": 1990511
+      },
+      {
+        "month": "2025-03",
+        "sales": 2169580
+      },
+      {
+        "month": "2025-04",
+        "sales": 2154618
+      },
+      {
+        "month": "2025-05",
+        "sales": 2114787
+      },
+      {
+        "month": "2025-06",
+        "sales": 2034704
+      },
+      {
+        "month": "2025-07",
+        "sales": 1874818
+      },
+      {
+        "month": "2025-08",
+        "sales": 1986199
       }
     ],
     "salesByYear": [
       {
+        "year": "2023",
+        "sales": 8904298
+      },
+      {
         "year": "2024",
-        "sales": 1815000
+        "sales": 25560029
+      },
+      {
+        "year": "2025",
+        "sales": 16481300
       }
     ],
     "visitsDaily": [
@@ -13248,7 +15616,119 @@
     "floor": "2/F",
     "canonicalName": "FORBIDDENDUCK",
     "_secondary": "F&B",
-    "_tertiary": "Restaurant"
+    "_tertiary": "Restaurant",
+    "salesMonthly": [
+      {
+        "month": "2023-09",
+        "sales": 11449470
+      },
+      {
+        "month": "2023-10",
+        "sales": 11317477
+      },
+      {
+        "month": "2023-11",
+        "sales": 11333887
+      },
+      {
+        "month": "2023-12",
+        "sales": 13568655
+      },
+      {
+        "month": "2024-01",
+        "sales": 13216009
+      },
+      {
+        "month": "2024-02",
+        "sales": 12125815
+      },
+      {
+        "month": "2024-03",
+        "sales": 11409508
+      },
+      {
+        "month": "2024-04",
+        "sales": 11577757
+      },
+      {
+        "month": "2024-05",
+        "sales": 12131357
+      },
+      {
+        "month": "2024-06",
+        "sales": 10847661
+      },
+      {
+        "month": "2024-07",
+        "sales": 10936635
+      },
+      {
+        "month": "2024-08",
+        "sales": 10391407
+      },
+      {
+        "month": "2024-09",
+        "sales": 11110042
+      },
+      {
+        "month": "2024-10",
+        "sales": 12082892
+      },
+      {
+        "month": "2024-11",
+        "sales": 11929172
+      },
+      {
+        "month": "2024-12",
+        "sales": 14420103
+      },
+      {
+        "month": "2025-01",
+        "sales": 12365509
+      },
+      {
+        "month": "2025-02",
+        "sales": 11092464
+      },
+      {
+        "month": "2025-03",
+        "sales": 11238608
+      },
+      {
+        "month": "2025-04",
+        "sales": 11010917
+      },
+      {
+        "month": "2025-05",
+        "sales": 11674219
+      },
+      {
+        "month": "2025-06",
+        "sales": 10258133
+      },
+      {
+        "month": "2025-07",
+        "sales": 11194552
+      },
+      {
+        "month": "2025-08",
+        "sales": 10229838
+      }
+    ],
+    "salesByYear": [
+      {
+        "year": "2023",
+        "sales": 47669489
+      },
+      {
+        "year": "2024",
+        "sales": 142178358
+      },
+      {
+        "year": "2025",
+        "sales": 89064240
+      }
+    ]
   },
   {
     "id": 275,
@@ -13664,7 +16144,119 @@
     "floor": "",
     "canonicalName": "MAYABAKERYBAR",
     "_secondary": "F&B",
-    "_tertiary": "Bakery"
+    "_tertiary": "Bakery",
+    "salesMonthly": [
+      {
+        "month": "2023-09",
+        "sales": 451838
+      },
+      {
+        "month": "2023-10",
+        "sales": 430580
+      },
+      {
+        "month": "2023-11",
+        "sales": 431049
+      },
+      {
+        "month": "2023-12",
+        "sales": 556334
+      },
+      {
+        "month": "2024-01",
+        "sales": 481442
+      },
+      {
+        "month": "2024-02",
+        "sales": 453632
+      },
+      {
+        "month": "2024-03",
+        "sales": 435648
+      },
+      {
+        "month": "2024-04",
+        "sales": 431544
+      },
+      {
+        "month": "2024-05",
+        "sales": 449854
+      },
+      {
+        "month": "2024-06",
+        "sales": 440903
+      },
+      {
+        "month": "2024-07",
+        "sales": 434374
+      },
+      {
+        "month": "2024-08",
+        "sales": 434718
+      },
+      {
+        "month": "2024-09",
+        "sales": 472041
+      },
+      {
+        "month": "2024-10",
+        "sales": 431760
+      },
+      {
+        "month": "2024-11",
+        "sales": 469865
+      },
+      {
+        "month": "2024-12",
+        "sales": 567227
+      },
+      {
+        "month": "2025-01",
+        "sales": 476439
+      },
+      {
+        "month": "2025-02",
+        "sales": 440188
+      },
+      {
+        "month": "2025-03",
+        "sales": 471208
+      },
+      {
+        "month": "2025-04",
+        "sales": 447676
+      },
+      {
+        "month": "2025-05",
+        "sales": 462900
+      },
+      {
+        "month": "2025-06",
+        "sales": 409522
+      },
+      {
+        "month": "2025-07",
+        "sales": 440262
+      },
+      {
+        "month": "2025-08",
+        "sales": 414957
+      }
+    ],
+    "salesByYear": [
+      {
+        "year": "2023",
+        "sales": 1869801
+      },
+      {
+        "year": "2024",
+        "sales": 5503008
+      },
+      {
+        "year": "2025",
+        "sales": 3563152
+      }
+    ]
   },
   {
     "id": 293,
